@@ -1,0 +1,155 @@
+DhA02G017080.1	sp|Q8YZH7|DER_NOSS1	50.182	275	4.61e-78	254	sp|Q8YZH7|DER_NOSS1 GTPase Der OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=der PE=3 SV=1
+DhA02G017080.1	sp|Q3M929|DER_TRIV2	49.818	275	8.11e-78	253	sp|Q3M929|DER_TRIV2 GTPase Der OS=Trichormus variabilis (strain ATCC 29413 / PCC 7937) OX=240292 GN=der PE=3 SV=1
+DhA02G017080.1	sp|Q5N167|DER_SYNP6	47.987	298	4.56e-77	251	sp|Q5N167|DER_SYNP6 GTPase Der OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) OX=269084 GN=der PE=3 SV=1
+DhA02G017080.1	sp|Q31KP9|DER_SYNE7	47.987	298	4.56e-77	251	sp|Q31KP9|DER_SYNE7 GTPase Der OS=Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805) OX=1140 GN=der PE=3 SV=1
+DhA02G017080.1	sp|Q3AI13|DER_SYNSC	47.143	280	1.85e-75	247	sp|Q3AI13|DER_SYNSC GTPase Der OS=Synechococcus sp. (strain CC9605) OX=110662 GN=der PE=3 SV=1
+DhA05G017250.1	sp|O64937|EF1A_ORYSJ	99.105	447	0.0	916	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhA05G017250.1	sp|Q41803|EF1A_MAIZE	97.763	447	0.0	902	sp|Q41803|EF1A_MAIZE Elongation factor 1-alpha OS=Zea mays OX=4577 GN=EF1A PE=3 SV=1
+DhA05G017250.1	sp|P17786|EF1A_SOLLC	96.861	446	0.0	900	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhA05G017250.1	sp|P25698|EF1A_SOYBN	96.868	447	0.0	897	sp|P25698|EF1A_SOYBN Elongation factor 1-alpha OS=Glycine max OX=3847 GN=TEFS1 PE=3 SV=2
+DhA05G017250.1	sp|P43643|EF1A_TOBAC	96.644	447	0.0	897	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhA05G000600.1	sp|Q9ZT91|EFTM_ARATH	83.450	429	0.0	677	sp|Q9ZT91|EFTM_ARATH Elongation factor Tu, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhA05G000600.1	sp|Q0BUQ2|EFTU_GRABC	74.663	371	0.0	579	sp|Q0BUQ2|EFTU_GRABC Elongation factor Tu OS=Granulibacter bethesdensis (strain ATCC BAA-1260 / CGDNIH1) OX=391165 GN=tuf PE=3 SV=1
+DhA05G000600.1	sp|Q2IXR2|EFTU_RHOP2	72.727	374	0.0	573	sp|Q2IXR2|EFTU_RHOP2 Elongation factor Tu OS=Rhodopseudomonas palustris (strain HaA2) OX=316058 GN=tuf1 PE=3 SV=1
+DhA05G000600.1	sp|Q07KJ2|EFTU_RHOP5	72.995	374	0.0	572	sp|Q07KJ2|EFTU_RHOP5 Elongation factor Tu OS=Rhodopseudomonas palustris (strain BisA53) OX=316055 GN=tuf1 PE=3 SV=1
+DhA05G000600.1	sp|Q3SSW8|EFTU_NITWN	72.193	374	0.0	569	sp|Q3SSW8|EFTU_NITWN Elongation factor Tu OS=Nitrobacter winogradskyi (strain ATCC 25391 / DSM 10237 / CIP 104748 / NCIMB 11846 / Nb-255) OX=323098 GN=tuf PE=3 SV=1
+DhA05G016170.1	sp|Q8W586|QQT2_ARATH	70.809	346	0.0	525	sp|Q8W586|QQT2_ARATH GPN-loop GTPase QQT2 OS=Arabidopsis thaliana OX=3702 GN=QQT2 PE=1 SV=1
+DhA05G016170.1	sp|Q54C25|GPN1_DICDI	59.310	290	1.63e-132	390	sp|Q54C25|GPN1_DICDI GPN-loop GTPase 1 OS=Dictyostelium discoideum OX=44689 GN=gpn1 PE=3 SV=1
+DhA05G016170.1	sp|Q9HCN4|GPN1_HUMAN	57.325	314	6.72e-125	370	sp|Q9HCN4|GPN1_HUMAN GPN-loop GTPase 1 OS=Homo sapiens OX=9606 GN=GPN1 PE=1 SV=1
+DhA05G016170.1	sp|Q8VCE2|GPN1_MOUSE	60.424	283	2.33e-121	361	sp|Q8VCE2|GPN1_MOUSE GPN-loop GTPase 1 OS=Mus musculus OX=10090 GN=Gpn1 PE=1 SV=1
+DhA05G016170.1	sp|A4FUD1|GPN1_BOVIN	56.856	299	1.31e-120	359	sp|A4FUD1|GPN1_BOVIN GPN-loop GTPase 1 OS=Bos taurus OX=9913 GN=GPN1 PE=2 SV=1
+DhB05G000580.1	sp|Q9ZT91|EFTM_ARATH	83.885	453	0.0	721	sp|Q9ZT91|EFTM_ARATH Elongation factor Tu, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhB05G000580.1	sp|Q0BUQ2|EFTU_GRABC	74.555	393	0.0	612	sp|Q0BUQ2|EFTU_GRABC Elongation factor Tu OS=Granulibacter bethesdensis (strain ATCC BAA-1260 / CGDNIH1) OX=391165 GN=tuf PE=3 SV=1
+DhB05G000580.1	sp|Q5NQ65|EFTU_ZYMMO	73.165	395	0.0	601	sp|Q5NQ65|EFTU_ZYMMO Elongation factor Tu OS=Zymomonas mobilis subsp. mobilis (strain ATCC 31821 / ZM4 / CP4) OX=264203 GN=tuf PE=3 SV=1
+DhB05G000580.1	sp|Q2IXR2|EFTU_RHOP2	72.152	395	0.0	600	sp|Q2IXR2|EFTU_RHOP2 Elongation factor Tu OS=Rhodopseudomonas palustris (strain HaA2) OX=316058 GN=tuf1 PE=3 SV=1
+DhB05G000580.1	sp|Q07KJ2|EFTU_RHOP5	72.405	395	0.0	599	sp|Q07KJ2|EFTU_RHOP5 Elongation factor Tu OS=Rhodopseudomonas palustris (strain BisA53) OX=316055 GN=tuf1 PE=3 SV=1
+DhB05G016470.1	sp|Q8W586|QQT2_ARATH	70.809	346	0.0	524	sp|Q8W586|QQT2_ARATH GPN-loop GTPase QQT2 OS=Arabidopsis thaliana OX=3702 GN=QQT2 PE=1 SV=1
+DhB05G016470.1	sp|Q54C25|GPN1_DICDI	59.310	290	1.38e-132	389	sp|Q54C25|GPN1_DICDI GPN-loop GTPase 1 OS=Dictyostelium discoideum OX=44689 GN=gpn1 PE=3 SV=1
+DhB05G016470.1	sp|Q9HCN4|GPN1_HUMAN	57.325	314	2.43e-125	370	sp|Q9HCN4|GPN1_HUMAN GPN-loop GTPase 1 OS=Homo sapiens OX=9606 GN=GPN1 PE=1 SV=1
+DhB05G016470.1	sp|Q8VCE2|GPN1_MOUSE	60.424	283	7.57e-122	360	sp|Q8VCE2|GPN1_MOUSE GPN-loop GTPase 1 OS=Mus musculus OX=10090 GN=Gpn1 PE=1 SV=1
+DhB05G016470.1	sp|A4FUD1|GPN1_BOVIN	56.856	299	4.56e-121	358	sp|A4FUD1|GPN1_BOVIN GPN-loop GTPase 1 OS=Bos taurus OX=9913 GN=GPN1 PE=2 SV=1
+DhB05G017590.1	sp|O64937|EF1A_ORYSJ	99.329	447	0.0	917	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhB05G017590.1	sp|Q41803|EF1A_MAIZE	97.987	447	0.0	904	sp|Q41803|EF1A_MAIZE Elongation factor 1-alpha OS=Zea mays OX=4577 GN=EF1A PE=3 SV=1
+DhB05G017590.1	sp|P17786|EF1A_SOLLC	97.085	446	0.0	900	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhB05G017590.1	sp|P43643|EF1A_TOBAC	96.868	447	0.0	898	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhB05G017590.1	sp|P25698|EF1A_SOYBN	96.644	447	0.0	897	sp|P25698|EF1A_SOYBN Elongation factor 1-alpha OS=Glycine max OX=3847 GN=TEFS1 PE=3 SV=2
+DhA06G011270.1	sp|P46280|EFTU2_SOYBN	77.500	480	0.0	731	sp|P46280|EFTU2_SOYBN Elongation factor Tu, chloroplastic OS=Glycine max OX=3847 GN=TUFB1 PE=3 SV=1
+DhA06G011270.1	sp|Q43467|EFTU1_SOYBN	80.260	461	0.0	720	sp|Q43467|EFTU1_SOYBN Elongation factor Tu, chloroplastic OS=Glycine max OX=3847 GN=TUFA PE=3 SV=1
+DhA06G011270.1	sp|P17745|EFTU_ARATH	77.399	469	0.0	715	sp|P17745|EFTU_ARATH Elongation factor Tu, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhA06G011270.1	sp|P68158|EFTU_TOBAC	77.682	466	0.0	706	sp|P68158|EFTU_TOBAC Elongation factor Tu, chloroplastic OS=Nicotiana tabacum OX=4097 GN=TUFA PE=3 SV=1
+DhA06G011270.1	sp|Q40450|EFTUA_NICSY	77.682	466	0.0	706	sp|Q40450|EFTUA_NICSY Elongation factor TuA, chloroplastic OS=Nicotiana sylvestris OX=4096 GN=TUFA PE=2 SV=2
+DhB06G011650.1	sp|P46280|EFTU2_SOYBN	77.662	479	0.0	730	sp|P46280|EFTU2_SOYBN Elongation factor Tu, chloroplastic OS=Glycine max OX=3847 GN=TUFB1 PE=3 SV=1
+DhB06G011650.1	sp|Q43467|EFTU1_SOYBN	80.217	460	0.0	717	sp|Q43467|EFTU1_SOYBN Elongation factor Tu, chloroplastic OS=Glycine max OX=3847 GN=TUFA PE=3 SV=1
+DhB06G011650.1	sp|P68158|EFTU_TOBAC	78.065	465	0.0	710	sp|P68158|EFTU_TOBAC Elongation factor Tu, chloroplastic OS=Nicotiana tabacum OX=4097 GN=TUFA PE=3 SV=1
+DhB06G011650.1	sp|P17745|EFTU_ARATH	77.137	468	0.0	710	sp|P17745|EFTU_ARATH Elongation factor Tu, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhB06G011650.1	sp|Q40450|EFTUA_NICSY	78.065	465	0.0	710	sp|Q40450|EFTUA_NICSY Elongation factor TuA, chloroplastic OS=Nicotiana sylvestris OX=4096 GN=TUFA PE=2 SV=2
+DhA07G000660.1	sp|Q9ZT91|EFTM_ARATH	82.367	431	0.0	674	sp|Q9ZT91|EFTM_ARATH Elongation factor Tu, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhA07G000660.1	sp|Q0BUQ2|EFTU_GRABC	74.064	374	0.0	579	sp|Q0BUQ2|EFTU_GRABC Elongation factor Tu OS=Granulibacter bethesdensis (strain ATCC BAA-1260 / CGDNIH1) OX=391165 GN=tuf PE=3 SV=1
+DhA07G000660.1	sp|A5V604|EFTU_RHIWR	72.193	374	0.0	568	sp|A5V604|EFTU_RHIWR Elongation factor Tu OS=Rhizorhabdus wittichii (strain DSM 6014 / CCUG 31198 / JCM 15750 / NBRC 105917 / EY 4224 / RW1) OX=392499 GN=tuf PE=3 SV=1
+DhA07G000660.1	sp|Q5NQ65|EFTU_ZYMMO	72.533	375	0.0	567	sp|Q5NQ65|EFTU_ZYMMO Elongation factor Tu OS=Zymomonas mobilis subsp. mobilis (strain ATCC 31821 / ZM4 / CP4) OX=264203 GN=tuf PE=3 SV=1
+DhA07G000660.1	sp|Q2IXR2|EFTU_RHOP2	72.776	371	0.0	566	sp|Q2IXR2|EFTU_RHOP2 Elongation factor Tu OS=Rhodopseudomonas palustris (strain HaA2) OX=316058 GN=tuf1 PE=3 SV=1
+DhB07G000620.1	sp|Q9ZT91|EFTM_ARATH	81.903	431	0.0	669	sp|Q9ZT91|EFTM_ARATH Elongation factor Tu, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhB07G000620.1	sp|Q0BUQ2|EFTU_GRABC	74.332	374	0.0	581	sp|Q0BUQ2|EFTU_GRABC Elongation factor Tu OS=Granulibacter bethesdensis (strain ATCC BAA-1260 / CGDNIH1) OX=391165 GN=tuf PE=3 SV=1
+DhB07G000620.1	sp|Q2IXR2|EFTU_RHOP2	73.315	371	0.0	571	sp|Q2IXR2|EFTU_RHOP2 Elongation factor Tu OS=Rhodopseudomonas palustris (strain HaA2) OX=316058 GN=tuf1 PE=3 SV=1
+DhB07G000620.1	sp|A5V604|EFTU_RHIWR	72.460	374	0.0	571	sp|A5V604|EFTU_RHIWR Elongation factor Tu OS=Rhizorhabdus wittichii (strain DSM 6014 / CCUG 31198 / JCM 15750 / NBRC 105917 / EY 4224 / RW1) OX=392499 GN=tuf PE=3 SV=1
+DhB07G000620.1	sp|Q5NQ65|EFTU_ZYMMO	72.800	375	0.0	569	sp|Q5NQ65|EFTU_ZYMMO Elongation factor Tu OS=Zymomonas mobilis subsp. mobilis (strain ATCC 31821 / ZM4 / CP4) OX=264203 GN=tuf PE=3 SV=1
+DhB07G010560.1	sp|Q8YZH7|DER_NOSS1	50.566	265	1.10e-78	253	sp|Q8YZH7|DER_NOSS1 GTPase Der OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=der PE=3 SV=1
+DhB07G010560.1	sp|Q3M929|DER_TRIV2	50.189	265	2.11e-78	253	sp|Q3M929|DER_TRIV2 GTPase Der OS=Trichormus variabilis (strain ATCC 29413 / PCC 7937) OX=240292 GN=der PE=3 SV=1
+DhB07G010560.1	sp|Q5N167|DER_SYNP6	50.000	268	3.50e-76	247	sp|Q5N167|DER_SYNP6 GTPase Der OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) OX=269084 GN=der PE=3 SV=1
+DhB07G010560.1	sp|Q31KP9|DER_SYNE7	50.000	268	3.50e-76	247	sp|Q31KP9|DER_SYNE7 GTPase Der OS=Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805) OX=1140 GN=der PE=3 SV=1
+DhB07G010560.1	sp|Q3AI13|DER_SYNSC	45.455	297	5.48e-76	246	sp|Q3AI13|DER_SYNSC GTPase Der OS=Synechococcus sp. (strain CC9605) OX=110662 GN=der PE=3 SV=1
+DhA10G013290.1	sp|O64937|EF1A_ORYSJ	99.105	447	0.0	918	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhA10G013290.1	sp|Q41803|EF1A_MAIZE	97.987	447	0.0	904	sp|Q41803|EF1A_MAIZE Elongation factor 1-alpha OS=Zea mays OX=4577 GN=EF1A PE=3 SV=1
+DhA10G013290.1	sp|P43643|EF1A_TOBAC	97.092	447	0.0	901	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhA10G013290.1	sp|O49169|EF1A_MANES	96.861	446	0.0	900	sp|O49169|EF1A_MANES Elongation factor 1-alpha OS=Manihot esculenta OX=3983 GN=EF1 PE=3 SV=1
+DhA10G013290.1	sp|P17786|EF1A_SOLLC	96.413	446	0.0	898	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhA10G013140.1	sp|O64937|EF1A_ORYSJ	99.329	447	0.0	917	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhA10G013140.1	sp|Q41803|EF1A_MAIZE	98.210	447	0.0	905	sp|Q41803|EF1A_MAIZE Elongation factor 1-alpha OS=Zea mays OX=4577 GN=EF1A PE=3 SV=1
+DhA10G013140.1	sp|P43643|EF1A_TOBAC	97.315	447	0.0	901	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhA10G013140.1	sp|O49169|EF1A_MANES	97.085	446	0.0	901	sp|O49169|EF1A_MANES Elongation factor 1-alpha OS=Manihot esculenta OX=3983 GN=EF1 PE=3 SV=1
+DhA10G013140.1	sp|P17786|EF1A_SOLLC	96.637	446	0.0	897	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhA10G013130.1	sp|O64937|EF1A_ORYSJ	99.329	447	0.0	917	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhA10G013130.1	sp|Q41803|EF1A_MAIZE	98.210	447	0.0	905	sp|Q41803|EF1A_MAIZE Elongation factor 1-alpha OS=Zea mays OX=4577 GN=EF1A PE=3 SV=1
+DhA10G013130.1	sp|P43643|EF1A_TOBAC	97.315	447	0.0	901	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhA10G013130.1	sp|O49169|EF1A_MANES	97.085	446	0.0	901	sp|O49169|EF1A_MANES Elongation factor 1-alpha OS=Manihot esculenta OX=3983 GN=EF1 PE=3 SV=1
+DhA10G013130.1	sp|P17786|EF1A_SOLLC	96.637	446	0.0	897	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhA10G013170.1	sp|O64937|EF1A_ORYSJ	98.881	447	0.0	916	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhA10G013170.1	sp|Q41803|EF1A_MAIZE	97.987	447	0.0	905	sp|Q41803|EF1A_MAIZE Elongation factor 1-alpha OS=Zea mays OX=4577 GN=EF1A PE=3 SV=1
+DhA10G013170.1	sp|P17786|EF1A_SOLLC	96.637	446	0.0	900	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhA10G013170.1	sp|P43643|EF1A_TOBAC	96.868	447	0.0	899	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhA10G013170.1	sp|O49169|EF1A_MANES	96.413	446	0.0	895	sp|O49169|EF1A_MANES Elongation factor 1-alpha OS=Manihot esculenta OX=3983 GN=EF1 PE=3 SV=1
+DhA10G013280.1	sp|O64937|EF1A_ORYSJ	99.105	447	0.0	918	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhA10G013280.1	sp|Q41803|EF1A_MAIZE	97.987	447	0.0	904	sp|Q41803|EF1A_MAIZE Elongation factor 1-alpha OS=Zea mays OX=4577 GN=EF1A PE=3 SV=1
+DhA10G013280.1	sp|P43643|EF1A_TOBAC	97.092	447	0.0	901	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhA10G013280.1	sp|O49169|EF1A_MANES	96.861	446	0.0	900	sp|O49169|EF1A_MANES Elongation factor 1-alpha OS=Manihot esculenta OX=3983 GN=EF1 PE=3 SV=1
+DhA10G013280.1	sp|P17786|EF1A_SOLLC	96.413	446	0.0	898	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhA10G013180.1	sp|O64937|EF1A_ORYSJ	98.881	447	0.0	916	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhA10G013180.1	sp|Q41803|EF1A_MAIZE	97.987	447	0.0	905	sp|Q41803|EF1A_MAIZE Elongation factor 1-alpha OS=Zea mays OX=4577 GN=EF1A PE=3 SV=1
+DhA10G013180.1	sp|P17786|EF1A_SOLLC	96.637	446	0.0	900	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhA10G013180.1	sp|P43643|EF1A_TOBAC	96.868	447	0.0	899	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhA10G013180.1	sp|O49169|EF1A_MANES	96.413	446	0.0	895	sp|O49169|EF1A_MANES Elongation factor 1-alpha OS=Manihot esculenta OX=3983 GN=EF1 PE=3 SV=1
+DhA10G013150.1	sp|O64937|EF1A_ORYSJ	99.329	447	0.0	917	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhA10G013150.1	sp|Q41803|EF1A_MAIZE	98.210	447	0.0	905	sp|Q41803|EF1A_MAIZE Elongation factor 1-alpha OS=Zea mays OX=4577 GN=EF1A PE=3 SV=1
+DhA10G013150.1	sp|P43643|EF1A_TOBAC	97.315	447	0.0	901	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhA10G013150.1	sp|O49169|EF1A_MANES	97.085	446	0.0	901	sp|O49169|EF1A_MANES Elongation factor 1-alpha OS=Manihot esculenta OX=3983 GN=EF1 PE=3 SV=1
+DhA10G013150.1	sp|P17786|EF1A_SOLLC	96.637	446	0.0	897	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhA17G006320.1	sp|Q8YZH7|DER_NOSS1	49.643	280	1.84e-78	254	sp|Q8YZH7|DER_NOSS1 GTPase Der OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=der PE=3 SV=1
+DhA17G006320.1	sp|Q3M929|DER_TRIV2	49.286	280	3.14e-78	254	sp|Q3M929|DER_TRIV2 GTPase Der OS=Trichormus variabilis (strain ATCC 29413 / PCC 7937) OX=240292 GN=der PE=3 SV=1
+DhA17G006320.1	sp|Q5N167|DER_SYNP6	47.842	278	4.18e-74	243	sp|Q5N167|DER_SYNP6 GTPase Der OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) OX=269084 GN=der PE=3 SV=1
+DhA17G006320.1	sp|Q31KP9|DER_SYNE7	47.842	278	4.18e-74	243	sp|Q31KP9|DER_SYNE7 GTPase Der OS=Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805) OX=1140 GN=der PE=3 SV=1
+DhA17G006320.1	sp|B2J1L2|DER_NOSP7	46.690	287	6.22e-74	243	sp|B2J1L2|DER_NOSP7 GTPase Der OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 GN=der PE=3 SV=1
+DhA18G011130.1	sp|P46280|EFTU2_SOYBN	79.431	457	0.0	732	sp|P46280|EFTU2_SOYBN Elongation factor Tu, chloroplastic OS=Glycine max OX=3847 GN=TUFB1 PE=3 SV=1
+DhA18G011130.1	sp|Q43467|EFTU1_SOYBN	80.396	454	0.0	712	sp|Q43467|EFTU1_SOYBN Elongation factor Tu, chloroplastic OS=Glycine max OX=3847 GN=TUFA PE=3 SV=1
+DhA18G011130.1	sp|P17745|EFTU_ARATH	76.940	464	0.0	709	sp|P17745|EFTU_ARATH Elongation factor Tu, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhA18G011130.1	sp|P68158|EFTU_TOBAC	76.151	478	0.0	703	sp|P68158|EFTU_TOBAC Elongation factor Tu, chloroplastic OS=Nicotiana tabacum OX=4097 GN=TUFA PE=3 SV=1
+DhA18G011130.1	sp|Q40450|EFTUA_NICSY	76.151	478	0.0	703	sp|Q40450|EFTUA_NICSY Elongation factor TuA, chloroplastic OS=Nicotiana sylvestris OX=4096 GN=TUFA PE=2 SV=2
+DhA20G016640.1	sp|O64937|EF1A_ORYSJ	97.315	447	0.0	902	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhA20G016640.1	sp|O49169|EF1A_MANES	96.861	446	0.0	896	sp|O49169|EF1A_MANES Elongation factor 1-alpha OS=Manihot esculenta OX=3983 GN=EF1 PE=3 SV=1
+DhA20G016640.1	sp|P17786|EF1A_SOLLC	96.188	446	0.0	893	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhA20G016640.1	sp|Q41803|EF1A_MAIZE	96.421	447	0.0	893	sp|Q41803|EF1A_MAIZE Elongation factor 1-alpha OS=Zea mays OX=4577 GN=EF1A PE=3 SV=1
+DhA20G016640.1	sp|P43643|EF1A_TOBAC	95.973	447	0.0	890	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhB20G015630.1	sp|O64937|EF1A_ORYSJ	97.315	447	0.0	902	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhB20G015630.1	sp|O49169|EF1A_MANES	96.861	446	0.0	896	sp|O49169|EF1A_MANES Elongation factor 1-alpha OS=Manihot esculenta OX=3983 GN=EF1 PE=3 SV=1
+DhB20G015630.1	sp|Q41803|EF1A_MAIZE	96.421	447	0.0	894	sp|Q41803|EF1A_MAIZE Elongation factor 1-alpha OS=Zea mays OX=4577 GN=EF1A PE=3 SV=1
+DhB20G015630.1	sp|P17786|EF1A_SOLLC	96.188	446	0.0	893	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhB20G015630.1	sp|P43643|EF1A_TOBAC	95.973	447	0.0	891	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhA27G002910.1	sp|Q24208|IF2G_DROME	70.705	454	0.0	668	sp|Q24208|IF2G_DROME Eukaryotic translation initiation factor 2 subunit 3 OS=Drosophila melanogaster OX=7227 GN=eIF2gamma PE=2 SV=1
+DhA27G002910.1	sp|P81795|IF2G_RAT	70.022	457	0.0	667	sp|P81795|IF2G_RAT Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3 PE=1 SV=2
+DhA27G002910.1	sp|P41091|IF2G_HUMAN	70.022	457	0.0	667	sp|P41091|IF2G_HUMAN Eukaryotic translation initiation factor 2 subunit 3 OS=Homo sapiens OX=9606 GN=EIF2S3 PE=1 SV=3
+DhA27G002910.1	sp|C9WPN6|IF2H_RAT	69.584	457	0.0	666	sp|C9WPN6|IF2H_RAT Eukaryotic translation initiation factor 2 subunit 3, Y-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3y PE=2 SV=2
+DhA27G002910.1	sp|Q9Z0N1|IF2G_MOUSE	70.022	457	0.0	666	sp|Q9Z0N1|IF2G_MOUSE Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Mus musculus OX=10090 GN=Eif2s3x PE=1 SV=2
+DhB27G002990.1	sp|Q24208|IF2G_DROME	70.485	454	0.0	667	sp|Q24208|IF2G_DROME Eukaryotic translation initiation factor 2 subunit 3 OS=Drosophila melanogaster OX=7227 GN=eIF2gamma PE=2 SV=1
+DhB27G002990.1	sp|P81795|IF2G_RAT	69.803	457	0.0	666	sp|P81795|IF2G_RAT Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3 PE=1 SV=2
+DhB27G002990.1	sp|P41091|IF2G_HUMAN	69.803	457	0.0	666	sp|P41091|IF2G_HUMAN Eukaryotic translation initiation factor 2 subunit 3 OS=Homo sapiens OX=9606 GN=EIF2S3 PE=1 SV=3
+DhB27G002990.1	sp|C9WPN6|IF2H_RAT	69.365	457	0.0	666	sp|C9WPN6|IF2H_RAT Eukaryotic translation initiation factor 2 subunit 3, Y-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3y PE=2 SV=2
+DhB27G002990.1	sp|Q9Z0N1|IF2G_MOUSE	69.803	457	0.0	666	sp|Q9Z0N1|IF2G_MOUSE Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Mus musculus OX=10090 GN=Eif2s3x PE=1 SV=2
+DhA29G000100.1	sp|O64937|EF1A_ORYSJ	96.868	447	0.0	899	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhA29G000100.1	sp|O49169|EF1A_MANES	96.637	446	0.0	894	sp|O49169|EF1A_MANES Elongation factor 1-alpha OS=Manihot esculenta OX=3983 GN=EF1 PE=3 SV=1
+DhA29G000100.1	sp|P17786|EF1A_SOLLC	95.740	446	0.0	889	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhA29G000100.1	sp|P43643|EF1A_TOBAC	95.973	447	0.0	889	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhA29G000100.1	sp|Q03033|EF1A_WHEAT	95.302	447	0.0	886	sp|Q03033|EF1A_WHEAT Elongation factor 1-alpha OS=Triticum aestivum OX=4565 GN=TEF1 PE=2 SV=1
+DhA29G011530.1	sp|Q24208|IF2G_DROME	73.362	458	0.0	693	sp|Q24208|IF2G_DROME Eukaryotic translation initiation factor 2 subunit 3 OS=Drosophila melanogaster OX=7227 GN=eIF2gamma PE=2 SV=1
+DhA29G011530.1	sp|C9WPN6|IF2H_RAT	72.648	457	0.0	691	sp|C9WPN6|IF2H_RAT Eukaryotic translation initiation factor 2 subunit 3, Y-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3y PE=2 SV=2
+DhA29G011530.1	sp|P41091|IF2G_HUMAN	73.085	457	0.0	691	sp|P41091|IF2G_HUMAN Eukaryotic translation initiation factor 2 subunit 3 OS=Homo sapiens OX=9606 GN=EIF2S3 PE=1 SV=3
+DhA29G011530.1	sp|P81795|IF2G_RAT	73.085	457	0.0	691	sp|P81795|IF2G_RAT Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3 PE=1 SV=2
+DhA29G011530.1	sp|Q9Z0N1|IF2G_MOUSE	73.085	457	0.0	691	sp|Q9Z0N1|IF2G_MOUSE Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Mus musculus OX=10090 GN=Eif2s3x PE=1 SV=2
+DhB29G011760.1	sp|Q24208|IF2G_DROME	74.286	455	0.0	700	sp|Q24208|IF2G_DROME Eukaryotic translation initiation factor 2 subunit 3 OS=Drosophila melanogaster OX=7227 GN=eIF2gamma PE=2 SV=1
+DhB29G011760.1	sp|P81795|IF2G_RAT	73.789	454	0.0	695	sp|P81795|IF2G_RAT Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3 PE=1 SV=2
+DhB29G011760.1	sp|C9WPN6|IF2H_RAT	73.348	454	0.0	694	sp|C9WPN6|IF2H_RAT Eukaryotic translation initiation factor 2 subunit 3, Y-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3y PE=2 SV=2
+DhB29G011760.1	sp|P41091|IF2G_HUMAN	73.789	454	0.0	694	sp|P41091|IF2G_HUMAN Eukaryotic translation initiation factor 2 subunit 3 OS=Homo sapiens OX=9606 GN=EIF2S3 PE=1 SV=3
+DhB29G011760.1	sp|Q9Z0N1|IF2G_MOUSE	73.789	454	0.0	694	sp|Q9Z0N1|IF2G_MOUSE Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Mus musculus OX=10090 GN=Eif2s3x PE=1 SV=2
+DhB29G000100.1	sp|O64937|EF1A_ORYSJ	96.868	447	0.0	899	sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha OS=Oryza sativa subsp. japonica OX=39947 GN=REFA1 PE=2 SV=2
+DhB29G000100.1	sp|O49169|EF1A_MANES	96.637	446	0.0	895	sp|O49169|EF1A_MANES Elongation factor 1-alpha OS=Manihot esculenta OX=3983 GN=EF1 PE=3 SV=1
+DhB29G000100.1	sp|P17786|EF1A_SOLLC	95.740	446	0.0	890	sp|P17786|EF1A_SOLLC Elongation factor 1-alpha OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+DhB29G000100.1	sp|P43643|EF1A_TOBAC	95.973	447	0.0	890	sp|P43643|EF1A_TOBAC Elongation factor 1-alpha OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+DhB29G000100.1	sp|P25698|EF1A_SOYBN	95.302	447	0.0	886	sp|P25698|EF1A_SOYBN Elongation factor 1-alpha OS=Glycine max OX=3847 GN=TEFS1 PE=3 SV=2
+DhA33G007930.1	sp|C9WPN6|IF2H_RAT	73.951	453	0.0	701	sp|C9WPN6|IF2H_RAT Eukaryotic translation initiation factor 2 subunit 3, Y-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3y PE=2 SV=2
+DhA33G007930.1	sp|P81795|IF2G_RAT	74.393	453	0.0	701	sp|P81795|IF2G_RAT Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3 PE=1 SV=2
+DhA33G007930.1	sp|P41091|IF2G_HUMAN	74.393	453	0.0	701	sp|P41091|IF2G_HUMAN Eukaryotic translation initiation factor 2 subunit 3 OS=Homo sapiens OX=9606 GN=EIF2S3 PE=1 SV=3
+DhA33G007930.1	sp|Q9Z0N1|IF2G_MOUSE	74.393	453	0.0	701	sp|Q9Z0N1|IF2G_MOUSE Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Mus musculus OX=10090 GN=Eif2s3x PE=1 SV=2
+DhA33G007930.1	sp|Q5ZMS3|IF2G_CHICK	74.172	453	0.0	701	sp|Q5ZMS3|IF2G_CHICK Eukaryotic translation initiation factor 2 subunit 3 OS=Gallus gallus OX=9031 GN=EIF2S3 PE=1 SV=1
+DhB33G007710.1	sp|C9WPN6|IF2H_RAT	74.172	453	0.0	704	sp|C9WPN6|IF2H_RAT Eukaryotic translation initiation factor 2 subunit 3, Y-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3y PE=2 SV=2
+DhB33G007710.1	sp|P81795|IF2G_RAT	74.614	453	0.0	703	sp|P81795|IF2G_RAT Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3 PE=1 SV=2
+DhB33G007710.1	sp|P41091|IF2G_HUMAN	74.614	453	0.0	703	sp|P41091|IF2G_HUMAN Eukaryotic translation initiation factor 2 subunit 3 OS=Homo sapiens OX=9606 GN=EIF2S3 PE=1 SV=3
+DhB33G007710.1	sp|Q9Z0N1|IF2G_MOUSE	74.614	453	0.0	703	sp|Q9Z0N1|IF2G_MOUSE Eukaryotic translation initiation factor 2 subunit 3, X-linked OS=Mus musculus OX=10090 GN=Eif2s3x PE=1 SV=2
+DhB33G007710.1	sp|Q5ZMS3|IF2G_CHICK	74.393	453	0.0	702	sp|Q5ZMS3|IF2G_CHICK Eukaryotic translation initiation factor 2 subunit 3 OS=Gallus gallus OX=9031 GN=EIF2S3 PE=1 SV=1
