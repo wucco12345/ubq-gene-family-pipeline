@@ -1,0 +1,17 @@
+UBQ QC
+Membership rule:
+- PF00240 iE<=1e-5 candidates
+- merged-repeat >=2 => polyubiquitin kept
+- merged-repeat ==1 => BLASTp Swiss-Prot reviewed (E<=1e-10), keep ONLY ubiquitin-ribosomal fusion (strict)
+- BLAST nohit stored as nohit set, excluded from final
+
+Files:
+- UBQ_high_conf.id/fa: final UBQ set (poly + fusion)
+- evidence/UBQ_poly_merged.id
+- evidence/UBQ_keep_strict.id
+
+Counts:
+High_conf (FASTA): 74
+NoHit: 12
+Poly (repeat>=2): 45
+Fusion kept (strict): 29
