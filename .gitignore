@@ -19,3 +19,7 @@ results/
 # OS/editor
 .DS_Store
 *.swp
+
+# local large inputs
+inputs/proteome.fa
+results/pfam.tsv
