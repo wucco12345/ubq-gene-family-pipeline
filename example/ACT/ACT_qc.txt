@@ -1,0 +1,26 @@
+ACT QC (standardized)
+Candidates (PF00022): 100
+Final ACT: 51
+Final ARP: 46
+Final ALL: 97
+Excluded final: 3
+
+[QC] final_all ∩ excluded_final (must be 0):
+0
+
+[QC] excluded_final contains obvious ACT top1 (should be 0):
+0
+
+Top1 ACT examples:
+DhA01G029040.1	sp|P53492|ACT7_ARATH	98.143	377	0.0	772	sp|P53492|ACT7_ARATH Actin-7 OS=Arabidopsis thaliana OX=3702 GN=ACT7 PE=1 SV=1
+DhB01G026120.1	sp|P53492|ACT7_ARATH	98.143	377	0.0	771	sp|P53492|ACT7_ARATH Actin-7 OS=Arabidopsis thaliana OX=3702 GN=ACT7 PE=1 SV=1
+DhA02G000580.1	sp|P53492|ACT7_ARATH	97.479	357	0.0	728	sp|P53492|ACT7_ARATH Actin-7 OS=Arabidopsis thaliana OX=3702 GN=ACT7 PE=1 SV=1
+DhA02G007970.1	sp|P0C540|ACT7_ORYSJ	96.817	377	0.0	764	sp|P0C540|ACT7_ORYSJ Actin-7 OS=Oryza sativa subsp. japonica OX=39947 GN=ACT7 PE=3 SV=1
+DhB02G008130.1	sp|P0C540|ACT7_ORYSJ	96.552	377	0.0	762	sp|P0C540|ACT7_ORYSJ Actin-7 OS=Oryza sativa subsp. japonica OX=39947 GN=ACT7 PE=3 SV=1
+
+Top1 ARP examples:
+DhA01G021470.1	sp|A2YUL5|ARP2_ORYSI	77.285	361	0.0	548	sp|A2YUL5|ARP2_ORYSI Actin-related protein 2 OS=Oryza sativa subsp. indica OX=39946 GN=ARP2 PE=3 SV=2
+DhA02G023660.1	sp|Q5NBI2|ARP6_ORYSJ	89.145	433	0.0	791	sp|Q5NBI2|ARP6_ORYSJ Actin-related protein 6 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP6 PE=2 SV=1
+DhA02G028790.1	sp|A2ZP58|ARP5_ORYSJ	85.763	590	0.0	946	sp|A2ZP58|ARP5_ORYSJ Actin-related protein 5 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP5 PE=3 SV=2
+DhB02G027770.1	sp|A2ZP58|ARP5_ORYSJ	85.593	590	0.0	942	sp|A2ZP58|ARP5_ORYSJ Actin-related protein 5 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP5 PE=3 SV=2
+DhB02G023040.1	sp|Q5NBI2|ARP6_ORYSJ	88.684	433	0.0	788	sp|Q5NBI2|ARP6_ORYSJ Actin-related protein 6 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP6 PE=2 SV=1
