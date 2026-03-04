@@ -1,0 +1,26 @@
+family: UBQ
+pfam_id: PF00240
+pfam_ievalue_cutoff: 1e-5
+
+repeat_rule:
+  method: merged_intervals
+  polyubiquitin_min_repeats: 2
+
+single_copy_validation:
+  blast_db: uniprot_sprot_reviewed
+  blast_evalue: 1e-10
+  keep_if_top_hit_regex:
+    - "ubiquitin[- ]ribosomal"
+    - "ribosomal.*ubiquitin.*fusion"
+  remove_if_top_hit_regex:
+    - "sumo"
+    - "nedd8"
+    - "ubiquitin-like"
+    - "rub"
+    - "rad23"
+    - "dsk2"
+    - "ubp"
+    - "deubiquitin"
+    - "ligase"
+    - "hydrolase"
+nohit_policy: "exclude_from_final_keep_as_nohit_set"

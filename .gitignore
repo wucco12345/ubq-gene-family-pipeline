@@ -1,0 +1,21 @@
+# big databases / binaries
+*.hmm
+*.h3*
+*.phr
+*.pin
+*.psq
+*.pdb
+*.pot
+*.ptf
+*.pto
+*.tar.gz
+*.gz
+
+# outputs
+out_ubq/
+logs/
+results/
+
+# OS/editor
+.DS_Store
+*.swp
