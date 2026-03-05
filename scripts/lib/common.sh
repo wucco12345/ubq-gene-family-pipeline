@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
+source scripts/lib/yaml.sh
+GLOBAL_CFG="config/global.yml"
+THREADS_DEFAULT="$(yget "$GLOBAL_CFG" threads 8)"
+BLAST_EVALUE_DEFAULT="$(yget "$GLOBAL_CFG" blast.evalue 1e-10)"
+BLAST_MAXT_DEFAULT="$(yget "$GLOBAL_CFG" blast.max_target_seqs 5)"
+BLAST_TASK_DEFAULT="$(yget "$GLOBAL_CFG" blast.task_default blastp)"
+BLAST_TASK_SHORT="$(yget "$GLOBAL_CFG" blast.task_short blastp-short)"
+
 set -euo pipefail
 
 die(){ echo "[ERROR] $*" >&2; exit 1; }

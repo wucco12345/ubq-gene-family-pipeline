@@ -11,7 +11,7 @@ DB="db/uniprot/sprot"   # Swiss-Prot BLAST db prefix
 mkdir -p "${D}/evidence"
 
 # ---------- ACT-specific rules ----------
-PF_RE='^PF00022(\\.|$)'   # accept PF00022 or PF00022.xx
+PF_RE='^PF00022([.][0-9]+)?'   # accept PF00022 or PF00022.xx
 IE_COL=9
 PROT_COL=3
 # Length windows (you can tune, but keep consistent with your current run)

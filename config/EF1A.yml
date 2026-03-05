@@ -1,31 +1,20 @@
 family: EF1A
-
 pfam:
-  ids: ["PF00009"]
-  ievalue: 1e-5
+  pf_re: '^PF00009([.][0-9]+)?$'
+  ie_col: 9
+  protein_col: 3
 
 length:
-  high_conf: [420, 480]
-  rescue: [400, 520]
+  high_min: 420
+  high_max: 480
+  rescue_min: 400
+  rescue_max: 520
 
 blast:
+  task: blastp
   evalue: 1e-10
-  topn: 5
-  keep_top1_regex:
-    - "elongation factor 1-alpha"
-    - "eEF1A"
-  remove_top1_regex:
-    - "EF-Tu"
-    - "elongation factor Tu"
-    - "TUFM"
-    - "mitochondrial elongation factor Tu"
-    - "chloroplast elongation factor Tu"
-    - "bacterial EF-Tu"
 
-policy:
-  nohit: "exclude_and_archive"
-  ambiguous: "archive"
-
-qc:
-  warn_if_keep_lt: 5
-  warn_if_keep_gt: 400
+# NP-safe top1 rules
+rules:
+  keep_top1_re: '(elongation factor 1-alpha|eEF1A)'
+  remove_top1_re: '(EF-Tu|elongation factor Tu|TUFM)'

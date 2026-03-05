@@ -1,24 +1,15 @@
 family: ACT
-pfam_id: PF00022
-pfam_ievalue_cutoff: 1e-5
+pfam:
+  pf_re: '^PF00022([.][0-9]+)?$'
+  ie_col: 9
+  protein_col: 3
 
-length_filter:
-  high_conf: [300, 450]
-  rescue: [250, 500]
+length:
+  high_min: 300
+  high_max: 450
+  rescue_min: 250
+  rescue_max: 500
 
 blast:
-  db: db/uniprot/sprot   # 你本地 Swiss-Prot BLAST DB 前缀（可按你机器实际路径改）
+  task: blastp
   evalue: 1e-10
-  max_target_seqs: 5
-  threads: 10
-
-keep_if_top1_regex:
-  - " actin "
-  - "actin-related"
-  - "actin related"
-
-# 明确剔除（只是辅助；真正剔除逻辑是：只要 top1 不像 actin/ARP 就剔除）
-remove_if_top1_regex:
-  - "actin-like atpase"
-  - "heat shock"
-  - "hsp"

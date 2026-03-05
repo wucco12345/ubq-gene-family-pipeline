@@ -1,88 +1,85 @@
 #!/usr/bin/env bash
 set -euo pipefail
+source scripts/lib/common.sh
+source scripts/lib/yaml.sh
 
+F="EF1A"
+CFG="config/EF1A.yml"
+D="results/${F}"
 PROTEOME="inputs/proteome.fa"
-PFAM_TSV="results/pfam.tsv"
-SPROT_DB="$HOME/gene_family/db/uniprot/sprot"   # reuse existing Swiss-Prot DB
-OUTDIR="results/EF1A"
-mkdir -p "$OUTDIR"/evidence
+PFAM="results/pfam.tsv"
+DB="db/uniprot/sprot"
 
-# 1) Pfam候选：PF00009，按 iE<=1e-5
-awk -F'\t' 'BEGIN{OFS="\t"} $2 ~ /^PF00009(\.|$)/ && $9+0 <= 1e-5 {print}' "$PFAM_TSV" > "$OUTDIR/evidence/EF1A_pfam_hits.tsv"
-awk -F'\t' '{print $3}' "$OUTDIR/evidence/EF1A_pfam_hits.tsv" | sort -u > "$OUTDIR/EF1A_candidates.id"
+mkdir -p "${D}/evidence"
 
-# 2) 提取候选FASTA
-bash scripts/pfam_pipeline.sh fasta "$PROTEOME" "$OUTDIR/EF1A_candidates.id" "$OUTDIR/EF1A_candidates.fa"
+# ---- read config ----
+PF_RE="$(yget "$CFG" pfam.pf_re)"
+IE_COL="$(yget "$CFG" pfam.ie_col 9)"
+PROT_COL="$(yget "$CFG" pfam.protein_col 3)"
 
-# 3) 长度分层：high 420-480；rescue 400-520；其余excluded
-seqkit fx2tab -n -l "$OUTDIR/EF1A_candidates.fa" > "$OUTDIR/evidence/EF1A_len.tsv"
+HIGH_MIN="$(yget "$CFG" length.high_min 420)"
+HIGH_MAX="$(yget "$CFG" length.high_max 480)"
+RESCUE_MIN="$(yget "$CFG" length.rescue_min 400)"
+RESCUE_MAX="$(yget "$CFG" length.rescue_max 520)"
 
-awk '$2>=420 && $2<=480{print $1}' "$OUTDIR/evidence/EF1A_len.tsv" | sort -u > "$OUTDIR/EF1A_high_len.id"
-awk '$2>=400 && $2<=520{print $1}' "$OUTDIR/evidence/EF1A_len.tsv" | sort -u > "$OUTDIR/EF1A_rescue_len.id"
-comm -23 <(sort "$OUTDIR/EF1A_candidates.id") <(sort "$OUTDIR/EF1A_rescue_len.id") > "$OUTDIR/EF1A_excluded_len.id"
+BLAST_TASK="$(yget "$CFG" blast.task $BLAST_TASK_DEFAULT)"
+BLAST_EVALUE="$(yget "$CFG" blast.evalue $BLAST_EVALUE_DEFAULT)"
 
-# 4) 对 rescue_len 集合做BLAST（覆盖 high+rescue 的总集合）
-bash scripts/pfam_pipeline.sh fasta "$PROTEOME" "$OUTDIR/EF1A_rescue_len.id" "$OUTDIR/EF1A_rescue_len.fa"
+KEEP_RE="$(yget "$CFG" rules.keep_top1_re)"
+REMOVE_RE="$(yget "$CFG" rules.remove_top1_re)"
 
-blastp \
-  -query "$OUTDIR/EF1A_rescue_len.fa" \
-  -db "$SPROT_DB" \
-  -evalue 1e-10 \
-  -outfmt "6 qseqid sseqid pident length evalue bitscore stitle" \
-  -max_target_seqs 5 \
-  -num_threads 10 \
-  -out "$OUTDIR/evidence/EF1A_vs_sprot.tsv"
+log "[1/6] Pfam candidates: PF00009 (iE<=1e-5)"
+pfam_pick_ids "$PFAM" "$PF_RE" "$IE_COL" "$PROT_COL" "${D}/${F}_candidates.id"
+log "Candidates: $(wc -l < ${D}/${F}_candidates.id)"
 
-# 5) 取top1
-awk '!seen[$1]++{print}' "$OUTDIR/evidence/EF1A_vs_sprot.tsv" > "$OUTDIR/evidence/EF1A_blast_top1.tsv"
+log "[2/6] Extract candidate FASTA"
+extract_fa_by_id "${D}/${F}_candidates.id" "$PROTEOME" "${D}/${F}_candidates.fa"
+log "Candidate FASTA seqs: $(grep -c '^>' ${D}/${F}_candidates.fa)"
 
-# 6) 分类：keep 必须是 eEF1A；remove 必须排 EF-Tu/TUFM 等
-awk -F'\t' 'BEGIN{IGNORECASE=1}
+log "[3/6] Length table + length filters"
+fa_len_tsv "${D}/${F}_candidates.fa" "${D}/evidence/${F}_len.tsv"
+len_filter_ids "${D}/evidence/${F}_len.tsv" "$HIGH_MIN" "$HIGH_MAX" "${D}/${F}_high_len.id"
+len_filter_ids "${D}/evidence/${F}_len.tsv" "$RESCUE_MIN" "$RESCUE_MAX" "${D}/${F}_rescue_len.id"
+
+# BLAST only rescue_len (covers high + rescue window)
+extract_fa_by_id "${D}/${F}_rescue_len.id" "${D}/${F}_candidates.fa" "${D}/${F}_rescue_len.fa"
+
+log "[4/6] BLASTp rescue_len vs Swiss-Prot (top5 -> top1)"
+blast_top5 "${D}/${F}_rescue_len.fa" "$DB" "${D}/evidence/${F}_vs_sprot.tsv" "$THREADS_DEFAULT" "$BLAST_TASK" "$BLAST_EVALUE"
+blast_top1_from_top5 "${D}/evidence/${F}_vs_sprot.tsv" "${D}/evidence/${F}_blast_top1.tsv" "${D}/evidence/${F}_top1.id"
+
+log "[5/6] Classify by BLAST top1 annotation (NP-safe)"
+# keep/remove based on top1 title
+awk -F'\t' -v KEEP_RE="$KEEP_RE" -v REMOVE_RE="$REMOVE_RE" 'BEGIN{IGNORECASE=1}
 {
-  t=$7
-  if (t ~ /elongation factor 1-alpha/ || t ~ /eEF1A/) print $1
-}' "$OUTDIR/evidence/EF1A_blast_top1.tsv" | sort -u > "$OUTDIR/EF1A_keep_by_blast.id"
+  q=$1; t=$7
+  if(t ~ REMOVE_RE){print q > "'"${D}/${F}_remove_by_blast.id"'"; next}
+  if(t ~ KEEP_RE){print q > "'"${D}/${F}_keep_by_blast.id"'"; next}
+  print q > "'"${D}/${F}_ambiguous_by_blast.id"'"
+}' "${D}/evidence/${F}_blast_top1.tsv"
 
-awk -F'\t' 'BEGIN{IGNORECASE=1}
+# high_conf/rescue sets: intersect with length windows
+LC_ALL=C sort -u "${D}/${F}_keep_by_blast.id" > "${D}/${F}_keep_by_blast.sorted.id"
+LC_ALL=C sort -u "${D}/${F}_high_len.id" > "${D}/${F}_high_len.sorted.id"
+LC_ALL=C sort -u "${D}/${F}_rescue_len.id" > "${D}/${F}_rescue_len.sorted.id"
+
+comm -12 "${D}/${F}_keep_by_blast.sorted.id" "${D}/${F}_high_len.sorted.id" > "${D}/${F}_high_conf.id"
+comm -12 "${D}/${F}_keep_by_blast.sorted.id" "${D}/${F}_rescue_len.sorted.id" > "${D}/${F}_rescue.id"
+
+extract_fa_by_id "${D}/${F}_high_conf.id" "${D}/${F}_candidates.fa" "${D}/${F}_high_conf.fa" || true
+extract_fa_by_id "${D}/${F}_rescue.id" "${D}/${F}_candidates.fa" "${D}/${F}_rescue.fa" || true
+
+log "[6/6] QC"
 {
-  t=$7
-  if (t ~ /EF-Tu/ || t ~ /elongation factor Tu/ || t ~ /TUFM/ || t ~ /mitochondrial elongation factor Tu/ || t ~ /chloroplast elongation factor Tu/ || t ~ /bacterial EF-Tu/) print $1
-}' "$OUTDIR/evidence/EF1A_blast_top1.tsv" | sort -u > "$OUTDIR/EF1A_remove_by_blast.id"
+  echo "EF1A QC (run_EF1A)"
+  echo "Candidates (PF00009): $(wc -l < ${D}/${F}_candidates.id)"
+  echo "High_len (${HIGH_MIN}-${HIGH_MAX}): $(wc -l < ${D}/${F}_high_len.id)"
+  echo "Rescue_len (${RESCUE_MIN}-${RESCUE_MAX}): $(wc -l < ${D}/${F}_rescue_len.id)"
+  echo "Keep_by_blast: $(test -s ${D}/${F}_keep_by_blast.id && wc -l < ${D}/${F}_keep_by_blast.id || echo 0)"
+  echo "Remove_by_blast: $(test -s ${D}/${F}_remove_by_blast.id && wc -l < ${D}/${F}_remove_by_blast.id || echo 0)"
+  echo "Ambiguous_by_blast: $(test -s ${D}/${F}_ambiguous_by_blast.id && wc -l < ${D}/${F}_ambiguous_by_blast.id || echo 0)"
+  echo "FINAL high_conf: $(wc -l < ${D}/${F}_high_conf.id)"
+  echo "FINAL rescue: $(wc -l < ${D}/${F}_rescue.id)"
+} > "${D}/${F}_qc.txt"
 
-# 7) nohit：在rescue_len里但top1里没出现的
-cut -f1 "$OUTDIR/evidence/EF1A_blast_top1.tsv" | sort -u > "$OUTDIR/evidence/EF1A_top1.id"
-comm -23 <(sort "$OUTDIR/EF1A_rescue_len.id") <(sort "$OUTDIR/evidence/EF1A_top1.id") > "$OUTDIR/EF1A_nohit.id"
-
-# 8) 最终高置信/补充：
-#    - high_conf = high_len ∩ keep_by_blast
-#    - rescue    = (rescue_len \ high_len) ∩ keep_by_blast
-comm -12 <(sort "$OUTDIR/EF1A_high_len.id") <(sort "$OUTDIR/EF1A_keep_by_blast.id") > "$OUTDIR/EF1A_high_conf.id"
-comm -23 <(sort "$OUTDIR/EF1A_rescue_len.id") <(sort "$OUTDIR/EF1A_high_len.id") | comm -12 /dev/fd/3 <(sort "$OUTDIR/EF1A_keep_by_blast.id") 3</dev/stdin > "$OUTDIR/EF1A_rescue.id" || true
-
-# 9) 排除表（含原因）
-{
-  awk '{print $1"\tLEN_OUT_OF_RANGE"}' "$OUTDIR/EF1A_excluded_len.id"
-  awk '{print $1"\tBLAST_REMOVE_EF-Tu_like"}' "$OUTDIR/EF1A_remove_by_blast.id"
-  awk '{print $1"\tBLAST_NOHIT"}' "$OUTDIR/EF1A_nohit.id"
-} | sort -u > "$OUTDIR/EF1A_excluded.tsv"
-
-# 10) 导出FASTA
-bash scripts/pfam_pipeline.sh fasta "$PROTEOME" "$OUTDIR/EF1A_high_conf.id" "$OUTDIR/EF1A_high_conf.fa" || true
-bash scripts/pfam_pipeline.sh fasta "$PROTEOME" "$OUTDIR/EF1A_rescue.id" "$OUTDIR/EF1A_rescue.fa" || true
-
-# 11) QC
-{
-  echo "EF1A QC"
-  echo "Candidates (PF00009, iE<=1e-5): $(wc -l < "$OUTDIR/EF1A_candidates.id")"
-  echo "High_len (420-480): $(wc -l < "$OUTDIR/EF1A_high_len.id")"
-  echo "Rescue_len (400-520): $(wc -l < "$OUTDIR/EF1A_rescue_len.id")"
-  echo "BLAST keep (eEF1A): $(wc -l < "$OUTDIR/EF1A_keep_by_blast.id")"
-  echo "BLAST remove (EF-Tu/TUFM): $(wc -l < "$OUTDIR/EF1A_remove_by_blast.id")"
-  echo "NoHit: $(wc -l < "$OUTDIR/EF1A_nohit.id")"
-  echo "FINAL high_conf: $(wc -l < "$OUTDIR/EF1A_high_conf.id" 2>/dev/null || echo 0)"
-  echo "FINAL rescue: $(wc -l < "$OUTDIR/EF1A_rescue.id" 2>/dev/null || echo 0)"
-  echo "Top1 head:"
-  head -n 10 "$OUTDIR/evidence/EF1A_blast_top1.tsv"
-} > "$OUTDIR/EF1A_qc.txt"
-
-echo "[DONE] outputs in $OUTDIR"
+echo "[DONE] outputs in ${D}"

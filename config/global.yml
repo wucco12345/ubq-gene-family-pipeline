@@ -1,0 +1,7 @@
+# Global defaults for all families (NP-safe, reproducible)
+threads: 8
+blast:
+  evalue: 1e-10
+  max_target_seqs: 5
+  task_default: blastp
+  task_short: blastp-short
