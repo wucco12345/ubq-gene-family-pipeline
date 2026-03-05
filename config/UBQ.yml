@@ -1,26 +1,33 @@
 family: UBQ
 pfam_id: PF00240
-pfam_ievalue_cutoff: 1e-5
+ievalue_cutoff: 1e-5
 
-repeat_rule:
-  method: merged_intervals
-  polyubiquitin_min_repeats: 2
+# pfam.tsv 列说明（按你当前 pfam.tsv 行格式推断）：
+# col2: PF accession with version, e.g. PF00240.29
+# col3: protein_id
+# col9: i-Evalue
+# col13: ali_from
+# col14: ali_to
+pfam_cols:
+  pf_acc_col: 2
+  protein_col: 3
+  ievalue_col: 9
+  ali_from_col: 11
+  ali_to_col: 12
 
-single_copy_validation:
-  blast_db: uniprot_sprot_reviewed
-  blast_evalue: 1e-10
-  keep_if_top_hit_regex:
-    - "ubiquitin[- ]ribosomal"
-    - "ribosomal.*ubiquitin.*fusion"
-  remove_if_top_hit_regex:
-    - "sumo"
-    - "nedd8"
-    - "ubiquitin-like"
-    - "rub"
-    - "rad23"
-    - "dsk2"
-    - "ubp"
-    - "deubiquitin"
-    - "ligase"
-    - "hydrolase"
-nohit_policy: "exclude_from_final_keep_as_nohit_set"
+  pf_col: 2
+# repeat merge：相邻区间允许的“空隙”大小（<=gap 视为同一个repeat）
+merge_gap: 5
+
+# BLAST
+blast_db_prefix: db/uniprot/sprot
+blast_evalue: 1e-10
+blast_max_target_seqs: 5
+blast_threads: 8
+
+# UBQ strict rule:
+# keep:
+#   - repeat_merged >=2  => polyubiquitin (high_conf)
+#   - repeat_merged ==1 and top1 indicates ubiquitin-ribosomal fusion => keep (high_conf)
+# remove:
+#   - repeat_merged ==1 and top1 indicates SUMO/NEDD8/RUB/other UBL etc => remove

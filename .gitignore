@@ -23,3 +23,6 @@ results/
 # local large inputs
 inputs/proteome.fa
 results/pfam.tsv
+config/*.bak
+scripts/*.bak.*
+inputs/
