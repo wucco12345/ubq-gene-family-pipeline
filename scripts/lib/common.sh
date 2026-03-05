@@ -94,3 +94,75 @@ blast_top1_from_top5() {
   awk -F'\t' '!seen[$1]++{print}' "$top5" > "$out1"
   cut -f1 "$out1" | LC_ALL=C sort -u > "$outid"
 }
+
+# ----------------------------
+# Common helpers (NP-safe)
+# ----------------------------
+
+die(){ echo "[ERROR] $*" >&2; exit 1; }
+info(){ echo "[INFO] $*" >&2; }
+
+# stable sort unique
+sortu(){ LC_ALL=C sort -u "$1"; }
+
+# Extract first token of FASTA header (">ID other stuff" -> "ID")
+fasta_ids(){
+  grep '^>' "$1" | sed 's/^>//' | awk '{print $1}'
+}
+
+# Robust FASTA extraction by ID list (handles CR and trailing spaces)
+extract_fasta_by_id(){
+  local idfile="$1" fafile="$2" outfa="$3"
+  test -s "$idfile" || die "ID list empty: $idfile"
+  test -s "$fafile" || die "FASTA missing/empty: $fafile"
+  awk -v IDS="$idfile" '
+  BEGIN{
+    while((getline line < IDS) > 0){
+      gsub(/\r/, "", line)
+      sub(/[ \t]+$/, "", line)
+      if(line!="") want[line]=1
+    }
+    close(IDS)
+    keep=0
+  }
+  /^>/{
+    hdr=$0
+    gsub(/\r/, "", hdr)
+    sub(/^>/, "", hdr)
+    split(hdr,a,/[ \t]/)
+    id=a[1]
+    keep = (id in want)
+  }
+  keep{
+    gsub(/\r/, "", $0)
+    print
+  }' "$fafile" > "$outfa"
+}
+
+# Pick candidates from pfam.tsv by PF (supports versioned PF like PF00240.29)
+# args: pfam_tsv pf_regex ie_col protein_col out_id
+pfam_pick_candidates(){
+  local pfam="$1" pfregex="$2" iecol="$3" protcol="$4" outid="$5"
+  test -s "$pfam" || die "pfam missing/empty: $pfam"
+  awk -F'\t' -v PFRE="$pfregex" -v IEC="$iecol" -v PC="$protcol" '
+    { gsub(/\r/,"",$0) }
+    $2 ~ PFRE && ($(IEC)+0) <= 1e-5 {
+      id=$(PC)
+      gsub(/\r/,"",id)
+      gsub(/[ \t]+$/,"",id)
+      print id
+    }' "$pfam" | LC_ALL=C sort -u > "$outid"
+}
+
+# Run BLASTp to Swiss-Prot (top5) and derive top1 table
+# args: query.fa dbprefix out_vs.tsv out_top1.tsv threads task evalue
+blast_top5_top1(){
+  local qfa="$1" db="$2" outvs="$3" outtop1="$4" threads="${5:-8}" task="${6:-blastp}" evalue="${7:-1e-10}"
+  test -s "$qfa" || die "BLAST query missing/empty: $qfa"
+  # db expects .pin/.psq/.phr
+  test -s "${db}.pin" || die "BLAST DB not found: ${db}.pin"
+  blastp -task "$task" -query "$qfa" -db "$db" -evalue "$evalue" -max_target_seqs 5 \
+    -outfmt "6 qseqid sseqid pident length evalue bitscore stitle" \
+    -num_threads "$threads" > "$outvs"
+  awk '!seen[$1]++{print}' "$outvs" > "$outtop1"
+}
