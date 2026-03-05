@@ -1,0 +1,7 @@
+      8 sp|Q6K881|P4KG4_ORYSJ Phosphatidylinositol 4-kinase gamma 4
+      8 sp|P0C031|RUB2_ORYSJ Ubiquitin-NEDD8-like protein RUB2
+      6 sp|P0C030|RUB1_ORYSJ Ubiquitin-NEDD8-like protein RUB1
+      2 sp|Q9ZPY9|P4KG4_ARATH Phosphatidylinositol 4-kinase gamma 4
+      2 sp|P0CG73|UBI1P_CANAX Polyubiquitin
+      1 sp|P0CG60|UBB_PONPY Polyubiquitin-B
+      1 sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73

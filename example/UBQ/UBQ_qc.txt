@@ -1,17 +1,31 @@
-UBQ QC
-Membership rule:
-- PF00240 iE<=1e-5 candidates
-- merged-repeat >=2 => polyubiquitin kept
-- merged-repeat ==1 => BLASTp Swiss-Prot reviewed (E<=1e-10), keep ONLY ubiquitin-ribosomal fusion (strict)
-- BLAST nohit stored as nohit set, excluded from final
+UBQ QC (standardized v3)
+Candidates (PF00240): 220
+Polyubiquitin repeat>=2: 18
+Repeat1 total: 28
+Repeat1 keep_polyubq: 3
+Repeat1 remove_nonubq: 25
+Repeat1 ambiguous: 0
+FINAL all: 21
+Excluded_final: 199
 
-Files:
-- UBQ_high_conf.id/fa: final UBQ set (poly + fusion)
-- evidence/UBQ_poly_merged.id
-- evidence/UBQ_keep_strict.id
+[QC] final_all ∩ excluded_final (must be 0):
+0
 
-Counts:
-High_conf (FASTA): 74
-NoHit: 12
-Poly (repeat>=2): 45
-Fusion kept (strict): 29
+[QC] repeat1_keep top1 title examples:
+DhA09G004160.1	sp|P0CG60|UBB_PONPY	45.062	162	5.53e-35	134	sp|P0CG60|UBB_PONPY Polyubiquitin-B OS=Pongo pygmaeus OX=9600 GN=UBB PE=3 SV=1
+DhA35G005810.1	sp|P0CG73|UBI1P_CANAX	29.730	148	3.56e-14	72.8	sp|P0CG73|UBI1P_CANAX Polyubiquitin OS=Candida albicans OX=5476 GN=UBI1 PE=2 SV=1
+DhB35G005510.1	sp|P0CG73|UBI1P_CANAX	29.730	148	4.10e-14	72.8	sp|P0CG73|UBI1P_CANAX Polyubiquitin OS=Candida albicans OX=5476 GN=UBI1 PE=2 SV=1
+
+[QC] repeat1_remove top1 title examples:
+DhA06G021530.1	sp|P0C031|RUB2_ORYSJ	95.238	147	6.59e-96	276	sp|P0C031|RUB2_ORYSJ Ubiquitin-NEDD8-like protein RUB2 OS=Oryza sativa subsp. japonica OX=39947 GN=RUB2 PE=2 SV=2
+DhB06G021790.1	sp|P0C031|RUB2_ORYSJ	93.827	162	1.91e-103	295	sp|P0C031|RUB2_ORYSJ Ubiquitin-NEDD8-like protein RUB2 OS=Oryza sativa subsp. japonica OX=39947 GN=RUB2 PE=2 SV=2
+DhA08G018360.1	sp|Q6K881|P4KG4_ORYSJ	83.513	558	0.0	924	sp|Q6K881|P4KG4_ORYSJ Phosphatidylinositol 4-kinase gamma 4 OS=Oryza sativa subsp. japonica OX=39947 GN=PI4KG4 PE=1 SV=1
+DhB08G017820.1	sp|Q6K881|P4KG4_ORYSJ	83.871	558	0.0	928	sp|Q6K881|P4KG4_ORYSJ Phosphatidylinositol 4-kinase gamma 4 OS=Oryza sativa subsp. japonica OX=39947 GN=PI4KG4 PE=1 SV=1
+DhA10G002810.1	sp|P0C031|RUB2_ORYSJ	85.811	148	6.51e-85	249	sp|P0C031|RUB2_ORYSJ Ubiquitin-NEDD8-like protein RUB2 OS=Oryza sativa subsp. japonica OX=39947 GN=RUB2 PE=2 SV=2
+DhB10G002800.1	sp|P0C031|RUB2_ORYSJ	99.346	153	1.55e-106	303	sp|P0C031|RUB2_ORYSJ Ubiquitin-NEDD8-like protein RUB2 OS=Oryza sativa subsp. japonica OX=39947 GN=RUB2 PE=2 SV=2
+DhB12G019350.1	sp|P0C031|RUB2_ORYSJ	88.158	152	2.98e-96	277	sp|P0C031|RUB2_ORYSJ Ubiquitin-NEDD8-like protein RUB2 OS=Oryza sativa subsp. japonica OX=39947 GN=RUB2 PE=2 SV=2
+DhA14G014040.1	sp|P0C031|RUB2_ORYSJ	90.984	122	1.03e-75	224	sp|P0C031|RUB2_ORYSJ Ubiquitin-NEDD8-like protein RUB2 OS=Oryza sativa subsp. japonica OX=39947 GN=RUB2 PE=2 SV=2
+DhA14G009230.1	sp|Q6K881|P4KG4_ORYSJ	71.529	569	0.0	800	sp|Q6K881|P4KG4_ORYSJ Phosphatidylinositol 4-kinase gamma 4 OS=Oryza sativa subsp. japonica OX=39947 GN=PI4KG4 PE=1 SV=1
+DhB14G008850.1	sp|Q6K881|P4KG4_ORYSJ	71.529	569	0.0	800	sp|Q6K881|P4KG4_ORYSJ Phosphatidylinositol 4-kinase gamma 4 OS=Oryza sativa subsp. japonica OX=39947 GN=PI4KG4 PE=1 SV=1
+
+[QC] repeat1 ambiguous top1 title examples:
