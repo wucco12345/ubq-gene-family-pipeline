@@ -1,0 +1,26 @@
+ID	reason	top1_stitle	length_aa	pfam_hit_count	pfam_hits
+DhA01G027120.1	hard_remove_non_prk	sp|Q8VYB2|UKL3_ARATH Uridine kinase-like protein 3 OS=Arabidopsis thaliana OX=3702 GN=UKL3 PE=2 SV=1	128	1	PF00485.24
+DhA03G018750.1	hard_remove_non_prk	sp|Q944I4|GLYK_ARATH D-glycerate 3-kinase, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=GLYK PE=1 SV=2	372	2	PF00485.24;PF00485.24
+DhA04G005320.1	hard_remove_non_prk	sp|Q54R62|UCKC_DICDI Uridine-cytidine kinase C OS=Dictyostelium discoideum OX=44689 GN=udkC PE=3 SV=1	983	2	PF00485.24;PF00485.24
+DhA06G006570.1	hard_remove_non_prk	sp|Q9C664|TTM2_ARATH Inorganic pyrophosphatase TTM2 OS=Arabidopsis thaliana OX=3702 GN=TTM2 PE=1 SV=1	653	1	PF00485.24
+DhA06G018580.1	hard_remove_non_prk	sp|Q8VYB2|UKL3_ARATH Uridine kinase-like protein 3 OS=Arabidopsis thaliana OX=3702 GN=UKL3 PE=2 SV=1	606	1	PF00485.24
+DhA08G006020.1	hard_remove_non_prk	sp|Q9C9B9|TTM1_ARATH Inorganic pyrophosphatase TTM1 OS=Arabidopsis thaliana OX=3702 GN=TTM1 PE=1 SV=1	653	1	PF00485.24
+DhA08G019140.1	hard_remove_non_prk	sp|Q8VYB2|UKL3_ARATH Uridine kinase-like protein 3 OS=Arabidopsis thaliana OX=3702 GN=UKL3 PE=2 SV=1	621	1	PF00485.24
+DhA13G014520.1	hard_remove_non_prk	sp|Q54R62|UCKC_DICDI Uridine-cytidine kinase C OS=Dictyostelium discoideum OX=44689 GN=udkC PE=3 SV=1	984	2	PF00485.24;PF00485.24
+DhA18G019890.1	hard_remove_non_prk	sp|Q8VYB2|UKL3_ARATH Uridine kinase-like protein 3 OS=Arabidopsis thaliana OX=3702 GN=UKL3 PE=2 SV=1	536	1	PF00485.24
+DhA21G002100.1	hard_remove_non_prk	sp|Q9LK34|UKL2_ARATH Uridine/cytidine kinase UKL1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=UKL2 PE=1 SV=1	486	1	PF00485.24
+DhA22G011060.1	hard_remove_non_prk	sp|Q9UTC5|YIDE_SCHPO Putative uridine kinase C227.14 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC227.14 PE=3 SV=1	333	1	PF00485.24
+DhA28G005320.1	hard_remove_non_prk	sp|Q9LK34|UKL2_ARATH Uridine/cytidine kinase UKL1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=UKL2 PE=1 SV=1	484	1	PF00485.24
+DhA31G009010.1	hard_remove_non_prk	sp|Q9FKS0|UKL1_ARATH Uridine/cytidine kinase UKL1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=UKL1 PE=1 SV=1	494	1	PF00485.24
+DhB03G015770.1	hard_remove_non_prk	sp|Q944I4|GLYK_ARATH D-glycerate 3-kinase, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=GLYK PE=1 SV=2	372	2	PF00485.24;PF00485.24
+DhB04G004710.1	hard_remove_non_prk	sp|Q54R62|UCKC_DICDI Uridine-cytidine kinase C OS=Dictyostelium discoideum OX=44689 GN=udkC PE=3 SV=1	1030	3	PF00485.24;PF00485.24;PF00485.24
+DhB06G006500.1	hard_remove_non_prk	sp|Q9C664|TTM2_ARATH Inorganic pyrophosphatase TTM2 OS=Arabidopsis thaliana OX=3702 GN=TTM2 PE=1 SV=1	653	1	PF00485.24
+DhB06G018650.1	hard_remove_non_prk	sp|Q8VYB2|UKL3_ARATH Uridine kinase-like protein 3 OS=Arabidopsis thaliana OX=3702 GN=UKL3 PE=2 SV=1	490	1	PF00485.24
+DhB08G005960.1	hard_remove_non_prk	sp|Q9C9B9|TTM1_ARATH Inorganic pyrophosphatase TTM1 OS=Arabidopsis thaliana OX=3702 GN=TTM1 PE=1 SV=1	653	1	PF00485.24
+DhB08G018410.1	hard_remove_non_prk	sp|Q8VYB2|UKL3_ARATH Uridine kinase-like protein 3 OS=Arabidopsis thaliana OX=3702 GN=UKL3 PE=2 SV=1	514	1	PF00485.24
+DhB13G015140.1	hard_remove_non_prk	sp|Q54R62|UCKC_DICDI Uridine-cytidine kinase C OS=Dictyostelium discoideum OX=44689 GN=udkC PE=3 SV=1	961	2	PF00485.24;PF00485.24
+DhB18G016250.1	hard_remove_non_prk	sp|Q8VYB2|UKL3_ARATH Uridine kinase-like protein 3 OS=Arabidopsis thaliana OX=3702 GN=UKL3 PE=2 SV=1	508	1	PF00485.24
+DhB21G002560.1	hard_remove_non_prk	sp|Q9LK34|UKL2_ARATH Uridine/cytidine kinase UKL1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=UKL2 PE=1 SV=1	478	1	PF00485.24
+DhB22G010440.1	hard_remove_non_prk	sp|Q9UTC5|YIDE_SCHPO Putative uridine kinase C227.14 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC227.14 PE=3 SV=1	333	1	PF00485.24
+DhB28G005250.1	hard_remove_non_prk	sp|Q9LK34|UKL2_ARATH Uridine/cytidine kinase UKL1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=UKL2 PE=1 SV=1	484	1	PF00485.24
+DhB31G008100.1	hard_remove_non_prk	sp|Q9FKS0|UKL1_ARATH Uridine/cytidine kinase UKL1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=UKL1 PE=1 SV=1	494	1	PF00485.24

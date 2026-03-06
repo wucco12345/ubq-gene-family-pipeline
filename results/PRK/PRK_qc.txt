@@ -1,0 +1,7 @@
+PRK QC (standardized v2)
+Candidates (PF00485): 31
+High_conf: 6
+Rescue: 0
+Final total: 6
+NoHit: 0
+Excluded: 25

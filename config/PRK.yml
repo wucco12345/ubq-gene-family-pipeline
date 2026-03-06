@@ -1,0 +1,20 @@
+family: PRK
+
+pfam:
+  pf_re: '^PF00485([.][0-9]+)?$'
+  ie_col: 9
+  protein_col: 3
+
+length:
+  high_min: 250
+  high_max: 450
+  rescue_min: 200
+  rescue_max: 500
+
+blast:
+  task: blastp
+  evalue: 1e-10
+
+rules:
+  keep_top1_re: '(phosphoribulokinase|EC 2[.]7[.]1[.]19)'
+  remove_top1_re: '(uridine kinase|uridine/cytidine kinase|uridine-cytidine kinase|uridine kinase-like|pantothenate kinase|coaA|adenylate kinase|guanylate kinase|thymidine kinase|ribokinase|inosine-guanosine kinase|D-glycerate 3-kinase|glycerate kinase|inorganic pyrophosphatase|TTM1|TTM2)'

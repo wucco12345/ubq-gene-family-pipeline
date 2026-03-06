@@ -8,6 +8,7 @@ FAMILIES=(
   ACT
   UBQ
   EF1A
+  PRK
 )
 
 echo "[INFO] Repo root: $REPO_ROOT"

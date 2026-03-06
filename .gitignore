@@ -1,4 +1,6 @@
-# big databases / binaries
+# =========================
+# 数据库 / 二进制 / 大文件
+# =========================
 *.hmm
 *.h3*
 *.phr
@@ -11,21 +13,93 @@
 *.tar.gz
 *.gz
 
-# outputs
-out_ubq/
-logs/
-results/
+# =========================
+# 本地输入
+# =========================
+inputs/
+!inputs/.gitkeep
 
-# OS/editor
-.DS_Store
-*.swp
+# 如果你想保留空目录，可手动创建 .gitkeep
+# touch inputs/.gitkeep
 
-# local large inputs
-inputs/proteome.fa
+# Pfam 中间结果通常较大，默认不提交
 results/pfam.tsv
+
+# =========================
+# 数据库目录
+# =========================
+db/
+
+# =========================
+# 日志 / 临时输出
+# =========================
+logs/
+out_ubq/
+
+# =========================
+# results 中的大中间文件
+# =========================
+results/*/evidence/
+results/*/*.sorted.id
+results/*/*_candidates.fa
+results/*/*_rescue_len.fa
+results/*/*_repeat1.fa
+results/*/*_poly_merged.fa
+results/*/*_keep_ribofusion.fa
+results/*/*_final_all.fa
+results/*/*_excluded_final.fa
+results/*/*_final_ACT.fa
+results/*/*_high_conf.fa
+results/*/*_rescue.fa
+
+# =========================
+# 备份 / 临时脚本
+# =========================
 config/*.bak
 scripts/*.bak.*
-inputs/
 
-inputs/
-results/
+# =========================
+# 系统 / 编辑器
+# =========================
+.DS_Store
+*.swp
+*~
+
+# results 中不提交的大量中间文本文件
+results/*/*_candidates.id
+results/*/*_candidates.raw.id
+results/*/*_top1.id
+results/*/*_top1_title.tsv
+results/*/*_top5_consensus.tsv
+results/*/*_classify.tsv
+results/*/*_keep_by_blast.id
+results/*/*_remove_by_blast.id
+results/*/*_ambiguous_by_blast.id
+results/*/*_high_len.id
+results/*/*_rescue_len.id
+results/*/*_rescue_len_all.id
+results/*/*_rescue_all_tmp.id
+results/*/*_final_union.id
+results/*/*_excluded.id
+results/*/*_excluded_final.id
+results/*/*_excluded_final.top1.tsv
+results/*/*_final_all.top1.tsv
+results/*/*_high_conf.top1.tsv
+results/*/*_rescue.top1.tsv
+results/*/*_keep_ribofusion.top1.tsv
+results/*/*_top1_title.tsv
+results/*/*_excluded_full.tsv
+results/*/*_excluded_top1_join.tsv
+results/*/*_excluded_top1_len.tsv
+results/*/*_len.join.tsv
+results/*/*_pfam_info.tsv
+results/*/*_repeat_merged_counts.tsv
+results/*/_extract_by_id.awk
+results/ACT/ACT.id
+results/ACT/ACT_final_ACT.top1.tsv
+results/ACT/ACT_final_all.id
+results/ACT/ACT_high_len.fa
+results/PRK/PRK_excluded.top1.tsv
+results/UBQ/UBQ_keep_ribofusion.id
+results/UBQ/UBQ_poly_merged.id
+results/UBQ/UBQ_repeat1.id

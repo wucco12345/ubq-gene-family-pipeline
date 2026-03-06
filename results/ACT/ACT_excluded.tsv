@@ -1,0 +1,50 @@
+ID	reason	top1_stitle	length_aa	pfam_hit_count	pfam_hits
+DhA01G021470.1	excluded_arp	sp|A2YUL5|ARP2_ORYSI Actin-related protein 2 OS=Oryza sativa subsp. indica OX=39946 GN=ARP2 PE=3 SV=2	361	2	PF00022.25;PF00022.25
+DhA02G023660.1	excluded_arp	sp|Q5NBI2|ARP6_ORYSJ Actin-related protein 6 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP6 PE=2 SV=1	433	1	PF00022.25
+DhA02G028790.1	excluded_arp	sp|A2ZP58|ARP5_ORYSJ Actin-related protein 5 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP5 PE=3 SV=2	778	2	PF00022.25;PF00022.25
+DhA03G008520.1	excluded_arp	sp|Q5NBI2|ARP6_ORYSJ Actin-related protein 6 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP6 PE=2 SV=1	433	1	PF00022.25
+DhA03G014320.1	excluded_arp	sp|Q9SAF1|ARP3_ARATH Actin-related protein 3 OS=Arabidopsis thaliana OX=3702 GN=ARP3 PE=1 SV=1	158	1	PF00022.25
+DhA04G023890.1	excluded_arp	sp|Q7XR80|ARP8_ORYSJ Actin-related protein 8 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP8 PE=2 SV=1	505	2	PF00022.25;PF00022.25
+DhA05G003470.1	excluded_arp	sp|A3ANB5|ARP7_ORYSJ Actin-related protein 7 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP7 PE=2 SV=2	404	2	PF00022.25;PF00022.25
+DhA06G011190.1	excluded_arp	sp|Q6K908|ARP3_ORYSJ Actin-related protein 3 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP3 PE=2 SV=1	428	1	PF00022.25
+DhA07G003890.1	excluded_arp	sp|A3ANB5|ARP7_ORYSJ Actin-related protein 7 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP7 PE=2 SV=2	361	1	PF00022.25
+DhA08G010930.1	excluded_arp	sp|Q6ZJW9|ARP4_ORYSJ Actin-related protein 4 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP4 PE=2 SV=1	133	1	PF00022.25
+DhA08G012380.1	excluded_arp	sp|Q6K908|ARP3_ORYSJ Actin-related protein 3 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP3 PE=2 SV=1	428	1	PF00022.25
+DhA09G002440.1	excluded_arp	sp|Q9SAF1|ARP3_ARATH Actin-related protein 3 OS=Arabidopsis thaliana OX=3702 GN=ARP3 PE=1 SV=1	436	1	PF00022.25
+DhA09G002760.1	excluded_arp	sp|Q6ZJW9|ARP4_ORYSJ Actin-related protein 4 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP4 PE=2 SV=1	496	1	PF00022.25
+DhA11G001430.1	excluded_arp	sp|Q7XR80|ARP8_ORYSJ Actin-related protein 8 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP8 PE=2 SV=1	478	3	PF00022.25;PF00022.25;PF00022.25
+DhA11G017510.1	excluded_arp	sp|A2XQX0|ARP9_ORYSI Actin-related protein 9 OS=Oryza sativa subsp. indica OX=39946 GN=ARP9 PE=3 SV=2	590	1	PF00022.25
+DhA12G001210.1	excluded_arp	sp|A2ZP58|ARP5_ORYSJ Actin-related protein 5 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP5 PE=3 SV=2	718	2	PF00022.25;PF00022.25
+DhA13G015850.1	excluded_arp	sp|A2XQX0|ARP9_ORYSI Actin-related protein 9 OS=Oryza sativa subsp. indica OX=39946 GN=ARP9 PE=3 SV=2	586	1	PF00022.25
+DhA15G010990.1	excluded_arp	sp|A3ANB5|ARP7_ORYSJ Actin-related protein 7 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP7 PE=2 SV=2	99	1	PF00022.25
+DhA21G013530.1	excluded_arp	sp|Q6ZJW9|ARP4_ORYSJ Actin-related protein 4 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP4 PE=2 SV=1	444	1	PF00022.25
+DhA21G013740.1	excluded_arp	sp|Q9SAF1|ARP3_ARATH Actin-related protein 3 OS=Arabidopsis thaliana OX=3702 GN=ARP3 PE=1 SV=1	436	1	PF00022.25
+DhA22G002850.1	excluded_arp	sp|Q940Z2|ARP5_ARATH Actin-related protein 5 OS=Arabidopsis thaliana OX=3702 GN=ARP5 PE=1 SV=2	376	1	PF00022.25
+DhA22G017020.1	excluded_arp	sp|A3ANB5|ARP7_ORYSJ Actin-related protein 7 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP7 PE=2 SV=2	361	1	PF00022.25
+DhA26G010820.1	excluded_arp	sp|Q6ZJW9|ARP4_ORYSJ Actin-related protein 4 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP4 PE=2 SV=1	248	1	PF00022.25
+DhA26G011520.1	excluded_arp	sp|Q6ZJW9|ARP4_ORYSJ Actin-related protein 4 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP4 PE=2 SV=1	467	2	PF00022.25;PF00022.25
+DhA27G007460.1	excluded_arp	sp|A2YUL5|ARP2_ORYSI Actin-related protein 2 OS=Oryza sativa subsp. indica OX=39946 GN=ARP2 PE=3 SV=2	390	1	PF00022.25
+DhA29G001280.1	excluded_arp	sp|A2YUL5|ARP2_ORYSI Actin-related protein 2 OS=Oryza sativa subsp. indica OX=39946 GN=ARP2 PE=3 SV=2	390	1	PF00022.25
+DhB02G023040.1	excluded_arp	sp|Q5NBI2|ARP6_ORYSJ Actin-related protein 6 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP6 PE=2 SV=1	433	1	PF00022.25
+DhB02G027770.1	excluded_arp	sp|A2ZP58|ARP5_ORYSJ Actin-related protein 5 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP5 PE=3 SV=2	711	2	PF00022.25;PF00022.25
+DhB03G005740.1	excluded_arp	sp|Q5NBI2|ARP6_ORYSJ Actin-related protein 6 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP6 PE=2 SV=1	433	1	PF00022.25
+DhB03G011270.1	excluded_arp	sp|Q9SAF1|ARP3_ARATH Actin-related protein 3 OS=Arabidopsis thaliana OX=3702 GN=ARP3 PE=1 SV=1	118	1	PF00022.25
+DhB04G023380.1	excluded_arp	sp|Q7XR80|ARP8_ORYSJ Actin-related protein 8 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP8 PE=2 SV=1	479	2	PF00022.25;PF00022.25
+DhB06G011560.1	excluded_arp	sp|Q6K908|ARP3_ORYSJ Actin-related protein 3 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP3 PE=2 SV=1	428	2	PF00022.25;PF00022.25
+DhB07G003870.1	excluded_arp	sp|A3ANB5|ARP7_ORYSJ Actin-related protein 7 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP7 PE=2 SV=2	361	1	PF00022.25
+DhB08G012030.1	excluded_arp	sp|Q6K908|ARP3_ORYSJ Actin-related protein 3 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP3 PE=2 SV=1	428	1	PF00022.25
+DhB09G002230.1	excluded_arp	sp|Q6K908|ARP3_ORYSJ Actin-related protein 3 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP3 PE=2 SV=1	369	1	PF00022.25
+DhB09G002550.1	excluded_arp	sp|Q6ZJW9|ARP4_ORYSJ Actin-related protein 4 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP4 PE=2 SV=1	496	1	PF00022.25
+DhB11G001460.1	excluded_arp	sp|Q7XR80|ARP8_ORYSJ Actin-related protein 8 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP8 PE=2 SV=1	478	3	PF00022.25;PF00022.25;PF00022.25
+DhB11G016500.1	excluded_arp	sp|A2XQX0|ARP9_ORYSI Actin-related protein 9 OS=Oryza sativa subsp. indica OX=39946 GN=ARP9 PE=3 SV=2	646	1	PF00022.25
+DhB12G001300.1	excluded_arp	sp|A2ZP58|ARP5_ORYSJ Actin-related protein 5 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP5 PE=3 SV=2	718	2	PF00022.25;PF00022.25
+DhB13G016440.1	excluded_arp	sp|A2XQX0|ARP9_ORYSI Actin-related protein 9 OS=Oryza sativa subsp. indica OX=39946 GN=ARP9 PE=3 SV=2	586	1	PF00022.25
+DhB15G010900.1	excluded_arp	sp|A3ANB5|ARP7_ORYSJ Actin-related protein 7 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP7 PE=2 SV=2	141	1	PF00022.25
+DhB18G015210.1	excluded_non_act	sp|Q41558|HBP1C_WHEAT Transcription factor HBP-1b(c1) (Fragment) OS=Triticum aestivum OX=4565 PE=1 SV=2	513	1	PF00022.25
+DhB21G000230.1	excluded_arp	sp|Q6ZJW9|ARP4_ORYSJ Actin-related protein 4 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP4 PE=2 SV=1	490	1	PF00022.25
+DhB21G000410.1	excluded_arp	sp|Q9SAF1|ARP3_ARATH Actin-related protein 3 OS=Arabidopsis thaliana OX=3702 GN=ARP3 PE=1 SV=1	436	1	PF00022.25
+DhB22G016340.1	excluded_arp	sp|A3ANB5|ARP7_ORYSJ Actin-related protein 7 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP7 PE=2 SV=2	361	1	PF00022.25
+DhB25G012300.1	excluded_arp	sp|Q940Z2|ARP5_ARATH Actin-related protein 5 OS=Arabidopsis thaliana OX=3702 GN=ARP5 PE=1 SV=2	374	1	PF00022.25
+DhB26G010980.1	excluded_arp	sp|Q6ZJW9|ARP4_ORYSJ Actin-related protein 4 OS=Oryza sativa subsp. japonica OX=39947 GN=ARP4 PE=2 SV=1	444	1	PF00022.25
+DhB27G007070.1	excluded_arp	sp|A2YUL5|ARP2_ORYSI Actin-related protein 2 OS=Oryza sativa subsp. indica OX=39946 GN=ARP2 PE=3 SV=2	429	1	PF00022.25
+DhB29G001390.1	excluded_arp	sp|A2YUL5|ARP2_ORYSI Actin-related protein 2 OS=Oryza sativa subsp. indica OX=39946 GN=ARP2 PE=3 SV=2	390	1	PF00022.25

@@ -1,0 +1,24 @@
+EF1A QC (standardized v2)
+Candidates (PF00009): 193
+High_conf: 11
+Rescue: 2
+Final ALL: 13
+Excluded final: 180
+
+[QC] final_all ∩ excluded_final (must be 0):
+0
+
+Top1 titles (final_all; top 10):
+     13 sp|O64937|EF1A_ORYSJ Elongation factor 1-alpha
+
+Top1 titles (excluded_final; top 10):
+     14 sp|Q9ASR1|EF2_ARATH Elongation factor 2
+     13 sp|P28186|RAE1C_ARATH Ras-related protein RABE1c
+     10 sp|Q40787|RAB7_CENCI Ras-related protein Rab7
+     10 sp|O80501|RAH1B_ARATH Ras-related protein RABH1b
+      8 sp|Q05737|YPTM2_MAIZE GTP-binding protein YPTM2
+      7 sp|Q8YZH7|DER_NOSS1 GTPase Der
+      7 sp|P16976|YPTM1_MAIZE GTP-binding protein YPTM1
+      6 sp|Q24208|IF2G_DROME Eukaryotic translation initiation factor 2 subunit 3
+      5 sp|Q9ZT91|EFTM_ARATH Elongation factor Tu, mitochondrial
+      5 sp|Q8R050|ERF3A_MOUSE Eukaryotic peptide chain release factor GTP-binding subunit ERF3A

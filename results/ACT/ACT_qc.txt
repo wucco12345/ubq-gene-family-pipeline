@@ -1,0 +1,9 @@
+ACT QC (standardized v2, ACT-only)
+Candidates (PF00022): 100
+High_conf (true ACT): 51
+Rescue: 0
+NoHit: 0
+Excluded final: 49
+
+[QC] high_conf ∩ excluded_final (must be 0):
+0
