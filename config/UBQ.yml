@@ -1,33 +1,18 @@
 family: UBQ
-pfam_id: PF00240
-ievalue_cutoff: 1e-5
-
-# pfam.tsv 列说明（按你当前 pfam.tsv 行格式推断）：
-# col2: PF accession with version, e.g. PF00240.29
-# col3: protein_id
-# col9: i-Evalue
-# col13: ali_from
-# col14: ali_to
-pfam_cols:
-  pf_acc_col: 2
+pfam:
+  pf_re: '^PF00240([.][0-9]+)?$'
+  ie_col: 9
   protein_col: 3
-  ievalue_col: 9
-  ali_from_col: 11
-  ali_to_col: 12
+  ali_from_col: 12
+  ali_to_col: 13
 
-  pf_col: 2
-# repeat merge：相邻区间允许的“空隙”大小（<=gap 视为同一个repeat）
-merge_gap: 5
+blast:
+  task: blastp
+  task_short: blastp-short
+  evalue: 1e-10
 
-# BLAST
-blast_db_prefix: db/uniprot/sprot
-blast_evalue: 1e-10
-blast_max_target_seqs: 5
-blast_threads: 8
-
-# UBQ strict rule:
-# keep:
-#   - repeat_merged >=2  => polyubiquitin (high_conf)
-#   - repeat_merged ==1 and top1 indicates ubiquitin-ribosomal fusion => keep (high_conf)
-# remove:
-#   - repeat_merged ==1 and top1 indicates SUMO/NEDD8/RUB/other UBL etc => remove
+# repeat=1 的关键词规则（NP-safe，可追溯）
+# keep：polyubiquitin / ubiquitin（但避免把 RUB/NEDD8/SUMO 当作 UBQ）
+rules:
+  pos_re: '(polyubiquitin|ubiquitin-b|\\bubiquitin\\b)'
+  neg_re: '(RUB1|RUB2|NEDD8|SUMO|ubiquitin-like domain-containing|phosphatidylinositol 4-kinase)'

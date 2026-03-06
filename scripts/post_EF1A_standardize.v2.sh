@@ -32,32 +32,9 @@ if test -s "$TOP1"; then
 fi
 
 # ---------- 4) extract FASTA ----------
-cat > "${D}/_extract_by_id.awk" <<'AWK'
-BEGIN{
-  while((getline line < IDS) > 0){
-    gsub(/\r/, "", line)
-    sub(/[ \t]+$/, "", line)
-    if(line!="") want[line]=1
-  }
-  close(IDS)
-  keep=0
-}
-/^>/{
-  hdr=$0
-  gsub(/\r/, "", hdr)
-  sub(/^>/, "", hdr)
-  split(hdr,a,/[ \t]/)
-  id=a[1]
-  keep = (id in want)
-}
-keep{
-  gsub(/\r/, "", $0)
-  print
-}
-AWK
 
-awk -v IDS="${D}/${F}_final_all.id" -f "${D}/_extract_by_id.awk" "$PROTEOME" > "${D}/${F}_final_all.fa"
-awk -v IDS="${D}/${F}_excluded_final.id" -f "${D}/_extract_by_id.awk" "$PROTEOME" > "${D}/${F}_excluded_final.fa"
+awk -v IDS="${D}/${F}_final_all.id" -f scripts/lib/extract_by_id.awk "$PROTEOME" > "${D}/${F}_final_all.fa"
+awk -v IDS="${D}/${F}_excluded_final.id" -f scripts/lib/extract_by_id.awk "$PROTEOME" > "${D}/${F}_excluded_final.fa"
 
 # ---------- 5) QC ----------
 {

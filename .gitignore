@@ -26,3 +26,6 @@ results/pfam.tsv
 config/*.bak
 scripts/*.bak.*
 inputs/
+
+inputs/
+results/
