@@ -9,6 +9,7 @@ FAMILIES=(
   UBQ
   EF1A
   PRK
+  SBPase
 )
 
 echo "[INFO] Repo root: $REPO_ROOT"

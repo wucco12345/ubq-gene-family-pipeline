@@ -1,0 +1,20 @@
+ID	reason	top1_stitle	length_aa	has_PF00316	has_PF18913	domain_class
+DhA02G007990.1	hard_remove_fbpase	sp|Q9SDL8|F16P2_ORYCO Fructose-1,6-bisphosphatase, cytosolic OS=Oryza coarctata OX=77588 PE=2 SV=1	352	1	1	dual_domain
+DhA04G008570.1	hard_remove_fbpase	sp|P22418|F16P1_SPIOL Fructose-1,6-bisphosphatase, chloroplastic OS=Spinacia oleracea OX=3562 PE=1 SV=2	284	1	0	pf00316_only
+DhA05G018470.1	hard_remove_fbpase	sp|O64422|F16P1_ORYSJ Fructose-1,6-bisphosphatase, chloroplastic OS=Oryza sativa subsp. japonica OX=39947 GN=Os03g0267300 PE=2 SV=1	259	1	1	dual_domain
+DhA10G002230.1	hard_remove_fbpase	sp|O64422|F16P1_ORYSJ Fructose-1,6-bisphosphatase, chloroplastic OS=Oryza sativa subsp. japonica OX=39947 GN=Os03g0267300 PE=2 SV=1	373	1	1	dual_domain
+DhA14G014670.1	hard_remove_fbpase	sp|P22418|F16P1_SPIOL Fructose-1,6-bisphosphatase, chloroplastic OS=Spinacia oleracea OX=3562 PE=1 SV=2	374	1	1	dual_domain
+DhA15G006780.1	hard_remove_fbpase	sp|Q43139|F16P2_SACHY Fructose-1,6-bisphosphatase, cytosolic OS=Saccharum hybrid OX=15819 GN=CFBP PE=2 SV=2	338	1	1	dual_domain
+DhA16G003110.1	hard_remove_fbpase	sp|P22418|F16P1_SPIOL Fructose-1,6-bisphosphatase, chloroplastic OS=Spinacia oleracea OX=3562 PE=1 SV=2	398	1	1	dual_domain
+DhA23G007300.1	hard_remove_fbpase	sp|Q43139|F16P2_SACHY Fructose-1,6-bisphosphatase, cytosolic OS=Saccharum hybrid OX=15819 GN=CFBP PE=2 SV=2	342	1	1	dual_domain
+DhB02G008140.1	hard_remove_fbpase	sp|Q9SDL8|F16P2_ORYCO Fructose-1,6-bisphosphatase, cytosolic OS=Oryza coarctata OX=77588 PE=2 SV=1	383	1	1	dual_domain
+DhB03G023460.1	hard_remove_fbpase	sp|Q9SDL8|F16P2_ORYCO Fructose-1,6-bisphosphatase, cytosolic OS=Oryza coarctata OX=77588 PE=2 SV=1	144	1	1	dual_domain
+DhB04G007930.1	hard_remove_fbpase	sp|P22418|F16P1_SPIOL Fructose-1,6-bisphosphatase, chloroplastic OS=Spinacia oleracea OX=3562 PE=1 SV=2	270	1	0	pf00316_only
+DhB05G018750.1	hard_remove_fbpase	sp|O64422|F16P1_ORYSJ Fructose-1,6-bisphosphatase, chloroplastic OS=Oryza sativa subsp. japonica OX=39947 GN=Os03g0267300 PE=2 SV=1	307	1	1	dual_domain
+DhB07G018150.1	hard_remove_fbpase	sp|O64422|F16P1_ORYSJ Fructose-1,6-bisphosphatase, chloroplastic OS=Oryza sativa subsp. japonica OX=39947 GN=Os03g0267300 PE=2 SV=1	424	1	1	dual_domain
+DhB10G002160.1	hard_remove_fbpase	sp|P22418|F16P1_SPIOL Fructose-1,6-bisphosphatase, chloroplastic OS=Spinacia oleracea OX=3562 PE=1 SV=2	317	1	1	dual_domain
+DhB14G014270.1	hard_remove_fbpase	sp|P22418|F16P1_SPIOL Fructose-1,6-bisphosphatase, chloroplastic OS=Spinacia oleracea OX=3562 PE=1 SV=2	164	1	0	pf00316_only
+DhB15G006880.1	hard_remove_fbpase	sp|Q43139|F16P2_SACHY Fructose-1,6-bisphosphatase, cytosolic OS=Saccharum hybrid OX=15819 GN=CFBP PE=2 SV=2	342	1	1	dual_domain
+DhB16G002990.1	hard_remove_fbpase	sp|P22418|F16P1_SPIOL Fructose-1,6-bisphosphatase, chloroplastic OS=Spinacia oleracea OX=3562 PE=1 SV=2	398	1	1	dual_domain
+DhB17G008910.1	hard_remove_fbpase	sp|P22418|F16P1_SPIOL Fructose-1,6-bisphosphatase, chloroplastic OS=Spinacia oleracea OX=3562 PE=1 SV=2	240	1	0	pf00316_only
+DhB23G007200.1	hard_remove_fbpase	sp|Q9SDL8|F16P2_ORYCO Fructose-1,6-bisphosphatase, cytosolic OS=Oryza coarctata OX=77588 PE=2 SV=1	347	1	1	dual_domain

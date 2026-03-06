@@ -1,0 +1,21 @@
+family: SBPase
+
+pfam:
+  pf00316_re: '^PF00316([.][0-9]+)?$'
+  pf18913_re: '^PF18913([.][0-9]+)?$'
+  ie_col: 9
+  protein_col: 3
+
+length:
+  high_min: 330
+  high_max: 450
+  rescue_min: 300
+  rescue_max: 500
+
+blast:
+  task: blastp
+  evalue: 1e-10
+
+rules:
+  keep_top1_re: '(sedoheptulose-1,7-bisphosphatase|SBPase)'
+  remove_top1_re: '(fructose-1,6-bisphosphatase|FBPase|cytosolic fructose-1,6-bisphosphatase|chloroplastic fructose-1,6-bisphosphatase)'

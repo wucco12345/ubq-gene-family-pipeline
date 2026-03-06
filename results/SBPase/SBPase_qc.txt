@@ -1,0 +1,7 @@
+SBPase QC (standardized v2)
+Candidates (PF00316): 25
+High_conf: 4
+Rescue: 2
+Final total: 6
+NoHit: 0
+Excluded: 19
