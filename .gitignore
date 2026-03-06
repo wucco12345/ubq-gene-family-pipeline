@@ -103,3 +103,8 @@ results/PRK/PRK_excluded.top1.tsv
 results/UBQ/UBQ_keep_ribofusion.id
 results/UBQ/UBQ_poly_merged.id
 results/UBQ/UBQ_repeat1.id
+results/SBPase/SBPase_domain_status.tsv
+results/SBPase/SBPase_dual_domain.id
+results/SBPase/SBPase_excluded.top1.tsv
+results/SBPase/SBPase_keep_and_highlen.id
+results/SBPase/SBPase_pf00316_only.id
