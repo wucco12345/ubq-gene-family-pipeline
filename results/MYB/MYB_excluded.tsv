@@ -1,0 +1,16 @@
+ID	reason	top1_stitle	length_aa	merged_repeat	min_ali_from	max_ali_to
+DhA02G007830.1	ambiguous_top1	sp|Q9FNN6|SRM1_ARATH Transcription factor SRM1 OS=Arabidopsis thaliana OX=3702 GN=SRM1 PE=1 SV=1	170	2	12	147
+DhA03G025810.1	ambiguous_top1	sp|Q8S9H7|DIV_ANTMA Transcription factor DIVARICATA OS=Antirrhinum majus OX=4151 GN=DIVARICATA PE=2 SV=1	174	2	13	151
+DhA15G016150.1	ambiguous_top1	sp|Q4KKX4|NCOR1_XENTR Nuclear receptor corepressor 1 OS=Xenopus tropicalis OX=8364 GN=ncor1 PE=2 SV=1	1623	2	762	1014
+DhA22G008840.1	ambiguous_top1	sp|P92948|CDC5L_ARATH Cell division cycle 5-like protein OS=Arabidopsis thaliana OX=3702 GN=CDC5 PE=1 SV=2	985	2	7	103
+DhA30G008120.1	ambiguous_top1	sp|Q8S9H7|DIV_ANTMA Transcription factor DIVARICATA OS=Antirrhinum majus OX=4151 GN=DIVARICATA PE=2 SV=1	182	2	22	158
+DhA33G004550.1	ambiguous_top1	sp|P92948|CDC5L_ARATH Cell division cycle 5-like protein OS=Arabidopsis thaliana OX=3702 GN=CDC5 PE=1 SV=2	986	2	7	103
+DhA35G003990.1	ambiguous_top1	sp|P92948|CDC5L_ARATH Cell division cycle 5-like protein OS=Arabidopsis thaliana OX=3702 GN=CDC5 PE=1 SV=2	997	2	7	103
+DhB02G007960.1	ambiguous_top1	sp|Q9FNN6|SRM1_ARATH Transcription factor SRM1 OS=Arabidopsis thaliana OX=3702 GN=SRM1 PE=1 SV=1	170	2	12	147
+DhB03G023290.1	ambiguous_top1	sp|Q8S9H7|DIV_ANTMA Transcription factor DIVARICATA OS=Antirrhinum majus OX=4151 GN=DIVARICATA PE=2 SV=1	174	2	13	151
+DhB10G004240.1	ambiguous_top1	sp|A2WW87|GAM1_ORYSI Transcription factor GAMYB OS=Oryza sativa subsp. indica OX=39946 GN=GAM1 PE=2 SV=1	659	2	145	241
+DhB15G015090.1	ambiguous_top1	sp|Q4KKX4|NCOR1_XENTR Nuclear receptor corepressor 1 OS=Xenopus tropicalis OX=8364 GN=ncor1 PE=2 SV=1	1622	2	761	1013
+DhB22G008250.1	ambiguous_top1	sp|P92948|CDC5L_ARATH Cell division cycle 5-like protein OS=Arabidopsis thaliana OX=3702 GN=CDC5 PE=1 SV=2	986	2	7	103
+DhB30G007960.1	ambiguous_top1	sp|Q8S9H7|DIV_ANTMA Transcription factor DIVARICATA OS=Antirrhinum majus OX=4151 GN=DIVARICATA PE=2 SV=1	182	2	22	158
+DhB33G004550.1	ambiguous_top1	sp|P92948|CDC5L_ARATH Cell division cycle 5-like protein OS=Arabidopsis thaliana OX=3702 GN=CDC5 PE=1 SV=2	986	2	7	103
+DhB35G003900.1	ambiguous_top1	sp|P92948|CDC5L_ARATH Cell division cycle 5-like protein OS=Arabidopsis thaliana OX=3702 GN=CDC5 PE=1 SV=2	996	2	7	103

@@ -1,0 +1,22 @@
+family: MYB
+
+pfam:
+  pf_re: '^PF00249([.][0-9]+)?$'
+  ie_col: 9
+  protein_col: 3
+  ali_from_col: 12
+  ali_to_col: 13
+
+length:
+  high_min: 250
+  high_max: 450
+  rescue_min: 200
+  rescue_max: 600
+
+blast:
+  task: blastp
+  evalue: 1e-10
+
+rules:
+  keep_top1_re: '(MYB transcription factor|MYB-related protein|Transcription factor MYB|myb domain protein)'
+  hard_remove_top1_re: '(CCA1|LHY|RVE|REVEILLE|PSEUDO-RESPONSE REGULATOR|PRR|G2-like|Golden2-like|ARR-B|response regulator|TCP|WRKY|bZIP|bHLH|NAC|MADS|homeobox|zinc finger|AP2|ERF|heat shock factor|HSF|C2H2|trihelix)'

@@ -1,0 +1,7 @@
+MYB QC (standardized v2)
+Candidates (PF00249): 628
+High_conf: 409
+Rescue: 204
+Final total: 613
+NoHit: 0
+Excluded: 15
