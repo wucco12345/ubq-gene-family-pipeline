@@ -1,0 +1,181 @@
+ID	reason	top1_stitle
+DhA01G012220.1	not_in_final_set	sp|Q8YZH7|DER_NOSS1 GTPase Der OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=der PE=3 SV=1
+DhA01G012360.1	not_in_final_set	sp|Q8YZH7|DER_NOSS1 GTPase Der OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=der PE=3 SV=1
+DhA02G006760.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhA02G009830.1	not_in_final_set	sp|O07631|BIPA_BACSU Large ribosomal subunit assembly factor BipA OS=Bacillus subtilis (strain 168) OX=224308 GN=bipA PE=2 SV=1
+DhA02G017080.1	not_in_final_set	sp|Q8YZH7|DER_NOSS1 GTPase Der OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=der PE=3 SV=1
+DhA02G020380.1	not_in_final_set	sp|Q8YZH7|DER_NOSS1 GTPase Der OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=der PE=3 SV=1
+DhA02G025450.1	not_in_final_set	sp|O24461|RAB7_PRUAR Ras-related protein Rab7 OS=Prunus armeniaca OX=36596 PE=2 SV=1
+DhA03G006520.1	not_in_final_set	sp|O24461|RAB7_PRUAR Ras-related protein Rab7 OS=Prunus armeniaca OX=36596 PE=2 SV=1
+DhA03G014120.1	not_in_final_set	sp|P40392|RIC1_ORYSJ Ras-related protein RIC1 OS=Oryza sativa subsp. japonica OX=39947 GN=RIC1 PE=2 SV=2
+DhA03G020960.1	not_in_final_set	sp|Q40787|RAB7_CENCI Ras-related protein Rab7 OS=Cenchrus ciliaris OX=35872 PE=2 SV=1
+DhA03G021090.1	not_in_final_set	sp|O07631|BIPA_BACSU Large ribosomal subunit assembly factor BipA OS=Bacillus subtilis (strain 168) OX=224308 GN=bipA PE=2 SV=1
+DhA03G024630.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhA04G005250.1	not_in_final_set	sp|Q8IYD1|ERF3B_HUMAN Eukaryotic peptide chain release factor GTP-binding subunit ERF3B OS=Homo sapiens OX=9606 GN=GSPT2 PE=1 SV=2
+DhA04G017060.1	not_in_final_set	sp|I1K0K6|EFGC2_SOYBN Elongation factor G-2, chloroplastic OS=Glycine max OX=3847 GN=fusA2 PE=3 SV=1
+DhA04G019880.1	not_in_final_set	sp|Q9Y450|HBS1L_HUMAN HBS1-like protein OS=Homo sapiens OX=9606 GN=HBS1L PE=1 SV=1
+DhA05G000600.1	not_in_final_set	sp|Q9ZT91|EFTM_ARATH Elongation factor Tu, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhA05G001820.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhA05G016170.1	not_in_final_set	sp|Q8W586|QQT2_ARATH GPN-loop GTPase QQT2 OS=Arabidopsis thaliana OX=3702 GN=QQT2 PE=1 SV=1
+DhA05G021720.1	not_in_final_set	sp|Q8VY57|ARL8A_ARATH ADP-ribosylation factor-like protein 8a OS=Arabidopsis thaliana OX=3702 GN=ARL8A PE=2 SV=1
+DhA06G008820.1	not_in_final_set	sp|Q05737|YPTM2_MAIZE GTP-binding protein YPTM2 OS=Zea mays OX=4577 GN=YPTM2 PE=2 SV=1
+DhA06G011270.1	not_in_final_set	sp|P46280|EFTU2_SOYBN Elongation factor Tu, chloroplastic OS=Glycine max OX=3847 GN=TUFB1 PE=3 SV=1
+DhA06G014020.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhA07G000660.1	not_in_final_set	sp|Q9ZT91|EFTM_ARATH Elongation factor Tu, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhA07G021000.1	not_in_final_set	sp|O80501|RAH1B_ARATH Ras-related protein RABH1b OS=Arabidopsis thaliana OX=3702 GN=RABH1B PE=1 SV=1
+DhA08G015290.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhA08G016820.1	not_in_final_set	sp|Q8R050|ERF3A_MOUSE Eukaryotic peptide chain release factor GTP-binding subunit ERF3A OS=Mus musculus OX=10090 GN=Gspt1 PE=1 SV=2
+DhA08G018520.1	not_in_final_set	sp|F4K410|SVR3_ARATH Putative elongation factor TypA-like SVR3, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=SVR3 PE=1 SV=1
+DhA08G024150.1	not_in_final_set	sp|B9F2U5|GUFP_ORYSJ Translation factor GUF1 homolog, chloroplastic OS=Oryza sativa subsp. japonica OX=39947 GN=Os02g0157700 PE=3 SV=1
+DhA09G009720.1	not_in_final_set	sp|Q9SHI1|IF2C_ARATH Translation initiation factor IF-2, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At1g17220 PE=2 SV=2
+DhA09G015800.1	not_in_final_set	sp|Q54XX1|SRPRB_DICDI Signal recognition particle receptor subunit beta OS=Dictyostelium discoideum OX=44689 GN=srprb PE=3 SV=1
+DhA10G004110.1	not_in_final_set	sp|Q9LNC5|CLO_ARATH 110 kDa U5 small nuclear ribonucleoprotein component CLO OS=Arabidopsis thaliana OX=3702 GN=CLO PE=1 SV=1
+DhA10G005170.1	not_in_final_set	sp|A7HZ93|IF2_PARL1 Translation initiation factor IF-2 OS=Parvibaculum lavamentivorans (strain DS-1 / DSM 13023 / NCIMB 13966) OX=402881 GN=infB PE=3 SV=1
+DhA10G008540.1	not_in_final_set	sp|O80501|RAH1B_ARATH Ras-related protein RABH1b OS=Arabidopsis thaliana OX=3702 GN=RABH1B PE=1 SV=1
+DhA10G009050.1	not_in_final_set	sp|Q93Y31|ARL8B_ARATH ADP-ribosylation factor-like protein 8b OS=Arabidopsis thaliana OX=3702 GN=ARL8B PE=2 SV=1
+DhA11G000910.1	blast_nohit	NA
+DhA11G004560.1	not_in_final_set	sp|Q9Y450|HBS1L_HUMAN HBS1-like protein OS=Homo sapiens OX=9606 GN=HBS1L PE=1 SV=1
+DhA11G011160.1	not_in_final_set	sp|P16976|YPTM1_MAIZE GTP-binding protein YPTM1 OS=Zea mays OX=4577 GN=YPTM1 PE=2 SV=2
+DhA12G007870.1	not_in_final_set	sp|A7HYV8|DER_PARL1 GTPase Der OS=Parvibaculum lavamentivorans (strain DS-1 / DSM 13023 / NCIMB 13966) OX=402881 GN=der PE=3 SV=1
+DhA12G011190.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhA12G014750.1	not_in_final_set	sp|Q40787|RAB7_CENCI Ras-related protein Rab7 OS=Cenchrus ciliaris OX=35872 PE=2 SV=1
+DhA12G015250.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhA12G018840.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhA12G020210.1	not_in_final_set	sp|P40392|RIC1_ORYSJ Ras-related protein RIC1 OS=Oryza sativa subsp. japonica OX=39947 GN=RIC1 PE=2 SV=2
+DhA13G000890.1	not_in_final_set	sp|Q5R6Y0|HBS1L_PONAB HBS1-like protein OS=Pongo abelii OX=9601 GN=HBS1L PE=2 SV=1
+DhA13G004660.1	not_in_final_set	sp|P20973|UBE11_WHEAT Ubiquitin-activating enzyme E1 1 OS=Triticum aestivum OX=4565 GN=UBA1 PE=1 SV=1
+DhA13G006480.1	not_in_final_set	sp|Q05737|YPTM2_MAIZE GTP-binding protein YPTM2 OS=Zea mays OX=4577 GN=YPTM2 PE=2 SV=1
+DhA13G006840.1	not_in_final_set	sp|P34811|EFGC1_SOYBN Elongation factor G-1, chloroplastic OS=Glycine max OX=3847 GN=fusA1 PE=3 SV=2
+DhA13G010770.1	not_in_final_set	sp|P16976|YPTM1_MAIZE GTP-binding protein YPTM1 OS=Zea mays OX=4577 GN=YPTM1 PE=2 SV=2
+DhA13G014630.1	not_in_final_set	sp|Q8R050|ERF3A_MOUSE Eukaryotic peptide chain release factor GTP-binding subunit ERF3A OS=Mus musculus OX=10090 GN=Gspt1 PE=1 SV=2
+DhA14G008760.1	not_in_final_set	sp|Q9FE64|EFGM_ORYSJ Elongation factor G, mitochondrial OS=Oryza sativa subsp. japonica OX=39947 GN=Os03g0565500 PE=2 SV=2
+DhA14G012760.1	not_in_final_set	sp|Q9LNC5|CLO_ARATH 110 kDa U5 small nuclear ribonucleoprotein component CLO OS=Arabidopsis thaliana OX=3702 GN=CLO PE=1 SV=1
+DhA15G000370.1	not_in_final_set	sp|Q10251|IF2P_SCHPO Eukaryotic translation initiation factor 5B OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC56F8.03 PE=1 SV=1
+DhA15G002910.1	not_in_final_set	sp|Q40787|RAB7_CENCI Ras-related protein Rab7 OS=Cenchrus ciliaris OX=35872 PE=2 SV=1
+DhA15G017320.1	not_in_final_set	sp|P16976|YPTM1_MAIZE GTP-binding protein YPTM1 OS=Zea mays OX=4577 GN=YPTM1 PE=2 SV=2
+DhA16G006640.1	not_in_final_set	sp|A7HZ93|IF2_PARL1 Translation initiation factor IF-2 OS=Parvibaculum lavamentivorans (strain DS-1 / DSM 13023 / NCIMB 13966) OX=402881 GN=infB PE=3 SV=1
+DhA16G006800.1	not_in_final_set	sp|A7HZ93|IF2_PARL1 Translation initiation factor IF-2 OS=Parvibaculum lavamentivorans (strain DS-1 / DSM 13023 / NCIMB 13966) OX=402881 GN=infB PE=3 SV=1
+DhA16G008740.1	not_in_final_set	sp|Q9FE64|EFGM_ORYSJ Elongation factor G, mitochondrial OS=Oryza sativa subsp. japonica OX=39947 GN=Os03g0565500 PE=2 SV=2
+DhA17G006320.1	not_in_final_set	sp|Q8YZH7|DER_NOSS1 GTPase Der OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=der PE=3 SV=1
+DhA18G008870.1	not_in_final_set	sp|Q05737|YPTM2_MAIZE GTP-binding protein YPTM2 OS=Zea mays OX=4577 GN=YPTM2 PE=2 SV=1
+DhA18G011130.1	not_in_final_set	sp|P46280|EFTU2_SOYBN Elongation factor Tu, chloroplastic OS=Glycine max OX=3847 GN=TUFB1 PE=3 SV=1
+DhA18G013560.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhA19G007830.1	not_in_final_set	sp|O80501|RAH1B_ARATH Ras-related protein RABH1b OS=Arabidopsis thaliana OX=3702 GN=RABH1B PE=1 SV=1
+DhA19G007880.1	not_in_final_set	sp|Q05737|YPTM2_MAIZE GTP-binding protein YPTM2 OS=Zea mays OX=4577 GN=YPTM2 PE=2 SV=1
+DhA20G005260.1	not_in_final_set	sp|O24466|RAE1A_ARATH Ras-related protein RABE1a OS=Arabidopsis thaliana OX=3702 GN=RABE1A PE=1 SV=1
+DhA20G008230.1	not_in_final_set	sp|Q05737|YPTM2_MAIZE GTP-binding protein YPTM2 OS=Zea mays OX=4577 GN=YPTM2 PE=2 SV=1
+DhA20G008330.1	not_in_final_set	sp|O80501|RAH1B_ARATH Ras-related protein RABH1b OS=Arabidopsis thaliana OX=3702 GN=RABH1B PE=1 SV=1
+DhA21G002440.1	not_in_final_set	sp|Q54XX1|SRPRB_DICDI Signal recognition particle receptor subunit beta OS=Dictyostelium discoideum OX=44689 GN=srprb PE=3 SV=1
+DhA21G008630.1	not_in_final_set	sp|Q9SHI1|IF2C_ARATH Translation initiation factor IF-2, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At1g17220 PE=2 SV=2
+DhA22G007300.1	not_in_final_set	sp|C5Z3W1|GUF1_SORBI Translation factor GUF1 homolog, mitochondrial OS=Sorghum bicolor OX=4558 GN=Sb10g003070 PE=3 SV=1
+DhA22G012580.1	not_in_final_set	sp|O74945|RIA1_SCHPO Ribosome assembly protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=ria1 PE=3 SV=1
+DhA22G018740.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhA23G000360.1	not_in_final_set	sp|Q10251|IF2P_SCHPO Eukaryotic translation initiation factor 5B OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC56F8.03 PE=1 SV=1
+DhA23G003880.1	not_in_final_set	sp|Q40787|RAB7_CENCI Ras-related protein Rab7 OS=Cenchrus ciliaris OX=35872 PE=2 SV=1
+DhA23G006410.1	not_in_final_set	sp|O24466|RAE1A_ARATH Ras-related protein RABE1a OS=Arabidopsis thaliana OX=3702 GN=RABE1A PE=1 SV=1
+DhA23G009100.1	not_in_final_set	sp|Q1KPV0|FZL_ARATH Probable transmembrane GTPase FZO-like, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=FZL PE=1 SV=1
+DhA23G016550.1	not_in_final_set	sp|P16976|YPTM1_MAIZE GTP-binding protein YPTM1 OS=Zea mays OX=4577 GN=YPTM1 PE=2 SV=2
+DhA25G007100.1	not_in_final_set	sp|O80501|RAH1B_ARATH Ras-related protein RABH1b OS=Arabidopsis thaliana OX=3702 GN=RABH1B PE=1 SV=1
+DhA25G010340.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhA25G011350.1	not_in_final_set	sp|O24466|RAE1A_ARATH Ras-related protein RABE1a OS=Arabidopsis thaliana OX=3702 GN=RABE1A PE=1 SV=1
+DhA27G002910.1	not_in_final_set	sp|Q24208|IF2G_DROME Eukaryotic translation initiation factor 2 subunit 3 OS=Drosophila melanogaster OX=7227 GN=eIF2gamma PE=2 SV=1
+DhA28G000900.1	not_in_final_set	sp|Q8R050|ERF3A_MOUSE Eukaryotic peptide chain release factor GTP-binding subunit ERF3A OS=Mus musculus OX=10090 GN=Gspt1 PE=1 SV=2
+DhA29G011530.1	not_in_final_set	sp|Q24208|IF2G_DROME Eukaryotic translation initiation factor 2 subunit 3 OS=Drosophila melanogaster OX=7227 GN=eIF2gamma PE=2 SV=1
+DhA30G005380.1	not_in_final_set	sp|P35282|RAB21_MOUSE Ras-related protein Rab-21 OS=Mus musculus OX=10090 GN=Rab21 PE=1 SV=4
+DhA30G006410.1	not_in_final_set	sp|Q1KPV0|FZL_ARATH Probable transmembrane GTPase FZO-like, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=FZL PE=1 SV=1
+DhA30G008790.1	not_in_final_set	sp|O24466|RAE1A_ARATH Ras-related protein RABE1a OS=Arabidopsis thaliana OX=3702 GN=RABE1A PE=1 SV=1
+DhA30G010920.1	not_in_final_set	sp|Q40787|RAB7_CENCI Ras-related protein Rab7 OS=Cenchrus ciliaris OX=35872 PE=2 SV=1
+DhA32G007010.1	not_in_final_set	sp|O49841|RAC2A_ARATH Ras-related protein RABC2a OS=Arabidopsis thaliana OX=3702 GN=RABC2A PE=1 SV=1
+DhA32G008340.1	not_in_final_set	sp|Q8VY57|ARL8A_ARATH ADP-ribosylation factor-like protein 8a OS=Arabidopsis thaliana OX=3702 GN=ARL8A PE=2 SV=1
+DhA33G007930.1	not_in_final_set	sp|C9WPN6|IF2H_RAT Eukaryotic translation initiation factor 2 subunit 3, Y-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3y PE=2 SV=2
+DhA35G003800.1	not_in_final_set	sp|P39730|IF2P_YEAST Eukaryotic translation initiation factor 5B OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=FUN12 PE=1 SV=2
+DhA35G007750.1	not_in_final_set	sp|Q24208|IF2G_DROME Eukaryotic translation initiation factor 2 subunit 3 OS=Drosophila melanogaster OX=7227 GN=eIF2gamma PE=2 SV=1
+DhB01G009010.1	not_in_final_set	sp|Q8YZH7|DER_NOSS1 GTPase Der OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=der PE=3 SV=1
+DhB02G009940.1	not_in_final_set	sp|O07631|BIPA_BACSU Large ribosomal subunit assembly factor BipA OS=Bacillus subtilis (strain 168) OX=224308 GN=bipA PE=2 SV=1
+DhB02G010040.1	not_in_final_set	sp|Q40787|RAB7_CENCI Ras-related protein Rab7 OS=Cenchrus ciliaris OX=35872 PE=2 SV=1
+DhB02G014530.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhB02G024850.1	not_in_final_set	sp|O24461|RAB7_PRUAR Ras-related protein Rab7 OS=Prunus armeniaca OX=36596 PE=2 SV=1
+DhB03G003700.1	not_in_final_set	sp|O24461|RAB7_PRUAR Ras-related protein Rab7 OS=Prunus armeniaca OX=36596 PE=2 SV=1
+DhB03G007680.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhB03G011040.1	not_in_final_set	sp|P40392|RIC1_ORYSJ Ras-related protein RIC1 OS=Oryza sativa subsp. japonica OX=39947 GN=RIC1 PE=2 SV=2
+DhB03G014260.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhB03G018450.1	not_in_final_set	sp|Q40787|RAB7_CENCI Ras-related protein Rab7 OS=Cenchrus ciliaris OX=35872 PE=2 SV=1
+DhB03G018560.1	not_in_final_set	sp|O07631|BIPA_BACSU Large ribosomal subunit assembly factor BipA OS=Bacillus subtilis (strain 168) OX=224308 GN=bipA PE=2 SV=1
+DhB03G022180.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhB04G004660.1	not_in_final_set	sp|Q8IYD1|ERF3B_HUMAN Eukaryotic peptide chain release factor GTP-binding subunit ERF3B OS=Homo sapiens OX=9606 GN=GSPT2 PE=1 SV=2
+DhB04G016440.1	not_in_final_set	sp|I1K0K6|EFGC2_SOYBN Elongation factor G-2, chloroplastic OS=Glycine max OX=3847 GN=fusA2 PE=3 SV=1
+DhB04G019200.1	not_in_final_set	sp|Q9Y450|HBS1L_HUMAN HBS1-like protein OS=Homo sapiens OX=9606 GN=HBS1L PE=1 SV=1
+DhB04G024080.1	not_in_final_set	sp|O29325|EF1A_ARCFU Elongation factor 1-alpha OS=Archaeoglobus fulgidus (strain ATCC 49558 / DSM 4304 / JCM 9628 / NBRC 100126 / VC-16) OX=224325 GN=tuf PE=3 SV=1
+DhB05G000580.1	not_in_final_set	sp|Q9ZT91|EFTM_ARATH Elongation factor Tu, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhB05G001920.1	not_in_final_set	sp|Q39433|RB1BV_BETVU Ras-related protein RAB1BV OS=Beta vulgaris OX=161934 GN=RAB1BV PE=2 SV=1
+DhB05G016470.1	not_in_final_set	sp|Q8W586|QQT2_ARATH GPN-loop GTPase QQT2 OS=Arabidopsis thaliana OX=3702 GN=QQT2 PE=1 SV=1
+DhB05G022060.1	not_in_final_set	sp|Q8VY57|ARL8A_ARATH ADP-ribosylation factor-like protein 8a OS=Arabidopsis thaliana OX=3702 GN=ARL8A PE=2 SV=1
+DhB06G011650.1	not_in_final_set	sp|P46280|EFTU2_SOYBN Elongation factor Tu, chloroplastic OS=Glycine max OX=3847 GN=TUFB1 PE=3 SV=1
+DhB06G014310.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhB07G000620.1	not_in_final_set	sp|Q9ZT91|EFTM_ARATH Elongation factor Tu, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhB07G010560.1	not_in_final_set	sp|Q8YZH7|DER_NOSS1 GTPase Der OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=der PE=3 SV=1
+DhB07G021490.1	not_in_final_set	sp|O80501|RAH1B_ARATH Ras-related protein RABH1b OS=Arabidopsis thaliana OX=3702 GN=RABH1B PE=1 SV=1
+DhB08G014900.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhB08G016410.1	not_in_final_set	sp|Q8R050|ERF3A_MOUSE Eukaryotic peptide chain release factor GTP-binding subunit ERF3A OS=Mus musculus OX=10090 GN=Gspt1 PE=1 SV=2
+DhB08G017910.1	not_in_final_set	sp|F4K410|SVR3_ARATH Putative elongation factor TypA-like SVR3, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=SVR3 PE=1 SV=1
+DhB08G023420.1	not_in_final_set	sp|B9F2U5|GUFP_ORYSJ Translation factor GUF1 homolog, chloroplastic OS=Oryza sativa subsp. japonica OX=39947 GN=Os02g0157700 PE=3 SV=1
+DhB09G007740.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhB09G009270.1	not_in_final_set	sp|Q9SHI1|IF2C_ARATH Translation initiation factor IF-2, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At1g17220 PE=2 SV=2
+DhB09G015430.1	not_in_final_set	sp|Q54XX1|SRPRB_DICDI Signal recognition particle receptor subunit beta OS=Dictyostelium discoideum OX=44689 GN=srprb PE=3 SV=1
+DhB10G004120.1	not_in_final_set	sp|Q9LNC5|CLO_ARATH 110 kDa U5 small nuclear ribonucleoprotein component CLO OS=Arabidopsis thaliana OX=3702 GN=CLO PE=1 SV=1
+DhB10G008270.1	not_in_final_set	sp|O80501|RAH1B_ARATH Ras-related protein RABH1b OS=Arabidopsis thaliana OX=3702 GN=RABH1B PE=1 SV=1
+DhB11G000950.1	not_in_final_set	sp|Q5R6Y0|HBS1L_PONAB HBS1-like protein OS=Pongo abelii OX=9601 GN=HBS1L PE=2 SV=1
+DhB11G004450.1	not_in_final_set	sp|Q9Y450|HBS1L_HUMAN HBS1-like protein OS=Homo sapiens OX=9606 GN=HBS1L PE=1 SV=1
+DhB11G011010.1	not_in_final_set	sp|P16976|YPTM1_MAIZE GTP-binding protein YPTM1 OS=Zea mays OX=4577 GN=YPTM1 PE=2 SV=2
+DhB12G008020.1	not_in_final_set	sp|A7HYV8|DER_PARL1 GTPase Der OS=Parvibaculum lavamentivorans (strain DS-1 / DSM 13023 / NCIMB 13966) OX=402881 GN=der PE=3 SV=1
+DhB12G011440.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhB12G015100.1	not_in_final_set	sp|Q40787|RAB7_CENCI Ras-related protein Rab7 OS=Cenchrus ciliaris OX=35872 PE=2 SV=1
+DhB12G019230.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhB12G021780.1	not_in_final_set	sp|P40392|RIC1_ORYSJ Ras-related protein RIC1 OS=Oryza sativa subsp. japonica OX=39947 GN=RIC1 PE=2 SV=2
+DhB13G000940.1	not_in_final_set	sp|Q5R6Y0|HBS1L_PONAB HBS1-like protein OS=Pongo abelii OX=9601 GN=HBS1L PE=2 SV=1
+DhB13G006670.1	not_in_final_set	sp|Q05737|YPTM2_MAIZE GTP-binding protein YPTM2 OS=Zea mays OX=4577 GN=YPTM2 PE=2 SV=1
+DhB13G007110.1	not_in_final_set	sp|P34811|EFGC1_SOYBN Elongation factor G-1, chloroplastic OS=Glycine max OX=3847 GN=fusA1 PE=3 SV=2
+DhB13G011380.1	not_in_final_set	sp|P16976|YPTM1_MAIZE GTP-binding protein YPTM1 OS=Zea mays OX=4577 GN=YPTM1 PE=2 SV=2
+DhB13G015270.1	not_in_final_set	sp|Q8IYD1|ERF3B_HUMAN Eukaryotic peptide chain release factor GTP-binding subunit ERF3B OS=Homo sapiens OX=9606 GN=GSPT2 PE=1 SV=2
+DhB14G008350.1	not_in_final_set	sp|Q9FE64|EFGM_ORYSJ Elongation factor G, mitochondrial OS=Oryza sativa subsp. japonica OX=39947 GN=Os03g0565500 PE=2 SV=2
+DhB14G012290.1	not_in_final_set	sp|Q9LNC5|CLO_ARATH 110 kDa U5 small nuclear ribonucleoprotein component CLO OS=Arabidopsis thaliana OX=3702 GN=CLO PE=1 SV=1
+DhB15G000360.1	not_in_final_set	sp|Q10251|IF2P_SCHPO Eukaryotic translation initiation factor 5B OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC56F8.03 PE=1 SV=1
+DhB16G006450.1	not_in_final_set	sp|A7HZ93|IF2_PARL1 Translation initiation factor IF-2 OS=Parvibaculum lavamentivorans (strain DS-1 / DSM 13023 / NCIMB 13966) OX=402881 GN=infB PE=3 SV=1
+DhB16G006600.1	not_in_final_set	sp|A7HZ93|IF2_PARL1 Translation initiation factor IF-2 OS=Parvibaculum lavamentivorans (strain DS-1 / DSM 13023 / NCIMB 13966) OX=402881 GN=infB PE=3 SV=1
+DhB16G008550.1	not_in_final_set	sp|Q9FE64|EFGM_ORYSJ Elongation factor G, mitochondrial OS=Oryza sativa subsp. japonica OX=39947 GN=Os03g0565500 PE=2 SV=2
+DhB17G013350.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhB18G000180.1	not_in_final_set	sp|Q6YZX6|ACOHC_ORYSJ Putative aconitate hydratase, cytoplasmic OS=Oryza sativa subsp. japonica OX=39947 GN=Os08g0191100 PE=3 SV=1
+DhB18G009870.1	not_in_final_set	sp|Q9ASR1|EF2_ARATH Elongation factor 2 OS=Arabidopsis thaliana OX=3702 GN=LOS1 PE=1 SV=1
+DhB19G007690.1	not_in_final_set	sp|O80501|RAH1B_ARATH Ras-related protein RABH1b OS=Arabidopsis thaliana OX=3702 GN=RABH1B PE=1 SV=1
+DhB19G007780.1	not_in_final_set	sp|Q05737|YPTM2_MAIZE GTP-binding protein YPTM2 OS=Zea mays OX=4577 GN=YPTM2 PE=2 SV=1
+DhB19G011700.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhB19G011720.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhB20G004780.1	not_in_final_set	sp|O24466|RAE1A_ARATH Ras-related protein RABE1a OS=Arabidopsis thaliana OX=3702 GN=RABE1A PE=1 SV=1
+DhB20G007540.1	not_in_final_set	sp|Q05737|YPTM2_MAIZE GTP-binding protein YPTM2 OS=Zea mays OX=4577 GN=YPTM2 PE=2 SV=1
+DhB20G007620.1	not_in_final_set	sp|O80501|RAH1B_ARATH Ras-related protein RABH1b OS=Arabidopsis thaliana OX=3702 GN=RABH1B PE=1 SV=1
+DhB21G002880.1	not_in_final_set	sp|Q54XX1|SRPRB_DICDI Signal recognition particle receptor subunit beta OS=Dictyostelium discoideum OX=44689 GN=srprb PE=3 SV=1
+DhB21G009350.1	not_in_final_set	sp|Q9SHI1|IF2C_ARATH Translation initiation factor IF-2, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At1g17220 PE=2 SV=2
+DhB22G006710.1	not_in_final_set	sp|C5Z3W1|GUF1_SORBI Translation factor GUF1 homolog, mitochondrial OS=Sorghum bicolor OX=4558 GN=Sb10g003070 PE=3 SV=1
+DhB22G011870.1	not_in_final_set	sp|O74945|RIA1_SCHPO Ribosome assembly protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=ria1 PE=3 SV=1
+DhB22G018100.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhB23G000360.1	not_in_final_set	sp|Q10251|IF2P_SCHPO Eukaryotic translation initiation factor 5B OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC56F8.03 PE=1 SV=1
+DhB23G003740.1	not_in_final_set	sp|Q40787|RAB7_CENCI Ras-related protein Rab7 OS=Cenchrus ciliaris OX=35872 PE=2 SV=1
+DhB23G006290.1	not_in_final_set	sp|Q39433|RB1BV_BETVU Ras-related protein RAB1BV OS=Beta vulgaris OX=161934 GN=RAB1BV PE=2 SV=1
+DhB23G008920.1	not_in_final_set	sp|Q1KPV0|FZL_ARATH Probable transmembrane GTPase FZO-like, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=FZL PE=1 SV=1
+DhB23G016610.1	not_in_final_set	sp|P16976|YPTM1_MAIZE GTP-binding protein YPTM1 OS=Zea mays OX=4577 GN=YPTM1 PE=2 SV=2
+DhB25G007400.1	not_in_final_set	sp|O80501|RAH1B_ARATH Ras-related protein RABH1b OS=Arabidopsis thaliana OX=3702 GN=RABH1B PE=1 SV=1
+DhB25G010570.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhB27G002990.1	not_in_final_set	sp|Q24208|IF2G_DROME Eukaryotic translation initiation factor 2 subunit 3 OS=Drosophila melanogaster OX=7227 GN=eIF2gamma PE=2 SV=1
+DhB28G000840.1	not_in_final_set	sp|Q8R050|ERF3A_MOUSE Eukaryotic peptide chain release factor GTP-binding subunit ERF3A OS=Mus musculus OX=10090 GN=Gspt1 PE=1 SV=2
+DhB29G011760.1	not_in_final_set	sp|Q24208|IF2G_DROME Eukaryotic translation initiation factor 2 subunit 3 OS=Drosophila melanogaster OX=7227 GN=eIF2gamma PE=2 SV=1
+DhB30G005430.1	not_in_final_set	sp|P35282|RAB21_MOUSE Ras-related protein Rab-21 OS=Mus musculus OX=10090 GN=Rab21 PE=1 SV=4
+DhB30G006420.1	not_in_final_set	sp|Q1KPV0|FZL_ARATH Probable transmembrane GTPase FZO-like, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=FZL PE=1 SV=1
+DhB30G008590.1	not_in_final_set	sp|P28186|RAE1C_ARATH Ras-related protein RABE1c OS=Arabidopsis thaliana OX=3702 GN=RABE1C PE=1 SV=1
+DhB30G010760.1	not_in_final_set	sp|Q40787|RAB7_CENCI Ras-related protein Rab7 OS=Cenchrus ciliaris OX=35872 PE=2 SV=1
+DhB30G011560.1	not_in_final_set	sp|Q41640|RAB7_VIGAC Ras-related protein Rab7 OS=Vigna aconitifolia OX=3918 PE=2 SV=1
+DhB31G005320.1	not_in_final_set	sp|Q9ZT91|EFTM_ARATH Elongation factor Tu, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=TUFA PE=1 SV=1
+DhB32G006950.1	not_in_final_set	sp|O49841|RAC2A_ARATH Ras-related protein RABC2a OS=Arabidopsis thaliana OX=3702 GN=RABC2A PE=1 SV=1
+DhB32G008340.1	not_in_final_set	sp|Q8VY57|ARL8A_ARATH ADP-ribosylation factor-like protein 8a OS=Arabidopsis thaliana OX=3702 GN=ARL8A PE=2 SV=1
+DhB33G007710.1	not_in_final_set	sp|C9WPN6|IF2H_RAT Eukaryotic translation initiation factor 2 subunit 3, Y-linked OS=Rattus norvegicus OX=10116 GN=Eif2s3y PE=2 SV=2
+DhB35G003680.1	not_in_final_set	sp|Q10251|IF2P_SCHPO Eukaryotic translation initiation factor 5B OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC56F8.03 PE=1 SV=1
+DhB35G007480.1	not_in_final_set	sp|Q24208|IF2G_DROME Eukaryotic translation initiation factor 2 subunit 3 OS=Drosophila melanogaster OX=7227 GN=eIF2gamma PE=2 SV=1

@@ -1,31 +1,16 @@
 UBQ QC (standardized v2)
-Candidates (PF00240): 220
-poly_merged (repeat>=2): 45
-keep_ribofusion (strict): 5
-nohit (repeat1): 14
-Final ALL: 50
-Excluded final: 170
+Candidates: 220
+High_conf: 50
+Rescue: 0
+Final total: 50
+NoHit: 14
+Excluded: 170
 
-[QC] final_all ∩ excluded_final (must be 0):
+Polyubiquitin repeat>=2: 45
+Repeat1 keep polyubq: 5
+
+[QC] high_conf ∩ rescue (must be 0):
 0
 
-[QC] poly_merged - final_all (should be 0):
+[QC] final_union ∩ excluded (must be 0):
 0
-
-Top1 titles (keep_ribofusion; top 10):
-      2 sp|P62976|UBIQP_CRIGR Polyubiquitin
-      1 sp|Q1EC66|UBQ3_ARATH Polyubiquitin 3
-      1 sp|P0CG84|UBI4P_NICSY Polyubiquitin (Fragment)
-      1 sp|P0CG83|UBIQP_HORVU Polyubiquitin (Fragment)
-
-Top1 titles (excluded_final; top 10):
-     20 sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1
-     16 sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23
-     12 sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b
-     11 sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73
-      9 sp|Q9FGZ9|UBL5_ARATH Ubiquitin-like protein 5
-      9 sp|P55857|SUMO1_ORYSJ Small ubiquitin-related modifier 1
-      8 sp|P0CH35|RL40B_ORYSJ Ubiquitin-ribosomal protein eL40y fusion protein
-      7 sp|P0CG86|RS271_HORVU Ubiquitin-ribosomal protein eS31z fusion protein
-      6 sp|Q1EBV4|DDI1_ARATH Protein DNA-DAMAGE INDUCIBLE 1
-      4 sp|Q9LYP4|BAG3_ARATH BAG family molecular chaperone regulator 3

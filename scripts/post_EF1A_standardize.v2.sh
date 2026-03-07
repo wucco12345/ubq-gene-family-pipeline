@@ -5,59 +5,71 @@ F="EF1A"
 D="results/${F}"
 PROTEOME="inputs/proteome.fa"
 
-TOP1="${D}/evidence/${F}_blast_top1.tsv"
-CAND_RAW="${D}/${F}_candidates.id"
 HIGH_ID="${D}/${F}_high_conf.id"
 RESC_ID="${D}/${F}_rescue.id"
+NOHIT_ID="${D}/${F}_nohit.id"
+TOP1="${D}/evidence/${F}_blast_top1.tsv"
 
-for f in "$PROTEOME" "$CAND_RAW" "$HIGH_ID" "$RESC_ID"; do
-  test -s "$f" || { echo "[ERROR] missing/empty: $f"; exit 1; }
+for f in "$HIGH_ID" "$RESC_ID" "$NOHIT_ID" "$PROTEOME"; do
+  test -f "$f" || { echo "[ERROR] missing file: $f"; exit 1; }
 done
-test -s "$TOP1" || echo "[WARN] missing/empty (ok but less traceability): $TOP1"
 
-# ---------- 0) universe ----------
-LC_ALL=C sort -u "$CAND_RAW" > "${D}/${F}_candidates.sorted.id"
-
-# ---------- 1) final_all = high_conf + rescue ----------
-cat "$HIGH_ID" "$RESC_ID" | LC_ALL=C sort -u > "${D}/${F}_final_all.id"
-
-# ---------- 2) excluded_final = candidates - final_all ----------
-comm -23 "${D}/${F}_candidates.sorted.id" <(LC_ALL=C sort -u "${D}/${F}_final_all.id") \
-  > "${D}/${F}_excluded_final.id"
-
-# ---------- 3) evidence (top1) ----------
-if test -s "$TOP1"; then
-  grep -Ff "${D}/${F}_final_all.id" "$TOP1" > "${D}/${F}_final_all.top1.tsv" || true
-  grep -Ff "${D}/${F}_excluded_final.id" "$TOP1" > "${D}/${F}_excluded_final.top1.tsv" || true
+if test -f "${D}/${F}_candidates.id"; then
+  LC_ALL=C sort -u "${D}/${F}_candidates.id" > "${D}/${F}_candidates.sorted.id"
+elif test -f "${D}/${F}_candidates.sorted.id"; then
+  LC_ALL=C sort -u "${D}/${F}_candidates.sorted.id" > "${D}/${F}_candidates.sorted.id.tmp"
+  mv "${D}/${F}_candidates.sorted.id.tmp" "${D}/${F}_candidates.sorted.id"
+else
+  echo "[ERROR] missing candidate id file"
+  exit 1
 fi
 
-# ---------- 4) extract FASTA ----------
+LC_ALL=C sort -u "$HIGH_ID" > "${D}/${F}_high_conf.sorted.id"
+LC_ALL=C sort -u "$RESC_ID" > "${D}/${F}_rescue.sorted.id"
+LC_ALL=C sort -u "$NOHIT_ID" > "${D}/${F}_nohit.sorted.id"
 
-awk -v IDS="${D}/${F}_final_all.id" -f scripts/lib/extract_by_id.awk "$PROTEOME" > "${D}/${F}_final_all.fa"
-awk -v IDS="${D}/${F}_excluded_final.id" -f scripts/lib/extract_by_id.awk "$PROTEOME" > "${D}/${F}_excluded_final.fa"
+cat "${D}/${F}_high_conf.sorted.id" "${D}/${F}_rescue.sorted.id" | LC_ALL=C sort -u > "${D}/${F}_final_union.id"
 
-# ---------- 5) QC ----------
+comm -23 "${D}/${F}_candidates.sorted.id" "${D}/${F}_final_union.id" > "${D}/${F}_excluded.id"
+
+awk -v IDS="${D}/${F}_high_conf.sorted.id" -f scripts/lib/extract_by_id.awk "$PROTEOME" > "${D}/${F}_high_conf.fa"
+awk -v IDS="${D}/${F}_rescue.sorted.id" -f scripts/lib/extract_by_id.awk "$PROTEOME" > "${D}/${F}_rescue.fa"
+awk -v IDS="${D}/${F}_excluded.id" -f scripts/lib/extract_by_id.awk "$PROTEOME" > "${D}/${F}_excluded.fa"
+
+if test -s "$TOP1"; then
+  grep -Ff "${D}/${F}_high_conf.sorted.id" "$TOP1" > "${D}/${F}_high_conf.top1.tsv" || true
+  grep -Ff "${D}/${F}_rescue.sorted.id" "$TOP1" > "${D}/${F}_rescue.top1.tsv" || true
+  grep -Ff "${D}/${F}_excluded.id" "$TOP1" > "${D}/${F}_excluded.top1.tsv" || true
+fi
+
+{
+  echo -e "ID\treason\ttop1_stitle"
+  while read -r id; do
+    [ -z "$id" ] && continue
+    if grep -Fxq "$id" "${D}/${F}_nohit.sorted.id"; then
+      echo -e "${id}\tblast_nohit\tNA"
+    else
+      title=$(awk -F'\t' -v q="$id" '$1==q{print $7; exit}' "$TOP1" 2>/dev/null || true)
+      [ -z "${title:-}" ] && title="NA"
+      echo -e "${id}\tnot_in_final_set\t${title}"
+    fi
+  done < "${D}/${F}_excluded.id"
+} > "${D}/${F}_excluded.tsv"
+
 {
   echo "EF1A QC (standardized v2)"
-  echo "Candidates (PF00009): $(wc -l < "${D}/${F}_candidates.sorted.id")"
-  echo "High_conf: $(wc -l < "$HIGH_ID")"
-  echo "Rescue: $(wc -l < "$RESC_ID")"
-  echo "Final ALL: $(wc -l < "${D}/${F}_final_all.id")"
-  echo "Excluded final: $(wc -l < "${D}/${F}_excluded_final.id")"
-  echo ""
-  echo "[QC] final_all ∩ excluded_final (must be 0):"
-  comm -12 <(LC_ALL=C sort -u "${D}/${F}_final_all.id") <(LC_ALL=C sort -u "${D}/${F}_excluded_final.id") | wc -l
-  echo ""
-  if test -s "$TOP1"; then
-    echo "Top1 titles (final_all; top 10):"
-    cut -f7 "${D}/${F}_final_all.top1.tsv" 2>/dev/null | sed 's/ OS=.*//' | LC_ALL=C sort | uniq -c | sort -nr | head -n 10 || true
-    echo ""
-    echo "Top1 titles (excluded_final; top 10):"
-    cut -f7 "${D}/${F}_excluded_final.top1.tsv" 2>/dev/null | sed 's/ OS=.*//' | LC_ALL=C sort | uniq -c | sort -nr | head -n 10 || true
-  else
-    echo "[WARN] no top1 evidence file; only set arithmetic QC available."
-  fi
+  echo "Candidates: $(wc -l < "${D}/${F}_candidates.sorted.id")"
+  echo "High_conf: $(wc -l < "${D}/${F}_high_conf.sorted.id")"
+  echo "Rescue: $(wc -l < "${D}/${F}_rescue.sorted.id")"
+  echo "Final total: $(wc -l < "${D}/${F}_final_union.id")"
+  echo "NoHit: $(wc -l < "${D}/${F}_nohit.sorted.id")"
+  echo "Excluded: $(wc -l < "${D}/${F}_excluded.id")"
+  echo
+  echo "[QC] high_conf ∩ rescue (must be 0):"
+  comm -12 "${D}/${F}_high_conf.sorted.id" "${D}/${F}_rescue.sorted.id" | wc -l
+  echo
+  echo "[QC] final_union ∩ excluded (must be 0):"
+  comm -12 "${D}/${F}_final_union.id" "${D}/${F}_excluded.id" | wc -l
 } > "${D}/${F}_qc.txt"
 
-echo "[DONE] EF1A standardized v2 outputs:"
-ls -lh "${D}/${F}_final_all.id" "${D}/${F}_final_all.fa" "${D}/${F}_excluded_final.id" "${D}/${F}_excluded_final.fa" "${D}/${F}_qc.txt"
+echo "[DONE] standardized outputs in ${D}"
