@@ -1,0 +1,23 @@
+family: NAC
+
+pfam:
+  domain_re: 'PF02365'
+  ie_col: 9
+  protein_col: 3
+  ali_from_col: 12
+  ali_to_col: 13
+
+length:
+  high_min: 150
+  high_max: 800
+  rescue_min: 1
+  rescue_max: 2000
+
+blast:
+  task: blastp-fast
+  evalue: 1e-10
+
+rules:
+  keep_top1_re: '(NAC transcription factor|NAC domain-containing protein|NAC domain containing protein|NAM protein|NAM transcription factor|no apical meristem|ATAF|CUC|CUP-SHAPED COTYLEDON|JUNGBRUNNEN|JUB1|NAC[0-9]{2,3})'
+  rescue_top1_re: '(SOG1|SUPPRESSOR OF GAMMA RESPONSE 1|NTL|NTM1-like|FEZ|BEARSKIN|BRN2)'
+  remove_top1_re: '(transpos|retrotrans|helicase|kinase|ATPase|ribosomal|tubulin|actin|myosin|ABC transporter|PDR|disease resistance|LRR|NB-ARC|F-box|zinc finger protein(?!.*NAC)|WRKY|bZIP|MYB|bHLH)'

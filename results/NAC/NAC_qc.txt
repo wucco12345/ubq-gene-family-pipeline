@@ -1,0 +1,7 @@
+NAC QC (standardized v2)
+Candidates (PF02365): 581
+High_conf: 487
+Rescue: 44
+Final total: 531
+NoHit: 50
+Excluded: 50
