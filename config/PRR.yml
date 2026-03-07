@@ -1,0 +1,23 @@
+family: PRR
+
+pfam:
+  pf00072_re: '^PF00072'
+  pf06203_re: '^PF06203'
+  ie_col: 9
+  protein_col: 3
+  ali_from_col: 12
+  ali_to_col: 13
+
+length:
+  high_min: 450
+  high_max: 850
+  rescue_min: 150
+  rescue_max: 1000
+
+blast:
+  task: blastp-fast
+  evalue: 1e-10
+
+rules:
+  keep_top1_re: '(pseudo-response regulator|two-component response regulator-like prr|two-component response regulator-like aprr|\\bprr1\\b|\\bprr3\\b|\\bprr5\\b|\\bprr7\\b|\\bprr9\\b|\\bprr37\\b|\\bprr73\\b|\\bprr95\\b|\\baprr5\\b|\\baprr7\\b|\\baprr9\\b|\\btoc1\\b)'
+  remove_top1_re: '(histidine kinase|response regulator receiver protein|ethylene receptor|phytochrome|constans|co-like|cct motif family protein|gata transcription factor|wd40|bacterial)'

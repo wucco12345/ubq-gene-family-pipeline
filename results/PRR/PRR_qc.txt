@@ -1,0 +1,7 @@
+PRR QC (standardized v2)
+Candidates (PF00072 + PF06203): 16
+High_conf: 16
+Rescue: 0
+Final total: 16
+NoHit: 0
+Excluded: 0
