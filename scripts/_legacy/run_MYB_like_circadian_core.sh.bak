@@ -1,0 +1,250 @@
+#!/usr/bin/env bash
+set -euo pipefail
+source scripts/lib/common.sh
+source scripts/lib/yaml.sh
+
+F="MYB_like_circadian_core"
+CFG="config/${F}.yml"
+D="results/${F}"
+EVD="${D}/evidence"
+PROTEOME="inputs/proteome.fa"
+PFAM="results/pfam.tsv"
+SEEDS="$(yget "$CFG" seeds.fasta)"
+
+mkdir -p "$D" "$EVD"
+
+PF_RE="$(yget "$CFG" pfam.pf_re)"
+IE_COL="$(yget "$CFG" pfam.ie_col 9)"
+PROT_COL="$(yget "$CFG" pfam.protein_col 3)"
+ALI_FROM_COL="$(yget "$CFG" pfam.ali_from_col 12)"
+ALI_TO_COL="$(yget "$CFG" pfam.ali_to_col 13)"
+
+HIGH_MIN="$(yget "$CFG" length.high_min 200)"
+HIGH_MAX="$(yget "$CFG" length.high_max 450)"
+RESCUE_MIN="$(yget "$CFG" length.rescue_min 150)"
+RESCUE_MAX="$(yget "$CFG" length.rescue_max 600)"
+
+BLAST_EVALUE="$(yget "$CFG" blast.evalue 1e-10)"
+IDENTITY_MIN="$(yget "$CFG" blast.identity_min 40)"
+COVERAGE_MIN="$(yget "$CFG" blast.coverage_min 0.60)"
+CORE_RE="$(yget "$CFG" seeds.core_re)"
+
+test -s "$SEEDS" || { echo "[ERROR] missing seeds fasta: $SEEDS"; exit 1; }
+
+log "[1/9] Pfam candidates: PF00249 (iE<=1e-5)"
+pfam_pick_ids "$PFAM" "$PF_RE" "$IE_COL" "$PROT_COL" "${D}/${F}_candidates.id"
+cp "${D}/${F}_candidates.id" "${D}/${F}_candidates.raw.id"
+log "Candidates: $(wc -l < "${D}/${F}_candidates.id")"
+
+log "[2/9] Extract candidate FASTA"
+extract_fa_by_id "${D}/${F}_candidates.id" "$PROTEOME" "${D}/${F}_candidates.fa"
+log "Candidate FASTA seqs: $(grep -c '^>' "${D}/${F}_candidates.fa")"
+
+log "[3/9] Save PFam hit intervals"
+awk -F'\t' -v re="$PF_RE" -v IEC="$IE_COL" -v PC="$PROT_COL" -v AF="$ALI_FROM_COL" -v AT="$ALI_TO_COL" '
+BEGIN{OFS="\t"}
+{
+  gsub(/\r/,"",$0)
+}
+($2 ~ re){
+  ie=$(IEC)+0
+  if(ie<=1e-5){
+    id=$(PC)
+    gsub(/\r/,"",id)
+    sub(/[ \t]+$/,"",id)
+    print id, $(AF)+0, $(AT)+0, ie, $2
+  }
+}' "$PFAM" | LC_ALL=C sort -k1,1 -k2,2n > "${EVD}/${F}_pfam_hits.tsv"
+
+log "[4/9] Merge intervals and count repeats"
+awk '
+BEGIN{OFS="\t"}
+{
+  id=$1; s=$2+0; e=$3+0
+  if(id!=cur && cur!=""){
+    print cur, seg, min_from, max_to
+  }
+  if(id!=cur){
+    cur=id
+    seg=1
+    ms=s; me=e
+    min_from=s
+    max_to=e
+  } else {
+    if(s <= me+1){
+      if(e>me) me=e
+    } else {
+      seg++
+      ms=s; me=e
+    }
+    if(s<min_from) min_from=s
+    if(e>max_to) max_to=e
+  }
+}
+END{
+  if(cur!="") print cur, seg, min_from, max_to
+}' "${EVD}/${F}_pfam_hits.tsv" > "${D}/${F}_repeat_merged_counts.tsv"
+
+awk '$2==1{print $1}' "${D}/${F}_repeat_merged_counts.tsv" | LC_ALL=C sort -u > "${D}/${F}_repeat1.id"
+awk '$2==2{print $1}' "${D}/${F}_repeat_merged_counts.tsv" | LC_ALL=C sort -u > "${D}/${F}_repeat2.id"
+awk '$2>=3{print $1}' "${D}/${F}_repeat_merged_counts.tsv" | LC_ALL=C sort -u > "${D}/${F}_repeat3plus.id"
+
+log "repeat=1: $(wc -l < "${D}/${F}_repeat1.id")"
+log "repeat=2: $(wc -l < "${D}/${F}_repeat2.id")"
+log "repeat>=3: $(wc -l < "${D}/${F}_repeat3plus.id")"
+
+log "[5/9] Keep only repeat=1 for core circadian MYB-like"
+extract_fa_by_id "${D}/${F}_repeat1.id" "$PROTEOME" "${D}/${F}_repeat1.fa"
+fa_len_tsv "${D}/${F}_repeat1.fa" "${EVD}/${F}_len.tsv"
+
+len_filter_ids "${EVD}/${F}_len.tsv" "$HIGH_MIN" "$HIGH_MAX" "${D}/${F}_high_len.id"
+len_filter_ids "${EVD}/${F}_len.tsv" "$RESCUE_MIN" "$RESCUE_MAX" "${D}/${F}_rescue_len.id"
+
+log "[6/9] Directed BLAST: Arabidopsis core seeds vs repeat=1 proteome subset"
+blastp \
+  -query "$SEEDS" \
+  -subject "${D}/${F}_repeat1.fa" \
+  -evalue "$BLAST_EVALUE" \
+  -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen' \
+  > "${EVD}/${F}_seed_vs_repeat1.tsv"
+
+log "[7/9] Best-hit per subject"
+python3 - <<'PY'
+from pathlib import Path
+import csv
+
+F = "MYB_like_circadian_core"
+D = Path("results") / F
+EVD = D / "evidence"
+
+inp = EVD / f"{F}_seed_vs_repeat1.tsv"
+out = D / f"{F}_best_hits.tsv"
+
+best = {}
+if inp.exists():
+    with inp.open() as fh:
+        for line in fh:
+            line = line.rstrip("\n")
+            if not line:
+                continue
+            p = line.split("\t")
+            if len(p) < 14:
+                continue
+            qseqid, sseqid = p[0], p[1]
+            pident = float(p[2])
+            aln_len = int(float(p[3]))
+            evalue = float(p[10])
+            bitscore = float(p[11])
+            qlen = int(float(p[12]))
+            slen = int(float(p[13]))
+            coverage = aln_len / qlen if qlen > 0 else 0.0
+
+            rec = (bitscore, -evalue, pident, coverage, qseqid, sseqid, aln_len, qlen, slen)
+            old = best.get(sseqid)
+            if old is None or rec > old:
+                best[sseqid] = rec
+
+with out.open("w", newline="") as fh:
+    w = csv.writer(fh, delimiter="\t")
+    w.writerow(["subject_id","best_seed","pident","align_len","coverage","evalue","bitscore","qlen","slen"])
+    for sseqid in sorted(best):
+        bitscore, neg_evalue, pident, coverage, qseqid, _sseqid, aln_len, qlen, slen = best[sseqid]
+        w.writerow([
+            sseqid, qseqid,
+            f"{pident:.3f}",
+            aln_len,
+            f"{coverage:.3f}",
+            f"{(-neg_evalue):.3e}",
+            f"{bitscore:.1f}",
+            qlen,
+            slen
+        ])
+PY
+
+log "[8/9] Build high_conf / rescue / excluded"
+python3 - <<'PY'
+from pathlib import Path
+import re
+
+F = "MYB_like_circadian_core"
+D = Path("results") / F
+EVD = D / "evidence"
+CFG = Path("config") / f"{F}.yml"
+
+# hard-coded from config to keep script simple
+IDENTITY_MIN = 40.0
+COVERAGE_MIN = 0.60
+HIGH_MIN = 200
+HIGH_MAX = 450
+RESCUE_MIN = 150
+RESCUE_MAX = 600
+CORE_RE = re.compile(r'(CCA1|LHY|RVE4|RVE6|RVE8)', re.I)
+
+best_hits = D / f"{F}_best_hits.tsv"
+len_tsv = EVD / f"{F}_len.tsv"
+
+lengths = {}
+with len_tsv.open() as fh:
+    for line in fh:
+        line = line.rstrip("\n")
+        if not line:
+            continue
+        p = line.split("\t")
+        if len(p) >= 2:
+            lengths[p[0]] = int(float(p[1]))
+
+high_conf = []
+rescue = []
+excluded = []
+
+with best_hits.open() as fh:
+    header = next(fh, None)
+    for line in fh:
+        line = line.rstrip("\n")
+        if not line:
+            continue
+        p = line.split("\t")
+        sid = p[0]
+        seed = p[1]
+        ident = float(p[2])
+        cov = float(p[4])
+        evalue = float(p[5])
+        bitscore = float(p[6])
+        slen = int(p[8])
+
+        core_seed = bool(CORE_RE.search(seed))
+        in_high_len = HIGH_MIN <= slen <= HIGH_MAX
+        in_rescue_len = RESCUE_MIN <= slen <= RESCUE_MAX
+
+        if core_seed and ident >= IDENTITY_MIN and cov >= COVERAGE_MIN and in_high_len:
+            high_conf.append(sid)
+        elif core_seed and ident >= 35.0 and cov >= 0.60 and in_rescue_len:
+            rescue.append(sid)
+        else:
+            excluded.append((sid, seed, ident, cov, evalue, bitscore, slen))
+
+(D / f"{F}_high_conf.id").write_text("".join(x + "\n" for x in sorted(set(high_conf))))
+(D / f"{F}_rescue.id").write_text("".join(x + "\n" for x in sorted(set(rescue) - set(high_conf))))
+
+with (D / f"{F}_excluded.tsv").open("w") as out:
+    out.write("subject_id\treason\tbest_seed\tpident\tcoverage\tevalue\tbitscore\tprotein_len\n")
+    for sid, seed, ident, cov, evalue, bitscore, slen in excluded:
+        out.write(f"{sid}\texcluded\t{seed}\t{ident:.3f}\t{cov:.3f}\t{evalue:.3e}\t{bitscore:.1f}\t{slen}\n")
+PY
+
+extract_fa_by_id "${D}/${F}_high_conf.id" "$PROTEOME" "${D}/${F}_high_conf.fa" || true
+extract_fa_by_id "${D}/${F}_rescue.id" "$PROTEOME" "${D}/${F}_rescue.fa" || true
+
+log "[9/9] QC"
+{
+  echo "MYB_like_circadian_core QC"
+  echo "Candidates (PF00249): $(wc -l < "${D}/${F}_candidates.id")"
+  echo "repeat=1: $(wc -l < "${D}/${F}_repeat1.id")"
+  echo "repeat=2: $(wc -l < "${D}/${F}_repeat2.id")"
+  echo "repeat>=3: $(wc -l < "${D}/${F}_repeat3plus.id")"
+  echo "High_conf: $(wc -l < "${D}/${F}_high_conf.id")"
+  echo "Rescue: $(wc -l < "${D}/${F}_rescue.id")"
+  echo "Excluded: $(tail -n +2 "${D}/${F}_excluded.tsv" | wc -l)"
+} > "${D}/${F}_qc.txt"
+
+echo "[DONE] outputs in ${D}"

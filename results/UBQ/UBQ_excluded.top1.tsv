@@ -1,0 +1,156 @@
+DhA01G029730.1	sp|Q9FGZ9|UBL5_ARATH	89.189	74	6.96e-37	138	sp|Q9FGZ9|UBL5_ARATH Ubiquitin-like protein 5 OS=Arabidopsis thaliana OX=3702 GN=UBL5 PE=3 SV=1
+DhB01G026780.1	sp|Q9FGZ9|UBL5_ARATH	97.260	73	8.37e-43	151	sp|Q9FGZ9|UBL5_ARATH Ubiquitin-like protein 5 OS=Arabidopsis thaliana OX=3702 GN=UBL5 PE=3 SV=1
+DhA02G003120.1	sp|P55857|SUMO1_ORYSJ	92.500	80	3.73e-39	149	sp|P55857|SUMO1_ORYSJ Small ubiquitin-related modifier 1 OS=Oryza sativa subsp. japonica OX=39947 GN=SUMO1 PE=1 SV=1
+DhA02G025040.1	sp|Q9ZPY9|P4KG4_ARATH	56.437	567	0.0	681	sp|Q9ZPY9|P4KG4_ARATH Phosphatidylinositol 4-kinase gamma 4 OS=Arabidopsis thaliana OX=3702 GN=PI4KG4 PE=1 SV=1
+DhA02G018010.1	sp|Q84WC6|UBP7_ARATH	67.975	484	0.0	691	sp|Q84WC6|UBP7_ARATH Ubiquitin carboxyl-terminal hydrolase 7 OS=Arabidopsis thaliana OX=3702 GN=UBP7 PE=1 SV=1
+DhA02G003350.1	sp|Q0WUQ1|BAG1_ARATH	41.121	107	1.31e-17	89.3	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhA02G021550.1	sp|P0CG86|RS271_HORVU	99.301	143	2.54e-92	301	sp|P0CG86|RS271_HORVU Ubiquitin-ribosomal protein eS31z fusion protein OS=Hordeum vulgare OX=4513 GN=MUB1 PE=3 SV=1
+DhB02G003350.1	sp|Q0WUQ1|BAG1_ARATH	41.121	107	1.31e-17	89.3	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB02G024510.1	sp|Q9ZPY9|P4KG4_ARATH	56.614	567	0.0	683	sp|Q9ZPY9|P4KG4_ARATH Phosphatidylinositol 4-kinase gamma 4 OS=Arabidopsis thaliana OX=3702 GN=PI4KG4 PE=1 SV=1
+DhB02G003150.1	sp|P55857|SUMO1_ORYSJ	92.929	99	1.39e-53	186	sp|P55857|SUMO1_ORYSJ Small ubiquitin-related modifier 1 OS=Oryza sativa subsp. japonica OX=39947 GN=SUMO1 PE=1 SV=1
+DhB02G021200.1	sp|P0CG86|RS271_HORVU	99.301	143	4.51e-92	299	sp|P0CG86|RS271_HORVU Ubiquitin-ribosomal protein eS31z fusion protein OS=Hordeum vulgare OX=4513 GN=MUB1 PE=3 SV=1
+DhA03G010260.1	sp|P0CG86|RS271_HORVU	98.710	155	3.99e-101	325	sp|P0CG86|RS271_HORVU Ubiquitin-ribosomal protein eS31z fusion protein OS=Hordeum vulgare OX=4513 GN=MUB1 PE=3 SV=1
+DhA03G028520.1	sp|P55857|SUMO1_ORYSJ	95.833	72	1.45e-36	142	sp|P55857|SUMO1_ORYSJ Small ubiquitin-related modifier 1 OS=Oryza sativa subsp. japonica OX=39947 GN=SUMO1 PE=1 SV=1
+DhA03G026480.1	sp|Q8W3M6|UBCP_ARATH	70.405	321	3.39e-146	487	sp|Q8W3M6|UBCP_ARATH Ubiquitin-like domain-containing CTD phosphatase OS=Arabidopsis thaliana OX=3702 GN=At4g06599 PE=2 SV=1
+DhA03G008270.1	sp|Q8RXF1|SF3A1_ARATH	59.897	773	0.0	811	sp|Q8RXF1|SF3A1_ARATH Probable splicing factor 3A subunit 1 OS=Arabidopsis thaliana OX=3702 GN=At1g14650 PE=1 SV=2
+DhA03G013910.1	sp|Q84WC6|UBP7_ARATH	67.671	498	0.0	699	sp|Q84WC6|UBP7_ARATH Ubiquitin carboxyl-terminal hydrolase 7 OS=Arabidopsis thaliana OX=3702 GN=UBP7 PE=1 SV=1
+DhA03G024270.1	sp|Q8RX71|BAG4_ARATH	49.621	264	3.45e-64	239	sp|Q8RX71|BAG4_ARATH BAG family molecular chaperone regulator 4 OS=Arabidopsis thaliana OX=3702 GN=BAG4 PE=1 SV=1
+DhA03G028530.1	sp|P55857|SUMO1_ORYSJ	93.750	80	5.47e-42	156	sp|P55857|SUMO1_ORYSJ Small ubiquitin-related modifier 1 OS=Oryza sativa subsp. japonica OX=39947 GN=SUMO1 PE=1 SV=1
+DhB03G005550.1	sp|Q8RXF1|SF3A1_ARATH	60.026	773	0.0	812	sp|Q8RXF1|SF3A1_ARATH Probable splicing factor 3A subunit 1 OS=Arabidopsis thaliana OX=3702 GN=At1g14650 PE=1 SV=2
+DhB03G010830.1	sp|Q949Y0|UBP6_ARATH	69.593	467	0.0	675	sp|Q949Y0|UBP6_ARATH Ubiquitin carboxyl-terminal hydrolase 6 OS=Arabidopsis thaliana OX=3702 GN=UBP6 PE=1 SV=1
+DhB03G021850.1	sp|Q8RX71|BAG4_ARATH	49.242	264	9.55e-64	238	sp|Q8RX71|BAG4_ARATH BAG family molecular chaperone regulator 4 OS=Arabidopsis thaliana OX=3702 GN=BAG4 PE=1 SV=1
+DhB03G023960.1	sp|Q8W3M6|UBCP_ARATH	70.405	321	2.14e-146	487	sp|Q8W3M6|UBCP_ARATH Ubiquitin-like domain-containing CTD phosphatase OS=Arabidopsis thaliana OX=3702 GN=At4g06599 PE=2 SV=1
+DhB03G025940.1	sp|P55857|SUMO1_ORYSJ	93.750	80	5.47e-42	156	sp|P55857|SUMO1_ORYSJ Small ubiquitin-related modifier 1 OS=Oryza sativa subsp. japonica OX=39947 GN=SUMO1 PE=1 SV=1
+DhB03G007390.1	sp|P0CG86|RS271_HORVU	98.710	155	3.99e-101	325	sp|P0CG86|RS271_HORVU Ubiquitin-ribosomal protein eS31z fusion protein OS=Hordeum vulgare OX=4513 GN=MUB1 PE=3 SV=1
+DhB03G025930.1	sp|P55857|SUMO1_ORYSJ	95.000	80	2.73e-41	155	sp|P55857|SUMO1_ORYSJ Small ubiquitin-related modifier 1 OS=Oryza sativa subsp. japonica OX=39947 GN=SUMO1 PE=1 SV=1
+DhA04G021410.1	sp|Q0WUQ1|BAG1_ARATH	48.095	210	8.02e-52	201	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhA04G014800.1	sp|Q0WUQ1|BAG1_ARATH	41.000	100	2.59e-16	85.5	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB04G020750.1	sp|Q0WUQ1|BAG1_ARATH	48.815	211	2.13e-51	200	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB04G014070.1	sp|Q0WUQ1|BAG1_ARATH	41.000	100	2.59e-16	85.5	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhA05G024890.1	sp|Q9SII8|DSK2B_ARATH	54.417	566	5.44e-156	541	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhA05G020160.1	sp|P0CH35|RL40B_ORYSJ	99.174	121	2.91e-77	260	sp|P0CH35|RL40B_ORYSJ Ubiquitin-ribosomal protein eL40y fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=Ub-CEP52-2 PE=3 SV=1
+DhB05G025140.1	sp|Q9SII8|DSK2B_ARATH	55.993	559	5.14e-158	546	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhB05G020370.1	sp|P0CH35|RL40B_ORYSJ	99.174	121	2.03e-77	258	sp|P0CH35|RL40B_ORYSJ Ubiquitin-ribosomal protein eL40y fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=Ub-CEP52-2 PE=3 SV=1
+DhA06G020680.1	sp|Q1EBV4|DDI1_ARATH	68.916	415	0.0	598	sp|Q1EBV4|DDI1_ARATH Protein DNA-DAMAGE INDUCIBLE 1 OS=Arabidopsis thaliana OX=3702 GN=DDI1 PE=1 SV=1
+DhA06G021620.1	sp|Q84L33|RD23B_ARATH	64.583	384	2.47e-148	497	sp|Q84L33|RD23B_ARATH Ubiquitin receptor RAD23b OS=Arabidopsis thaliana OX=3702 GN=RAD23B PE=1 SV=3
+DhA06G011170.1	sp|Q9LYP4|BAG3_ARATH	40.870	115	5.77e-18	90.6	sp|Q9LYP4|BAG3_ARATH BAG family molecular chaperone regulator 3 OS=Arabidopsis thaliana OX=3702 GN=BAG3 PE=1 SV=1
+DhB06G020880.1	sp|Q1EBV4|DDI1_ARATH	68.916	415	0.0	600	sp|Q1EBV4|DDI1_ARATH Protein DNA-DAMAGE INDUCIBLE 1 OS=Arabidopsis thaliana OX=3702 GN=DDI1 PE=1 SV=1
+DhB06G021870.1	sp|Q84L33|RD23B_ARATH	62.563	398	6.41e-148	498	sp|Q84L33|RD23B_ARATH Ubiquitin receptor RAD23b OS=Arabidopsis thaliana OX=3702 GN=RAD23B PE=1 SV=3
+DhB06G011540.1	sp|Q9LYP4|BAG3_ARATH	40.870	115	1.87e-18	92.3	sp|Q9LYP4|BAG3_ARATH BAG family molecular chaperone regulator 3 OS=Arabidopsis thaliana OX=3702 GN=BAG3 PE=1 SV=1
+DhA07G023590.1	sp|Q9SII8|DSK2B_ARATH	55.635	559	1.84e-160	554	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhA07G018870.1	sp|P0CH35|RL40B_ORYSJ	96.032	126	2.55e-78	262	sp|P0CH35|RL40B_ORYSJ Ubiquitin-ribosomal protein eL40y fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=Ub-CEP52-2 PE=3 SV=1
+DhA07G011370.1	sp|Q40742|RAD23_ORYSJ	80.620	387	0.0	644	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhB07G023840.1	sp|Q9SII8|DSK2B_ARATH	55.277	559	4.84e-159	549	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhB07G019580.1	sp|P0CH35|RL40B_ORYSJ	96.032	126	1.87e-77	261	sp|P0CH35|RL40B_ORYSJ Ubiquitin-ribosomal protein eL40y fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=Ub-CEP52-2 PE=3 SV=1
+DhB07G010960.1	sp|Q40742|RAD23_ORYSJ	80.620	387	0.0	643	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhA08G021980.1	sp|Q1EBV4|DDI1_ARATH	69.157	415	0.0	603	sp|Q1EBV4|DDI1_ARATH Protein DNA-DAMAGE INDUCIBLE 1 OS=Arabidopsis thaliana OX=3702 GN=DDI1 PE=1 SV=1
+DhA08G012360.1	sp|Q0WPX7|BAG2_ARATH	38.938	113	1.15e-15	82.9	sp|Q0WPX7|BAG2_ARATH BAG family molecular chaperone regulator 2 OS=Arabidopsis thaliana OX=3702 GN=BAG2 PE=1 SV=1
+DhA08G009980.1	sp|Q9FGZ9|UBL5_ARATH	93.151	73	1.95e-40	145	sp|Q9FGZ9|UBL5_ARATH Ubiquitin-like protein 5 OS=Arabidopsis thaliana OX=3702 GN=UBL5 PE=3 SV=1
+DhB08G021140.1	sp|Q1EBV4|DDI1_ARATH	68.916	415	0.0	600	sp|Q1EBV4|DDI1_ARATH Protein DNA-DAMAGE INDUCIBLE 1 OS=Arabidopsis thaliana OX=3702 GN=DDI1 PE=1 SV=1
+DhB08G009810.1	sp|Q9FGZ9|UBL5_ARATH	93.151	73	1.95e-40	145	sp|Q9FGZ9|UBL5_ARATH Ubiquitin-like protein 5 OS=Arabidopsis thaliana OX=3702 GN=UBL5 PE=3 SV=1
+DhB08G012010.1	sp|Q0WPX7|BAG2_ARATH	36.364	132	4.00e-16	85.0	sp|Q0WPX7|BAG2_ARATH BAG family molecular chaperone regulator 2 OS=Arabidopsis thaliana OX=3702 GN=BAG2 PE=1 SV=1
+DhB08G022250.1	sp|P0C031|RUB2_ORYSJ	83.673	49	6.02e-20	90.6	sp|P0C031|RUB2_ORYSJ Ubiquitin-NEDD8-like protein RUB2 OS=Oryza sativa subsp. japonica OX=39947 GN=RUB2 PE=2 SV=2
+DhA09G012090.1	sp|Q40742|RAD23_ORYSJ	72.864	398	0.0	592	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhA09G004410.1	sp|P84589|UBIQ_LUMTE	63.333	60	3.26e-23	102	sp|P84589|UBIQ_LUMTE Ubiquitin (Fragment) OS=Lumbricus terrestris OX=6398 PE=1 SV=2
+DhA09G004470.1	sp|P62975|UBIQ_RABIT	64.474	76	9.25e-34	134	sp|P62975|UBIQ_RABIT Ubiquitin OS=Oryctolagus cuniculus OX=9986 PE=1 SV=1
+DhA09G004260.1	sp|Q8SWD4|UBIQ_ENCCU	63.158	76	6.76e-35	138	sp|Q8SWD4|UBIQ_ENCCU Ubiquitin OS=Encephalitozoon cuniculi (strain GB-M1) OX=284813 GN=ECU02_0740i PE=1 SV=1
+DhB09G004240.1	sp|P69310|UBIQ_AVESA	66.667	51	9.93e-16	80.4	sp|P69310|UBIQ_AVESA Ubiquitin OS=Avena sativa OX=4498 PE=1 SV=1
+DhB09G011660.1	sp|Q40742|RAD23_ORYSJ	72.864	398	2.79e-178	591	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhB09G004140.1	sp|P62975|UBIQ_RABIT	63.158	76	5.36e-33	132	sp|P62975|UBIQ_RABIT Ubiquitin OS=Oryctolagus cuniculus OX=9986 PE=1 SV=1
+DhB09G004180.1	sp|P62975|UBIQ_RABIT	61.842	76	3.05e-31	127	sp|P62975|UBIQ_RABIT Ubiquitin OS=Oryctolagus cuniculus OX=9986 PE=1 SV=1
+DhB09G017510.1	sp|Q0WUQ1|BAG1_ARATH	47.022	319	8.89e-77	282	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhA10G010560.1	sp|P0CH35|RL40B_ORYSJ	96.032	126	2.16e-78	261	sp|P0CH35|RL40B_ORYSJ Ubiquitin-ribosomal protein eL40y fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=Ub-CEP52-2 PE=3 SV=1
+DhA11G003470.1	sp|Q0WUQ1|BAG1_ARATH	48.325	209	2.92e-53	206	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB11G003470.1	sp|Q0WUQ1|BAG1_ARATH	48.325	209	6.82e-53	205	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhA12G004580.1	sp|P55857|SUMO1_ORYSJ	94.872	78	6.17e-42	158	sp|P55857|SUMO1_ORYSJ Small ubiquitin-related modifier 1 OS=Oryza sativa subsp. japonica OX=39947 GN=SUMO1 PE=1 SV=1
+DhA12G004550.1	sp|P55857|SUMO1_ORYSJ	100.000	70	1.64e-40	155	sp|P55857|SUMO1_ORYSJ Small ubiquitin-related modifier 1 OS=Oryza sativa subsp. japonica OX=39947 GN=SUMO1 PE=1 SV=1
+DhA12G020450.1	sp|Q84WC6|UBP7_ARATH	69.231	481	0.0	692	sp|Q84WC6|UBP7_ARATH Ubiquitin carboxyl-terminal hydrolase 7 OS=Arabidopsis thaliana OX=3702 GN=UBP7 PE=1 SV=1
+DhA12G011590.1	sp|Q8RX71|BAG4_ARATH	49.621	264	6.78e-64	239	sp|Q8RX71|BAG4_ARATH BAG family molecular chaperone regulator 4 OS=Arabidopsis thaliana OX=3702 GN=BAG4 PE=1 SV=1
+DhA12G018950.1	sp|P0C030|RUB1_ORYSJ	87.619	105	8.76e-55	200	sp|P0C030|RUB1_ORYSJ Ubiquitin-NEDD8-like protein RUB1 OS=Oryza sativa subsp. japonica OX=39947 GN=RUB1 PE=2 SV=2
+DhB12G022000.1	sp|Q84WC6|UBP7_ARATH	69.439	481	0.0	694	sp|Q84WC6|UBP7_ARATH Ubiquitin carboxyl-terminal hydrolase 7 OS=Arabidopsis thaliana OX=3702 GN=UBP7 PE=1 SV=1
+DhB12G011800.1	sp|Q8RX71|BAG4_ARATH	49.242	264	4.19e-63	236	sp|Q8RX71|BAG4_ARATH BAG family molecular chaperone regulator 4 OS=Arabidopsis thaliana OX=3702 GN=BAG4 PE=1 SV=1
+DhB12G004840.1	sp|P55857|SUMO1_ORYSJ	93.590	78	1.55e-41	157	sp|P55857|SUMO1_ORYSJ Small ubiquitin-related modifier 1 OS=Oryza sativa subsp. japonica OX=39947 GN=SUMO1 PE=1 SV=1
+DhA13G003400.1	sp|Q0WUQ1|BAG1_ARATH	47.143	210	5.08e-51	199	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB13G003510.1	sp|Q0WUQ1|BAG1_ARATH	48.571	210	3.24e-52	202	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhA14G006360.1	sp|Q40742|RAD23_ORYSJ	60.724	387	5.07e-140	482	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhA14G000960.1	sp|Q9LYP4|BAG3_ARATH	44.753	324	4.59e-72	267	sp|Q9LYP4|BAG3_ARATH BAG family molecular chaperone regulator 3 OS=Arabidopsis thaliana OX=3702 GN=BAG3 PE=1 SV=1
+DhA14G013840.1	sp|Q67W65|TAF1_ORYSJ	82.666	1823	0.0	3105	sp|Q67W65|TAF1_ORYSJ Transcription initiation factor TFIID subunit 1 OS=Oryza sativa subsp. japonica OX=39947 GN=TAF1 PE=2 SV=1
+DhB14G001020.1	sp|Q9LYP4|BAG3_ARATH	44.892	323	1.01e-71	266	sp|Q9LYP4|BAG3_ARATH BAG family molecular chaperone regulator 3 OS=Arabidopsis thaliana OX=3702 GN=BAG3 PE=1 SV=1
+DhB14G013490.1	sp|Q67W65|TAF1_ORYSJ	82.556	1823	0.0	3107	sp|Q67W65|TAF1_ORYSJ Transcription initiation factor TFIID subunit 1 OS=Oryza sativa subsp. japonica OX=39947 GN=TAF1 PE=2 SV=1
+DhB14G006200.1	sp|Q40742|RAD23_ORYSJ	60.513	390	5.28e-140	482	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhB14G013630.1	sp|P0C031|RUB2_ORYSJ	89.474	76	1.21e-37	144	sp|P0C031|RUB2_ORYSJ Ubiquitin-NEDD8-like protein RUB2 OS=Oryza sativa subsp. japonica OX=39947 GN=RUB2 PE=2 SV=2
+DhA16G016290.1	sp|Q0WUQ1|BAG1_ARATH	51.837	245	9.59e-70	260	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhA16G003780.1	sp|Q67W65|TAF1_ORYSJ	83.333	1824	0.0	3133	sp|Q67W65|TAF1_ORYSJ Transcription initiation factor TFIID subunit 1 OS=Oryza sativa subsp. japonica OX=39947 GN=TAF1 PE=2 SV=1
+DhA16G011000.1	sp|Q40742|RAD23_ORYSJ	60.644	404	1.29e-147	499	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhB16G016240.1	sp|Q0WUQ1|BAG1_ARATH	43.354	316	4.09e-70	261	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB16G010900.1	sp|Q40742|RAD23_ORYSJ	61.139	404	3.49e-148	501	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhB16G003750.1	sp|Q67W65|TAF1_ORYSJ	82.587	1832	0.0	3108	sp|Q67W65|TAF1_ORYSJ Transcription initiation factor TFIID subunit 1 OS=Oryza sativa subsp. japonica OX=39947 GN=TAF1 PE=2 SV=1
+DhA17G000440.1	sp|P0CH35|RL40B_ORYSJ	99.174	121	5.81e-78	259	sp|P0CH35|RL40B_ORYSJ Ubiquitin-ribosomal protein eL40y fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=Ub-CEP52-2 PE=3 SV=1
+DhA17G007920.1	sp|Q40742|RAD23_ORYSJ	83.081	396	0.0	683	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhA17G010090.1	sp|P51423|RL40_BRARP	81.343	134	1.07e-65	226	sp|P51423|RL40_BRARP Ubiquitin-ribosomal protein eL40 fusion protein OS=Brassica rapa subsp. pekinensis OX=51351 PE=2 SV=2
+DhA17G010110.1	sp|P51423|RL40_BRARP	82.812	128	7.68e-63	219	sp|P51423|RL40_BRARP Ubiquitin-ribosomal protein eL40 fusion protein OS=Brassica rapa subsp. pekinensis OX=51351 PE=2 SV=2
+DhB17G000480.1	sp|P0CH35|RL40B_ORYSJ	96.032	126	5.45e-79	262	sp|P0CH35|RL40B_ORYSJ Ubiquitin-ribosomal protein eL40y fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=Ub-CEP52-2 PE=3 SV=1
+DhB17G008250.1	sp|Q40742|RAD23_ORYSJ	84.103	390	0.0	688	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhB17G010420.1	sp|P0CH35|RL40B_ORYSJ	61.538	130	1.16e-39	155	sp|P0CH35|RL40B_ORYSJ Ubiquitin-ribosomal protein eL40y fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=Ub-CEP52-2 PE=3 SV=1
+DhA18G011050.1	sp|Q0WPX7|BAG2_ARATH	40.000	115	2.08e-17	88.9	sp|Q0WPX7|BAG2_ARATH BAG family molecular chaperone regulator 2 OS=Arabidopsis thaliana OX=3702 GN=BAG2 PE=1 SV=1
+DhA18G017560.1	sp|Q1EBV4|DDI1_ARATH	68.434	415	0.0	599	sp|Q1EBV4|DDI1_ARATH Protein DNA-DAMAGE INDUCIBLE 1 OS=Arabidopsis thaliana OX=3702 GN=DDI1 PE=1 SV=1
+DhA18G016560.1	sp|Q84L33|RD23B_ARATH	65.508	374	3.16e-149	500	sp|Q84L33|RD23B_ARATH Ubiquitin receptor RAD23b OS=Arabidopsis thaliana OX=3702 GN=RAD23B PE=1 SV=3
+DhB18G007370.1	sp|Q9FGZ9|UBL5_ARATH	95.890	73	1.22e-41	148	sp|Q9FGZ9|UBL5_ARATH Ubiquitin-like protein 5 OS=Arabidopsis thaliana OX=3702 GN=UBL5 PE=3 SV=1
+DhB18G013970.1	sp|Q1EBV4|DDI1_ARATH	68.675	415	0.0	599	sp|Q1EBV4|DDI1_ARATH Protein DNA-DAMAGE INDUCIBLE 1 OS=Arabidopsis thaliana OX=3702 GN=DDI1 PE=1 SV=1
+DhB18G012980.1	sp|Q84L33|RD23B_ARATH	65.241	374	1.24e-148	498	sp|Q84L33|RD23B_ARATH Ubiquitin receptor RAD23b OS=Arabidopsis thaliana OX=3702 GN=RAD23B PE=1 SV=3
+DhA19G008860.1	sp|D5LXJ0|CIP73_LOTJA	36.214	729	1.03e-88	327	sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73 OS=Lotus japonicus OX=34305 GN=CIP73 PE=1 SV=1
+DhB19G008530.1	sp|D5LXJ0|CIP73_LOTJA	36.562	733	9.19e-89	327	sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73 OS=Lotus japonicus OX=34305 GN=CIP73 PE=1 SV=1
+DhA20G008250.1	sp|P51423|RL40_BRARP	84.962	133	1.13e-68	233	sp|P51423|RL40_BRARP Ubiquitin-ribosomal protein eL40 fusion protein OS=Brassica rapa subsp. pekinensis OX=51351 PE=2 SV=2
+DhA20G007300.1	sp|D5LXJ0|CIP73_LOTJA	36.689	755	5.41e-88	324	sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73 OS=Lotus japonicus OX=34305 GN=CIP73 PE=1 SV=1
+DhB20G007550.1	sp|P51423|RL40_BRARP	84.211	133	2.63e-68	233	sp|P51423|RL40_BRARP Ubiquitin-ribosomal protein eL40 fusion protein OS=Brassica rapa subsp. pekinensis OX=51351 PE=2 SV=2
+DhB20G006720.1	sp|D5LXJ0|CIP73_LOTJA	36.605	754	1.38e-88	326	sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73 OS=Lotus japonicus OX=34305 GN=CIP73 PE=1 SV=1
+DhA21G011400.1	sp|P62975|UBIQ_RABIT	72.368	76	1.43e-45	169	sp|P62975|UBIQ_RABIT Ubiquitin OS=Oryctolagus cuniculus OX=9986 PE=1 SV=1
+DhA21G006180.1	sp|Q40742|RAD23_ORYSJ	72.405	395	1.14e-178	585	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhA21G000970.1	sp|Q0WUQ1|BAG1_ARATH	48.113	318	1.30e-77	285	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB21G001710.1	sp|Q0WUQ1|BAG1_ARATH	47.812	320	1.38e-76	282	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB21G006700.1	sp|Q40742|RAD23_ORYSJ	72.658	395	0.0	591	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhA22G003390.1	sp|Q40742|RAD23_ORYSJ	60.591	406	1.51e-148	502	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhA22G018210.1	sp|P0CH07|RL402_SCHPO	43.421	76	7.32e-14	77.8	sp|P0CH07|RL402_SCHPO Ubiquitin-ribosomal protein eL40B fusion protein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=uep1 PE=1 SV=1
+DhA22G008200.1	sp|Q0WUQ1|BAG1_ARATH	44.268	314	3.36e-68	256	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB22G003550.1	sp|Q40742|RAD23_ORYSJ	58.981	412	3.11e-146	496	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhB22G017600.1	sp|P0CH07|RL402_SCHPO	43.421	76	7.60e-14	77.8	sp|P0CH07|RL402_SCHPO Ubiquitin-ribosomal protein eL40B fusion protein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=uep1 PE=1 SV=1
+DhB22G007580.1	sp|Q0WUQ1|BAG1_ARATH	45.860	314	1.47e-69	260	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhA23G014180.1	sp|Q9ARZ9|R27AA_ORYSJ	99.329	149	4.36e-97	313	sp|Q9ARZ9|R27AA_ORYSJ Ubiquitin-ribosomal protein eS31z fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=RPS27AA PE=2 SV=1
+DhB23G014330.1	sp|Q9ARZ9|R27AA_ORYSJ	99.329	149	4.36e-97	313	sp|Q9ARZ9|R27AA_ORYSJ Ubiquitin-ribosomal protein eS31z fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=RPS27AA PE=2 SV=1
+DhA24G001740.1	sp|Q9SII8|DSK2B_ARATH	56.574	578	1.59e-159	552	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhA24G003960.1	sp|P59271|R27AA_ARATH	49.254	134	2.56e-22	102	sp|P59271|R27AA_ARATH Ubiquitin-ribosomal protein eS31z fusion protein OS=Arabidopsis thaliana OX=3702 GN=RPS27AA PE=2 SV=2
+DhB24G001880.1	sp|Q9SII8|DSK2B_ARATH	56.131	579	2.22e-158	549	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhA25G013860.1	sp|D5LXJ0|CIP73_LOTJA	35.105	715	3.63e-80	298	sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73 OS=Lotus japonicus OX=34305 GN=CIP73 PE=1 SV=1
+DhA26G004070.1	sp|Q40742|RAD23_ORYSJ	84.772	394	0.0	697	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhA26G008330.1	sp|Q0WUQ1|BAG1_ARATH	49.196	311	3.36e-82	299	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB26G007870.1	sp|Q0WUQ1|BAG1_ARATH	46.110	347	1.19e-82	301	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB26G003830.1	sp|Q40742|RAD23_ORYSJ	81.818	396	0.0	666	sp|Q40742|RAD23_ORYSJ Probable ubiquitin receptor RAD23 OS=Oryza sativa subsp. japonica OX=39947 GN=RAD23 PE=1 SV=2
+DhA28G004760.1	sp|D5LXJ0|CIP73_LOTJA	35.458	502	6.14e-56	219	sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73 OS=Lotus japonicus OX=34305 GN=CIP73 PE=1 SV=1
+DhA28G001780.1	sp|Q8RXF1|SF3A1_ARATH	58.323	811	0.0	812	sp|Q8RXF1|SF3A1_ARATH Probable splicing factor 3A subunit 1 OS=Arabidopsis thaliana OX=3702 GN=At1g14650 PE=1 SV=2
+DhA28G003430.1	sp|P0CG86|RS271_HORVU	98.710	155	3.99e-101	325	sp|P0CG86|RS271_HORVU Ubiquitin-ribosomal protein eS31z fusion protein OS=Hordeum vulgare OX=4513 GN=MUB1 PE=3 SV=1
+DhA28G004580.1	sp|Q0WUQ1|BAG1_ARATH	48.553	311	1.80e-78	288	sp|Q0WUQ1|BAG1_ARATH BAG family molecular chaperone regulator 1 OS=Arabidopsis thaliana OX=3702 GN=BAG1 PE=1 SV=1
+DhB28G001710.1	sp|Q8RXF1|SF3A1_ARATH	58.446	811	0.0	813	sp|Q8RXF1|SF3A1_ARATH Probable splicing factor 3A subunit 1 OS=Arabidopsis thaliana OX=3702 GN=At1g14650 PE=1 SV=2
+DhB28G003270.1	sp|P0CG86|RS271_HORVU	98.710	155	3.99e-101	325	sp|P0CG86|RS271_HORVU Ubiquitin-ribosomal protein eS31z fusion protein OS=Hordeum vulgare OX=4513 GN=MUB1 PE=3 SV=1
+DhB28G004590.1	sp|D5LXJ0|CIP73_LOTJA	34.096	481	2.55e-47	191	sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73 OS=Lotus japonicus OX=34305 GN=CIP73 PE=1 SV=1
+DhA29G002980.1	sp|Q9FGZ9|UBL5_ARATH	94.444	72	1.25e-38	144	sp|Q9FGZ9|UBL5_ARATH Ubiquitin-like protein 5 OS=Arabidopsis thaliana OX=3702 GN=UBL5 PE=3 SV=1
+DhA29G010740.1	sp|Q9FGZ9|UBL5_ARATH	97.260	73	8.37e-43	151	sp|Q9FGZ9|UBL5_ARATH Ubiquitin-like protein 5 OS=Arabidopsis thaliana OX=3702 GN=UBL5 PE=3 SV=1
+DhB29G011060.1	sp|Q9FGZ9|UBL5_ARATH	97.260	73	8.37e-43	151	sp|Q9FGZ9|UBL5_ARATH Ubiquitin-like protein 5 OS=Arabidopsis thaliana OX=3702 GN=UBL5 PE=3 SV=1
+DhB29G003080.1	sp|Q9FGZ9|UBL5_ARATH	97.260	73	8.37e-43	151	sp|Q9FGZ9|UBL5_ARATH Ubiquitin-like protein 5 OS=Arabidopsis thaliana OX=3702 GN=UBL5 PE=3 SV=1
+DhA30G002290.1	sp|P69326|UBIQ_WHEAT	97.403	77	3.44e-42	157	sp|P69326|UBIQ_WHEAT Ubiquitin OS=Triticum aestivum OX=4565 PE=1 SV=2
+DhB30G002370.1	sp|P0CG86|RS271_HORVU	98.710	155	6.65e-101	324	sp|P0CG86|RS271_HORVU Ubiquitin-ribosomal protein eS31z fusion protein OS=Hordeum vulgare OX=4513 GN=MUB1 PE=3 SV=1
+DhA31G008170.1	sp|Q42202|RL40B_ARATH	85.437	103	7.44e-49	183	sp|Q42202|RL40B_ARATH Ubiquitin-ribosomal protein eL40y fusion protein OS=Arabidopsis thaliana OX=3702 GN=RPL40B PE=2 SV=2
+DhB31G007310.1	sp|Q42202|RL40B_ARATH	81.890	127	3.92e-62	221	sp|Q42202|RL40B_ARATH Ubiquitin-ribosomal protein eL40y fusion protein OS=Arabidopsis thaliana OX=3702 GN=RPL40B PE=2 SV=2
+DhA32G007030.1	sp|Q7XDQ7|PIRL8_ORYSJ	79.472	341	2.51e-169	557	sp|Q7XDQ7|PIRL8_ORYSJ Plant intracellular Ras-group-related LRR protein 8 OS=Oryza sativa subsp. japonica OX=39947 GN=IRL8 PE=2 SV=1
+DhA32G001770.1	sp|Q9SII8|DSK2B_ARATH	54.724	561	3.21e-157	544	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhA32G003770.1	sp|Q9SII8|DSK2B_ARATH	54.127	521	7.81e-135	476	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhB32G003870.1	sp|Q9SII8|DSK2B_ARATH	56.314	586	1.43e-159	553	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhB32G001770.1	sp|Q9SII8|DSK2B_ARATH	54.758	557	3.48e-157	544	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhB32G006970.1	sp|Q7XDQ7|PIRL8_ORYSJ	80.637	377	0.0	639	sp|Q7XDQ7|PIRL8_ORYSJ Plant intracellular Ras-group-related LRR protein 8 OS=Oryza sativa subsp. japonica OX=39947 GN=IRL8 PE=2 SV=1
+DhA33G006420.1	sp|D5LXJ0|CIP73_LOTJA	34.216	529	2.93e-51	204	sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73 OS=Lotus japonicus OX=34305 GN=CIP73 PE=1 SV=1
+DhB33G006360.1	sp|D5LXJ0|CIP73_LOTJA	34.297	519	1.80e-50	202	sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73 OS=Lotus japonicus OX=34305 GN=CIP73 PE=1 SV=1
+DhA34G008740.1	sp|Q9SII8|DSK2B_ARATH	52.783	521	1.13e-135	479	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhA34G001670.1	sp|Q9ARZ9|R27AA_ORYSJ	84.000	150	1.40e-65	230	sp|Q9ARZ9|R27AA_ORYSJ Ubiquitin-ribosomal protein eS31z fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=RPS27AA PE=2 SV=1
+DhA34G007040.1	sp|Q9ARZ9|R27AA_ORYSJ	84.000	150	1.18e-65	230	sp|Q9ARZ9|R27AA_ORYSJ Ubiquitin-ribosomal protein eS31z fusion protein OS=Oryza sativa subsp. japonica OX=39947 GN=RPS27AA PE=2 SV=1
+DhB34G008160.1	sp|Q9SII8|DSK2B_ARATH	52.591	521	7.46e-136	480	sp|Q9SII8|DSK2B_ARATH Ubiquitin domain-containing protein DSK2b OS=Arabidopsis thaliana OX=3702 GN=DSK2B PE=1 SV=1
+DhA35G006310.1	sp|D5LXJ0|CIP73_LOTJA	34.297	519	1.95e-53	211	sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73 OS=Lotus japonicus OX=34305 GN=CIP73 PE=1 SV=1
+DhB35G006010.1	sp|D5LXJ0|CIP73_LOTJA	33.462	517	2.62e-54	214	sp|D5LXJ0|CIP73_LOTJA Ubiquitin-like domain-containing protein CIP73 OS=Lotus japonicus OX=34305 GN=CIP73 PE=1 SV=1
