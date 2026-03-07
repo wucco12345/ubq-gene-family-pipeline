@@ -1,0 +1,21 @@
+pfam:
+  pf00170_re: '^PF00170'
+  pf07716_re: '^PF07716'
+  ie_col: 9
+  protein_col: 3
+  ali_from_col: 12
+  ali_to_col: 13
+
+length:
+  high_min: 150
+  high_max: 800
+  rescue_min: 1
+  rescue_max: 2000
+
+blast:
+  evalue: 1e-10
+  task: blastp
+
+rules:
+  keep_top1_re: '(bzip|basic leucine zipper|hy5|hyh|protein fd|abi5|abf|dpbf|tga|gbf|obf|embp|hbp|rf2|risbz|vip1|posf21|tgal|lg2|cprf)'
+  remove_top1_re: '(dead-box|rna helicase|helicase|calcium-transporting atpase|vacuolar protein sorting|vps45|ribosomal|structural protein|enzyme|metabolic enzyme)'

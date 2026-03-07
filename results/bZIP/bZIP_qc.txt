@@ -1,0 +1,7 @@
+bZIP QC (standardized v2)
+Candidates (PF00170 or PF07716): 465
+High_conf: 133
+Rescue: 310
+Final total: 443
+NoHit: 16
+Excluded: 22

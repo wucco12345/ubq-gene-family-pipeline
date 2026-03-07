@@ -1,0 +1,23 @@
+ID	reason	top1_stitle	length_aa	has_PF00170	has_PF07716	domain_class	min_ali_from	max_ali_to
+DhA01G029330.1	blast_nohit	NA	343	1	0	pf00170_only	165	110
+DhA03G025630.1	ambiguous_top1	sp|Q99142|TAF1_TOBAC Transcriptional activator TAF-1 (Fragment) OS=Nicotiana tabacum OX=4097 GN=TAF1 PE=2 SV=1	176	1	1	both	119	67
+DhA06G000190.1	blast_nohit	NA	189	1	1	both	137	87
+DhA07G004260.1	blast_nohit	NA	151	1	0	pf00170_only	104	54
+DhA07G008240.1	blast_nohit	NA	110	1	0	pf00170_only	50	7
+DhA15G007390.1	hard_remove_non_bzip	sp|Q9XES1|ECA4_ARATH Calcium-transporting ATPase 4, endoplasmic reticulum-type OS=Arabidopsis thaliana OX=3702 GN=ECA4 PE=2 SV=2	939	1	0	pf00170_only	794	768
+DhA20G001120.1	blast_nohit	NA	166	1	1	both	105	56
+DhA22G000740.1	hard_remove_non_bzip	sp|O49048|VPS45_ARATH Vacuolar protein sorting-associated protein 45 homolog OS=Arabidopsis thaliana OX=3702 GN=VPS45 PE=1 SV=2	270	1	0	pf00170_only	218	194
+DhA25G008220.1	blast_nohit	NA	181	1	1	both	103	54
+DhA25G013470.1	hard_remove_non_bzip	sp|Q0ILZ4|RH9_ORYSJ DEAD-box ATP-dependent RNA helicase 9 OS=Oryza sativa subsp. japonica OX=39947 GN=Os12g0611200 PE=2 SV=1	337	1	0	pf00170_only	216	192
+DhA27G001610.1	blast_nohit	NA	383	1	0	pf00170_only	186	124
+DhA29G004210.1	blast_nohit	NA	362	1	0	pf00170_only	173	118
+DhB01G015440.1	hard_remove_non_bzip	sp|Q0ILZ4|RH9_ORYSJ DEAD-box ATP-dependent RNA helicase 9 OS=Oryza sativa subsp. japonica OX=39947 GN=Os12g0611200 PE=2 SV=1	240	1	0	pf00170_only	114	90
+DhB01G026420.1	blast_nohit	NA	365	1	0	pf00170_only	172	110
+DhB02G022310.1	blast_nohit	NA	306	1	0	pf00170_only	290	265
+DhB07G004230.1	blast_nohit	NA	151	1	0	pf00170_only	104	54
+DhB09G015200.1	ambiguous_top1	sp|H6WS94|PDR1_PETHY Pleiotropic drug resistance protein 1 OS=Petunia hybrida OX=4102 GN=PDR1 PE=2 SV=1	621	1	0	pf00170_only	339	314
+DhB20G001080.1	blast_nohit	NA	166	1	1	both	105	56
+DhB25G009010.1	blast_nohit	NA	180	1	1	both	102	53
+DhB27G001770.1	blast_nohit	NA	365	1	0	pf00170_only	178	124
+DhB29G004390.1	blast_nohit	NA	362	1	0	pf00170_only	173	118
+DhB33G008550.1	blast_nohit	NA	194	1	0	pf00170_only	178	116
