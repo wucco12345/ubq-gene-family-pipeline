@@ -108,3 +108,12 @@ results/SBPase/SBPase_dual_domain.id
 results/SBPase/SBPase_excluded.top1.tsv
 results/SBPase/SBPase_keep_and_highlen.id
 results/SBPase/SBPase_pf00316_only.id
+
+# bZIP intermediate files
+config/*.bak.*
+results/bZIP/bZIP_both.id
+results/bZIP/bZIP_domain_start_le150.id
+results/bZIP/bZIP_domain_status.tsv
+results/bZIP/bZIP_excluded.top1.tsv
+results/bZIP/bZIP_pf00170_only.id
+results/bZIP/bZIP_pf07716_only.id
