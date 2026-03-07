@@ -1,0 +1,23 @@
+family: MYB_like_circadian_core
+
+pfam:
+  pf_re: '^PF00249([.][0-9]+)?$'
+  ie_col: 9
+  protein_col: 3
+  ali_from_col: 12
+  ali_to_col: 13
+
+seeds:
+  fasta: inputs/MYB_like_circadian_At_seeds.fa
+  core_re: '(CCA1|LHY|RVE4|RVE6|RVE8)'
+
+blast:
+  evalue: 1e-10
+  identity_min: 40
+  coverage_min: 0.60
+
+length:
+  high_min: 200
+  high_max: 450
+  rescue_min: 150
+  rescue_max: 650

@@ -1,0 +1,7 @@
+MYB_like_circadian_core QC (standardized v2)
+repeat=1 pool: 520
+High_conf: 14
+Rescue: 0
+Final total: 14
+NoHit: 0
+Excluded: 29
