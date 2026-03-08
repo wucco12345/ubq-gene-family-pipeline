@@ -1,0 +1,13 @@
+PPCK QC (standardized v2)
+Candidates: 25
+High_conf: 13
+Rescue: 4
+Final total: 17
+NoHit: 0
+Excluded: 8
+
+[QC] high_conf ∩ rescue (must be 0):
+0
+
+[QC] final_union ∩ excluded (must be 0):
+0

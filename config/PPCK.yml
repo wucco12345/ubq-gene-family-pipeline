@@ -1,0 +1,32 @@
+family: PPCK
+
+seeds:
+  fasta: inputs/seeds/PPCK/PPCK_seeds.fa
+
+directed_blast:
+  evalue: 1e-10
+  identity_min: 35
+  query_coverage_min: 0.60
+  subject_coverage_min: 0.60
+
+pfam:
+  kinase_pfams:
+    - PF00069
+    - PF07714
+  efhand_pfams:
+    - PF00036
+    - PF13499
+    - PF13202
+
+length:
+  classic_min: 280
+  classic_max: 320
+
+blast:
+  task: blastp
+  evalue: 1e-10
+
+rules:
+  keep_top1_re: '(phosphoenolpyruvate carboxylase kinase|PEPC kinase|PPCK)'
+  rescue_top1_re: '(PEPKR|phosphoenolpyruvate carboxylase kinase-related|PEPKR2)'
+  remove_top1_re: '(Aurora|AURORA|CBL-interacting protein kinase|CIPK|calcium-dependent protein kinase|CDPK|MAPK|mitogen-activated protein kinase|receptor-like kinase|RLK|SnRK|CAMK|CaM kinase)'
